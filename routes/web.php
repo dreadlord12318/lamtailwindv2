@@ -16,6 +16,28 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+Route::get('/illuminations', function () {
+    return view('illuminations');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/termsandcondition', function () {
+    return view('terms');
+});
+Route::get('/GDPR', function () {
+    return view('gdpr');
+});
+Route::get('/privacy', function () {
+    return view('privacy');
+});
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
