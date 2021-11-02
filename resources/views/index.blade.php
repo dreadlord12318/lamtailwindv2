@@ -8,7 +8,7 @@
             <div class="flex items-center">
             <a href="/">
             <span class="sr-only">Lambent</span>
-            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+            <img class="h-8 w-auto sm:h-10" src="/images/LAMB-Site-Image-AvatarDark.svg" alt="">
           </a>
             </div>
             <div class="flex md:hidden">
