@@ -1,5 +1,6 @@
-<nav class = "bg-white mb-0">
-    <div x-data="{ isOpen: false }" class="md:max-w-7xl lg:max-w-5xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
+
+<nav class = "bg-white max-w-full z-40 fixed left-0 right-0">
+    <div x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-5xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
             <div class="flex items-center">
             <a href="/">

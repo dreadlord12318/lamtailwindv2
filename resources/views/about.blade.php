@@ -6,9 +6,9 @@
 
 <!-- Header Branded with Background -->
 
-<div class="relative bg-indigo-800">
+<div class="relative top-16 bg-indigo-800">
   <div class="absolute inset-0">
-    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt="">
+    <img class="w-full h-full object-cover" src="images/LAMB-Site-Image-HeaderAbout_Grey.jpg" alt="">
     <div class="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
@@ -36,7 +36,7 @@
   }
   ```
 -->
-<div class="bg-white overflow-hidden">
+<div class="bg-white overflow-hidden mt-16">
   <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
     <div class="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen"></div>
     <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
