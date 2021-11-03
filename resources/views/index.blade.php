@@ -2,7 +2,7 @@
 
 @section('content')
 
-<nav class = "bg-gray-800 max-w-full z-40 fixed left-0 right-0">
+<nav class = "bg-lambright-600 max-w-full z-40 fixed left-0 right-0">
     <div x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-7xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
             <div class="flex pl-6 items-center">
@@ -67,7 +67,7 @@
 -->
 
 <!-- Hero: With Sign in Form -->
-<div class="relative bg-gray-800 overflow-hidden">
+<div class="relative bg-lambright-600 overflow-hidden">
   <div class="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
     <svg class="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-gray-700 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0" width="364" height="384" viewBox="0 0 364 384" fill="none">
       <defs>
@@ -88,35 +88,24 @@
         <div class="lg:grid lg:grid-cols-12 lg:gap-8">
           <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
             <div>
-              <a href="#" class="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-                <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-lambright-500 rounded-full">We're hiring</span>
-                <span class="ml-4 text-lambright-50 text-sm">Visit our careers page</span>
-                <!-- Heroicon name: solid/chevron-right -->
-                <svg class="ml-2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                </svg>
-              </a>
+             
               <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
-                <span class="md:block">Data to enrich your</span>
-                <span class="text-indigo-400 md:block">online business</span>
+                <span class="md:block">Outsource Better</span>
               </h1>
               <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua ad ad non deserunt sunt.
               </p>
-              <p class="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Used by</p>
-              <div class="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
-                <div class="flex flex-wrap items-start justify-between">
-                  <div class="flex justify-center px-1">
-                    <img class="h-9 sm:h-10" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
-                  </div>
-                  <div class="flex justify-center px-1">
-                    <img class="h-9 sm:h-10" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation">
-                  </div>
-                  <div class="flex justify-center px-1">
-                    <img class="h-9 sm:h-10" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
-                  </div>
-                </div>
-              </div>
+              <form action="#" method="POST" class="mt-3 sm:flex">
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" name="email" id="email" class="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:flex-1 border-gray-300" placeholder="Enter your email" />
+                <button type="submit" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-newgrowth-300 shadow-sm hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
+                  Start free trial
+                </button>
+              </form>
+              <p class="mt-3 text-sm text-white">
+               Start your free 14-day trial, no credit card necessary. By providing your email, you <br> agree to our
+                <a href="#" class="font-medium text-white underline">Terms or Services</a>.
+              </p>
             </div>
           </div>
           <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
@@ -225,8 +214,8 @@
         <!-- Testimonial card-->
         <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
           <img class="absolute inset-0 h-full w-full object-cover" src="images/LAMB-Site-Image-Home_FounderGrey.jpg" alt="">
-          <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply"></div>
-          <div class="absolute inset-0 bg-gradient-to-t from-lambright-600 via-lambright-600 opacity-90"></div>
+          <div class="absolute inset-0 bg-indigo-500 mix-blend-multiply"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-indigo-500 via-indigo-500 opacity-90"></div>
           <div class="relative px-8">
             <div>
               <img class="h-12" src="https://tailwindui.com/img/logos/workcation.svg?color=white" alt="Workcation">
@@ -253,18 +242,18 @@
     <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
       <!-- Content area -->
       <div class="pt-12 sm:pt-16 lg:pt-20">
-        <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
-          On a mission to empower teams
+        <h2 class="text-3xl text-black font-extrabold tracking-tight sm:text-4xl">
+          SMBs are Our Thing
         </h2>
         <div class="mt-6 text-gray-500 space-y-6">
           <p class="text-lg">
-            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.
+            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. <a href ="#" class ="text-indigo-500">Amet vitae fames senectus vitae.</a>
           </p>
           <p class="text-base leading-7">
-            Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+            Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. <b class = "text-black">Lorem nibh vel</b>, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
           </p>
           <p class="text-base leading-7">
-            Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+            Rhoncus nisl, libero egestas diam fermentum dui. <b class = "text-black">At quis tincidunt vel ultricies.</b> Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
           </p>
         </div>
       </div>
@@ -293,7 +282,7 @@
           </div>
         </dl>
         <div class="mt-10">
-          <a href="#" class="text-base font-medium text-indigo-600"> Learn more about how we're changing the world <span aria-hidden="true">&rarr;</span> </a>
+          <a href="#" class="text-base font-medium text-indigo-500"> Learn more about how we're changing the world <span aria-hidden="true">&rarr;</span> </a>
         </div>
       </div>
     </div>
@@ -301,38 +290,12 @@
 </div>
 
 
-<!-- Testimonials: with Background -->
-
-<!-- <test></test> -->
-
-<div class="bg-white py-16 lg:py-24">
-  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="relative py-24 px-8 bg-lambright-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
-      <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-        <img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover">
-      </div>
-      <div class="relative lg:col-span-1">
-        <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="">
-        <blockquote class="mt-6 text-white">
-          <p class="text-xl font-medium sm:text-2xl">Workflow has completely transformed how we interact with customers. We've seen record bookings, higher customer satisfaction, and reduced churn.</p>
-          <footer class="mt-6">
-            <p class="flex flex-col font-medium">
-              <span>Marie Chilvers</span>
-              <span>CEO, Workcation</span>
-            </p>
-          </footer>
-        </blockquote>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Features: Grid with offset icons -->
 
 <div class="relative bg-white py-16 sm:py-24 lg:py-32">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">Deploy faster</h2>
-    <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+    <h2 class="text-base font-semibold tracking-wider text-indigo-500 uppercase">Deploy faster</h2>
+    <p class="mt-2 text-3xl font-extrabold text-black tracking-tight sm:text-4xl">
       Everything you need to deploy your app
     </p>
     <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
@@ -344,7 +307,7 @@
           <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
             <div class="-mt-6">
               <div>
-                <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
+                <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/cloud-upload -->
                   <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
@@ -363,7 +326,7 @@
           <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
             <div class="-mt-6">
               <div>
-                <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
+                <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/lock-closed -->
                   <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
@@ -382,7 +345,7 @@
           <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
             <div class="-mt-6">
               <div>
-                <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
+                <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/refresh -->
                   <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -401,7 +364,7 @@
           <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
             <div class="-mt-6">
               <div>
-                <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
+                <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/shield-check -->
                   <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -420,7 +383,7 @@
           <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
             <div class="-mt-6">
               <div>
-                <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
+                <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/cog -->
                   <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -440,7 +403,7 @@
           <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
             <div class="-mt-6">
               <div>
-                <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
+                <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/server -->
                   <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
@@ -458,6 +421,35 @@
     </div>
   </div>
 </div>
+
+
+<!-- Testimonials: with Background -->
+
+<!-- <test></test> -->
+
+<div class="bg-white py-16 lg:py-24">
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="relative py-24 px-8 bg-indigo-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
+      <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
+        <img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover">
+      </div>
+      <div class="relative lg:col-span-1">
+        <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="">
+        <blockquote class="mt-6 text-white">
+          <p class="text-xl font-medium sm:text-2xl">Workflow has completely transformed how we interact with customers. We've seen record bookings, higher customer satisfaction, and reduced churn.</p>
+          <footer class="mt-6">
+            <p class="flex flex-col font-medium">
+              <span>Marie Chilvers</span>
+              <span>CEO, Workcation</span>
+            </p>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- Blog: 3-column cards -->
 
@@ -483,7 +475,7 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline">
+              <a href="#" class="hover:underline text-indigo-500">
                 Article
               </a>
             </p>
@@ -532,7 +524,7 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline">
+              <a href="#" class="hover:underline text-indigo-500">
                 Video
               </a>
             </p>
@@ -581,7 +573,7 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline">
+              <a href="#" class="hover:underline text-indigo-500">
                 Case Study
               </a>
             </p>
