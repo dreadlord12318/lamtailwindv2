@@ -4,10 +4,10 @@
 
 @include('header')
 
-<div class="relative top-16 bg-indigo-800">
+<div class="relative top-16 bg-lambright-500">
   <div class="absolute inset-0">
     <img class="w-full h-full object-cover" src="images/LAMB-Site-Image-HeaderContact_Grey.jpg" alt="">
-    <div class="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
     <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Get in touch</h1>
@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="sm:col-span-2">
-          <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-lambright-600 hover:bg-lambright-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Let's talk
           </button>
         </div>
