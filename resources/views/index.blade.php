@@ -3,9 +3,9 @@
 @section('content')
 
 <nav class = "bg-gray-800 max-w-full z-40 fixed left-0 right-0">
-    <div x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-5xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
+    <div x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-7xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
-            <div class="flex items-center">
+            <div class="flex pl-6 items-center">
             <a href="/">
             <span class="sr-only">Lambent</span>
             <img class="h-8 w-auto sm:h-10" src="/images/LAMB-Site-Image-AvatarDark.svg" alt="">
@@ -90,7 +90,7 @@
             <div>
               <a href="#" class="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                 <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full">We're hiring</span>
-                <span class="ml-4 text-sm">Visit our careers page</span>
+                <span class="ml-4 text-lambright-50 text-sm">Visit our careers page</span>
                 <!-- Heroicon name: solid/chevron-right -->
                 <svg class="ml-2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
