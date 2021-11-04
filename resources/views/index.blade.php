@@ -109,7 +109,7 @@
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
               <img class="w-full lg:absolute lg:inset-y-0 lg:left lg:h-full lg:w-full " src="images/LAMB-Site-Image-Home_HeaderIso.svg" alt="">
-              <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div>
+              <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
         </div>
