@@ -1,5 +1,5 @@
 
-<nav class = "bg-white max-w-full z-40 fixed left-0 right-0">
+<nav class = "bg-lambright-600 max-w-full z-40 fixed left-0 right-0">
     <div x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-7xl  mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
         <div class="flex justify-between pl-6 items-center">
             <div class="flex items-center">
@@ -21,25 +21,25 @@
                 </button>
             </div>
             <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
-            <a href="/about" class="font-medium text-black hover:text-gray-300">About</a>
+            <a href="/about" class="font-medium text-white hover:text-white-300">About</a>
 
-<a href="/pricing" class="font-medium text-black hover:text-gray-300">Pricing</a>
+<a href="/pricing" class="font-medium text-white hover:text-white-300">Pricing</a>
 
-<a href="/illuminations" class="font-medium text-black hover:text-gray-300">Illuminations</a>
+<a href="/illuminations" class="font-medium text-white hover:text-white-300">Illuminations</a>
 
-<a href="/contact" class="font-medium text-black hover:text-gray-300">Contact</a>
+<a href="/contact" class="font-medium text-white hover:text-white-300">Contact</a>
         </div>
         </div>
         <!-- Menu Mobile -->
         <div x-show="isOpen" class="md:flex items-center">
             <div class="flex flex-wrap justify-around content-around md:hidden flex-col md:flex-row md:ml-6">
-            <a href="/about" class="font-medium text-black hover:text-gray-300">About</a>
+            <a href="/about" class="font-medium text-white hover:text-white-300">About</a>
 
-<a href="/pricing" class="font-medium text-black hover:text-gray-300">Pricing</a>
+<a href="/pricing" class="font-medium text-white hover:text-white-300">Pricing</a>
 
-<a href="/illuminations" class="font-medium text-black hover:text-gray-300">Illuminations</a>
+<a href="/illuminations" class="font-medium text-white hover:text-white-300">Illuminations</a>
 
-<a href="/contact" class="font-medium text-black hover:text-gray-300">Contact</a>
+<a href="/contact" class="font-medium text-white hover:text-white-300">Contact</a>
             </div>
         </div>
     </div>
