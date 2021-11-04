@@ -24351,7 +24351,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_vueper_slides = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vueper-slides");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_vueper_slides, {
-    "class": "relative py-24 px-8 bg-indigo-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8",
+    "class": "relative py-24 px-8 bg-indigo-500 rounded-xl shadow-2xl overflow-hidden",
     "slide-ratio": 0.2,
     infinite: false,
     "disable-arrows-on-edges": "",
