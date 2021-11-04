@@ -67,7 +67,7 @@
 -->
 
 <!-- Hero: With Sign in Form -->
-<div class="relative bg-lambright-600 overflow-hidden">
+<div class="relative bg-lambright-500 overflow-hidden">
   <div class="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
     
   </div>
