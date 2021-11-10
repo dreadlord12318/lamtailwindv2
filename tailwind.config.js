@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'concoursec6': ['Concourse C6'],
+        'copy': ['Valkyrie T3'],
+        'concourset7': ['Concourse T7'],
+      },
       colors: {
         lambright: {
           '50': '#eff6ff',

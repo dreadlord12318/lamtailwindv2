@@ -5,3 +5,34 @@
 @import "tailwindcss/utilities";
 
 
+@layer base {
+    @font-face {
+        font-family: "Valkyrie T3";
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/valkyrie_t3_regular.woff') format('woff');
+    }
+    @font-face {
+        font-family: "Concourse C6";
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/concourse_c6_regular.woff') format('woff');
+       
+    }
+    @font-face {
+        font-family: "Concourse T7";
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/concourse_t7_regular.woff') format('woff');
+    }
+    @font-face {
+        font-family: "PT Sans";
+        font-display: swap;
+        src: url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    }
+}
+
+
+[x-cloak] { 
+    display: none;
+ }

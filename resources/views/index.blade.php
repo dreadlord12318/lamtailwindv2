@@ -3,7 +3,7 @@
 @section('content')
 
 <nav class = "bg-lambright-500 max-w-full z-40 fixed left-0 right-0">
-    <div x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-7xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
+    <div x-cloak x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-7xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
             <div class="flex pl-6 items-center">
             <a href="/">
@@ -24,25 +24,25 @@
                 </button>
             </div>
             <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
-            <a href="/about" class="font-medium text-white hover:text-gray-300">About</a>
+            <a href="/about" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="font-medium text-white hover:text-gray-300">Pricing</a>
+<a href="/pricing" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="font-medium text-white hover:text-gray-300">Illuminations</a>
+<a href="/illuminations" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="font-medium text-white hover:text-gray-300">Contact</a>
+<a href="/contact" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
         </div>
         </div>
         <!-- Menu Mobile -->
         <div x-show="isOpen" class="md:flex items-center">
             <div class="flex flex-wrap justify-around content-around md:hidden flex-col md:flex-row md:ml-6">
-            <a href="/about" class="font-medium text-white hover:text-gray-300">About</a>
+            <a href="/about" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="font-medium text-white hover:text-gray-300">Pricing</a>
+<a href="/pricing" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="font-medium text-white hover:text-gray-300">Illuminations</a>
+<a href="/illuminations" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="font-medium text-white hover:text-gray-300">Contact</a>
+<a href="/contact" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
             </div>
         </div>
     </div>
@@ -83,10 +83,10 @@
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <div class="lg:py-24">
               
-              <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+              <h1 class="mt-4 text-3xl  font-concourset7 tracking-tight font-normal-400 tracking-normal text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                 <span class="block">Outsource Better</span>
               </h1>
-              <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              <p class="mt-3 font-copy text-base font-normal-400 tracking-normal leading-relaxed text-left text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
               </p>
               <div class="mt-10 sm:mt-12">
@@ -94,10 +94,10 @@
                   <div class="sm:flex">
                     <div class="min-w-0 flex-1">
                       <label for="email" class="sr-only">Email address</label>
-                      <input id="email" type="email" placeholder="Enter your email" class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">
+                      <input id="email" type="email" placeholder="Enter your email" class="block font-concoursec6 text-2xl font-normal-400 tracking-normal leading-normal align-middle w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">
                     </div>
                     <div class="mt-3 sm:mt-0 sm:ml-3">
-                      <button type="submit" class="block w-full py-4 px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Start free trial</button>
+                      <button type="submit" class="block w-full py-3 font-concoursec6 text-2xl font-normal-400 tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Start free trial</button>
                     </div>
                   </div>
                   <p class="mt-3 text-sm text-gray-300 sm:mt-4">Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms of service</a>.</p>
@@ -168,17 +168,17 @@
     <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
       <!-- Content area -->
       <div class="pt-12 sm:pt-16 lg:pt-20">
-        <h2 class="text-3xl text-black font-extrabold tracking-tight sm:text-4xl">
-          SMBs are Our Thing
+        <h2 class="text-2xl text-black font-normal-400 tracking-normal leading-normal font-concourset7 sm:text-4xl">
+         On a mission to empower teams
         </h2>
-        <div class="mt-6 text-gray-500 space-y-6">
-          <p class="text-lg">
+        <div class="mt-6 text-gray-500 font-normal-400 text-2xl tracking-normal leading-normal font-concourset7 space-y-6">
+          <p class="text-2xl tracking-normal leading-normal font-concourset7">
             Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. <a href ="#" class ="text-indigo-500">Amet vitae fames senectus vitae.</a>
           </p>
-          <p class="text-base leading-7">
+          <p class="text-2xl tracking-normal leading-normal font-concourset7">
             Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. <b class = "text-black">Lorem nibh vel</b>, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
           </p>
-          <p class="text-base leading-7">
+          <p class="text-2xl tracking-normal leading-normal font-concourset7">
             Rhoncus nisl, libero egestas diam fermentum dui. <b class = "text-black">At quis tincidunt vel ultricies.</b> Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
           </p>
         </div>

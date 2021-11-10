@@ -57,40 +57,40 @@
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-start" aria-label="Footer">
       <div class="px-5 py-2">
-        <a href="/about" class="text-base text-white hover:text-white">
+        <a href="/about" class="text-base tracking-normal font-normal-400 text-center text-white font-concourset7 hover:text-white">
        ABOUT
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/pricing" class="text-base text-white hover:text-white">
+        <a href="/pricing" class="text-base leading-normal font-normal-400 text-center tracking-normal font-concourset7 text-white hover:text-white">
       PRICING
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/illuminations" class="text-base text-white hover:text-white">
+        <a href="/illuminations" class="text-base leading-normal font-normal-400 text-center tracking-normal font-concourset7 text-white hover:text-white">
        ILLUMINATIONS
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/contact" class="text-base text-white hover:text-white">
+        <a href="/contact" class="text-base leading-normal font-normal-400 text-center tracking-normal font-concourset7 text-white hover:text-white">
        CONTACT
         </a>
       </div>
 
       <div class="px-5 py-2">
-        <a href="/termsandcondition" class="text-base text-white hover:text-white">
+        <a href="/termsandcondition" class="text-base leading-normal font-normal-400 text-center tracking-normal font-concourset7 text-white hover:text-white">
           TERMS OF SERVICE
         </a>
       </div>
 
       <div class="px-5 py-2">
-        <a href="/privacy" class="text-base text-white hover:text-white">
+        <a href="/privacy" class="text-base tracking-normal font-normal-400 text-center leading-normal font-concourset7 text-white hover:text-white">
        DATA POLICY
         </a>
       </div>
 
       <div class="px-5 py-2">
-        <a href="/GDPR" class="text-base text-white hover:text-white">
+        <a href="/GDPR" class="text-base tracking-normal font-normal-400 text-center leading-normal font-concourset7 text-white hover:text-white">
          GPDR POLICY
         </a>
       </div>
@@ -113,7 +113,9 @@
 
       <a href="#" class="text-white hover:text-white">
         <span class="sr-only">Linkedin</span>
-        <img src = "images/LAMB-Site-Image-Footer_LinkedIn.svg"/>
+        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.99075 4.47787V6.78127C11.9657 2.77828 19.7305 2.71043 19.9931 8.51195L19.9999 8.81727V18.9973L15.9912 19V10.8546C15.9912 5.20142 10.21 6.73869 9.99677 10.6442L9.99075 10.8519V19H6.00067V4.47787H9.99075V6.78127V4.47787ZM3.99008 4.74462V18.9994H0V4.74462H3.99008ZM2.00012 0C3.10263 0 3.99583 0.909415 3.99583 2.03193C3.99583 3.15309 3.10263 4.06251 2.00012 4.06251C0.898949 4.06251 0.00574669 3.15309 0.00574669 2.03193C0.00574669 0.909415 0.898949 0 2.00012 0Z" fill="white"/>
+</svg>
       </a>
 
       <a href="#" class="text-white hover:text-white">
@@ -126,7 +128,7 @@
 
   
     </div>
-    <p class="mt-8 text-start text-base text-white">
+    <p class="mt-8 text-start text-base tracking-normal leading-normal text-left font-copy text-sm font-normal-400 text-white">
       &copy; 2021 Lambent Consulting, LLC. All rights reserved.
     </p>
   </div>
