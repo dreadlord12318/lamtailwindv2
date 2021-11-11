@@ -8,11 +8,13 @@ module.exports = {
       fontFamily:{
         'concoursec6': ['Concourse C6'],
         'copy': ['Valkyrie T3'],
+        'copy2': ['Valkyrie T4'],
         'concourset7': ['Concourse T7'],
+        'concourset6': ['Concourse T6'],
       },
       colors: {
         lambright: {
-          '50': '#eff6ff',
+          '50': '#1F2937',
           '100': '#a7c9ff',
           '200': '#79a5eb',
           '300': '#6698e8',

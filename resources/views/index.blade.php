@@ -71,7 +71,7 @@
   <div class="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
     
   </div>
-  <div class="relative pt-6 pb-16 sm:pb-24">
+  <div class="relative pt-6">
     <div>
     
 
@@ -83,24 +83,37 @@
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <div class="lg:py-24">
               
-              <h1 class="mt-4 text-3xl  font-concourset7 tracking-tight font-normal-400 tracking-normal text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                <span class="block">Outsource Better</span>
+              <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
+                <span class="block text-6xl  font-concourset7 tracking-tight font-normal-400 tracking-normal text-white">Outsource Better</span>
               </h1>
-              <p class="mt-3 font-copy text-base font-normal-400 tracking-normal leading-relaxed text-left text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+              <p class="mt-3 font-copy text-2xl font-normal-400 tracking-normal leading-relaxed text-left text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
               </p>
-              <div class="mt-10 sm:mt-12">
+              <div class="mt-5">
                 <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                  <div class="sm:flex">
-                    <div class="min-w-0 flex-1">
-                      <label for="email" class="sr-only">Email address</label>
-                      <input id="email" type="email" placeholder="Enter your email" class="block font-concoursec6 text-2xl font-normal-400 tracking-normal leading-normal align-middle w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">
+                  <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                      <div>
+                <div class="mt-1">
+                  <input type="text" placeholder="First Name" name="first-name" id="first-name" autocomplete="given-name" class="block w-full py-3.5 px-4 shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div>
+                <div class="mt-1">
+                  <input type="text" placeholder="Last Name" name="last-name" id="last-name" autocomplete="family-name" class="block w-full  py-3.5 px-4 shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <div class="mt-1">
+                  <input id="email" placeholder="Email" name="email" type="email" autocomplete="email" class="block w-full  py-3.5 px-4 shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                    <div class="mt-1">
+                      <button type="submit" class="block w-full py-3 px-6 font-concourset6 text-2xl font-semibold tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
-                    <div class="mt-3 sm:mt-0 sm:ml-3">
-                      <button type="submit" class="block w-full py-3 font-concoursec6 text-2xl font-normal-400 tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Start free trial</button>
-                    </div>
+                </div>
                   </div>
-                  <p class="mt-3 text-sm text-gray-300 sm:mt-4">Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms of service</a>.</p>
+                  <p class="mt-3 text-sm text-gray-300 sm:mt-4">By providing your email, you agree to our <a href="#" class="font-medium text-white">terms of service</a>.</p>
                 </form>
               </div>
             </div>
@@ -108,7 +121,7 @@
           <div class="mt-12 bg-blend-overlay -mb-16 sm:-mb-48 lg:m-0 lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="w-full lg:absolute lg:inset-y-0 lg:left lg:h-full lg:w-full " src="images/LAMB-Site-Image-Home_HeaderIso.svg" alt="">
+              <img class="ml-32 mt-32 w-9/12 lg:absolute lg:inset-y-0 lg:left " src="images/LAMB-Site-Image-Home_HeaderIso.svg" alt="">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
@@ -168,18 +181,21 @@
     <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
       <!-- Content area -->
       <div class="pt-12 sm:pt-16 lg:pt-20">
-        <h2 class="text-2xl text-black font-normal-400 tracking-normal leading-normal font-concourset7 sm:text-4xl">
-         On a mission to empower teams
+        <h2 class="text-5xl text-black font-normal-600 tracking-normal leading-normal font-concourset6 capitalize">
+        Teams, Processes, & Tools
         </h2>
-        <div class="mt-6 text-gray-500 font-normal-400 text-2xl tracking-normal leading-normal font-concourset7 space-y-6">
-          <p class="text-2xl tracking-normal leading-normal font-concourset7">
-            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. <a href ="#" class ="text-indigo-500">Amet vitae fames senectus vitae.</a>
+        <div class="mt-6 text-lambright-50 font-normal-400 tracking-normal leading-normal  space-y-6">
+          <p class="text-lg tracking-normal leading-normal font-copy2">
+          We build, staff, and manage processes for Small to Medium-sized organizations. Solid support — back-office administration, customer service, online marketing — returns time, blood, and treasure back to you to do with as you choose.  We know the difference between “making it” and unqualified success.   
           </p>
-          <p class="text-2xl tracking-normal leading-normal font-concourset7">
-            Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. <b class = "text-black">Lorem nibh vel</b>, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+          <p class="text-lg tracking-normal leading-normal font-copy2">
+          Streamlined, high-quality offshore programs start with a comprehensive understanding of your work and objectives. When you work with Lambent, we dig in to understand the processes you need to accomplish your goals. We document this knowledge to build tools and techniques that eliminate waste and accelerate results.  
           </p>
-          <p class="text-2xl tracking-normal leading-normal font-concourset7">
-            Rhoncus nisl, libero egestas diam fermentum dui. <b class = "text-black">At quis tincidunt vel ultricies.</b> Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+          <p class="text-lg tracking-normal leading-normal font-copy2">
+          Staffing from the Philippines starts with the promise of lower rates. We find that our clients quickly appreciate our reliability and tenacious work ethic. Lambent teams stick around for the long haul, and this is the alchemy of experience becoming expertise. Many of our clients regard their Philippines team as leading actors in their business.
+          </p>
+          <p class="text-lg tracking-normal leading-normal font-copy2">
+          Once launched, Lambent management invests regular effort to make your program even better. All business processes occasionally succumb to entropy. Our management philosophy and approach tackle this head-on with reporting that drives right to the heart of your desired outcome. We build rational measures for success and constantly test them against tangible results like customer retention, new business, and task completion.
           </p>
         </div>
       </div>

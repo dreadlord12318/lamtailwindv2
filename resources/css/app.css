@@ -13,6 +13,12 @@
         src: url('/fonts/valkyrie_t3_regular.woff') format('woff');
     }
     @font-face {
+        font-family: "Valkyrie T4";
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/valkyrie_t4_regular.woff') format('woff');
+    }
+    @font-face {
         font-family: "Concourse C6";
         font-weight: normal;
         font-display: swap;
@@ -24,6 +30,13 @@
         font-weight: normal;
         font-display: swap;
         src: url('/fonts/concourse_t7_regular.woff') format('woff');
+    }
+    @font-face {
+        font-family: "Concourse T6";
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/concourse_t6_regular.woff') format('woff');
+       
     }
     @font-face {
         font-family: "PT Sans";
