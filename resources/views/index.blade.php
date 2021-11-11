@@ -24,25 +24,25 @@
                 </button>
             </div>
             <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
-            <a href="/about" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
+            <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
+<a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+<a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+<a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
         </div>
         </div>
         <!-- Menu Mobile -->
         <div x-show="isOpen" class="md:flex items-center">
             <div class="flex flex-wrap justify-around content-around md:hidden flex-col md:flex-row md:ml-6">
-            <a href="/about" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
+            <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
+<a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+<a href="/illuminations" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+<a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
             </div>
         </div>
     </div>
@@ -84,9 +84,9 @@
             <div class="lg:py-24">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl  font-concourset7 tracking-tight font-normal-400 tracking-normal text-white">Outsource Better</span>
+                <span class="block text-6xl  font-concourset7 leading-snug font-normal-400 tracking-normal text-white">Outsource Better</span>
               </h1>
-              <p class="mt-3 font-copy text-2xl font-normal-400 tracking-normal leading-relaxed text-left text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white sm:mt-5">
               Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
               </p>
               <div class="mt-5">
@@ -109,7 +109,7 @@
               </div>
               <div class="sm:col-span-2">
                     <div class="mt-1">
-                      <button type="submit" class="block w-full py-3 px-6 font-concourset6 text-2xl font-semibold tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                      <button type="submit" class="block w-full py-3 px-6 font-concourset6 text-lg font-semibold tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
                 </div>
                   </div>
@@ -181,20 +181,20 @@
     <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
       <!-- Content area -->
       <div class="pt-12 sm:pt-16 lg:pt-20">
-        <h2 class="text-5xl text-black font-normal-600 tracking-normal leading-normal font-concourset6 capitalize">
+        <h2 class="text-4xl text-left normal-case text-black font-normal-600 tracking-normal leading-normal font-concourset6 capitalize">
         Teams, Processes, & Tools
         </h2>
         <div class="mt-6 text-lambright-50 font-normal-400 tracking-normal leading-normal  space-y-6">
-          <p class="text-lg tracking-normal leading-normal font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
           We build, staff, and manage processes for Small to Medium-sized organizations. Solid support — back-office administration, customer service, online marketing — returns time, blood, and treasure back to you to do with as you choose.  We know the difference between “making it” and unqualified success.   
           </p>
-          <p class="text-lg tracking-normal leading-normal font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
           Streamlined, high-quality offshore programs start with a comprehensive understanding of your work and objectives. When you work with Lambent, we dig in to understand the processes you need to accomplish your goals. We document this knowledge to build tools and techniques that eliminate waste and accelerate results.  
           </p>
-          <p class="text-lg tracking-normal leading-normal font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
           Staffing from the Philippines starts with the promise of lower rates. We find that our clients quickly appreciate our reliability and tenacious work ethic. Lambent teams stick around for the long haul, and this is the alchemy of experience becoming expertise. Many of our clients regard their Philippines team as leading actors in their business.
           </p>
-          <p class="text-lg tracking-normal leading-normal font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
           Once launched, Lambent management invests regular effort to make your program even better. All business processes occasionally succumb to entropy. Our management philosophy and approach tackle this head-on with reporting that drives right to the heart of your desired outcome. We build rational measures for success and constantly test them against tangible results like customer retention, new business, and task completion.
           </p>
         </div>

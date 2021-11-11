@@ -57,40 +57,40 @@
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-start" aria-label="Footer">
       <div class="px-5 py-2">
-        <a href="/about" class="text-base tracking-normal font-semibold text-center text-white font-concourset6 hover:text-white">
+        <a href="/about" class="text-base tracking-wide font-semibold text-center text-white font-concourset6 hover:text-white">
        ABOUT
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/pricing" class="text-base leading-normal font-semibold text-center tracking-normal font-concourset6 text-white hover:text-white">
+        <a href="/pricing" class="text-base leading-normal font-semibold text-center tracking-wide font-concourset6 text-white hover:text-white">
       PRICING
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/illuminations" class="text-base leading-normal font-semibold text-center tracking-normal font-concourset6 text-white hover:text-white">
+        <a href="/illuminations" class="text-base leading-normal font-semibold text-center tracking-wide font-concourset6 text-white hover:text-white">
        ILLUMINATIONS
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/contact" class="text-base leading-normal font-semiboldtext-center tracking-normal font-concourset6 text-white hover:text-white">
+        <a href="/contact" class="text-base leading-normal font-semiboldtext-center tracking-wide font-concourset6 text-white hover:text-white">
        CONTACT
         </a>
       </div>
 
       <div class="px-5 py-2">
-        <a href="/termsandcondition" class="text-base leading-normal font-semibold text-center tracking-normal font-concourset6 text-white hover:text-white">
+        <a href="/termsandcondition" class="text-base leading-normal font-semibold text-center tracking-wide font-concourset6 text-white hover:text-white">
           TERMS OF SERVICE
         </a>
       </div>
 
       <div class="px-5 py-2">
-        <a href="/privacy" class="text-base tracking-normal font-semibold text-center leading-normal font-concourset6 text-white hover:text-white">
+        <a href="/privacy" class="text-base tracking-wide font-semibold text-center leading-normal font-concourset6 text-white hover:text-white">
        DATA POLICY
         </a>
       </div>
 
       <div class="px-5 py-2">
-        <a href="/GDPR" class="text-base tracking-normal font-semibold text-center leading-normal font-concourset6 text-white hover:text-white">
+        <a href="/GDPR" class="text-base tracking-wide font-semibold text-center leading-normal font-concourset6 text-white hover:text-white">
          GPDR POLICY
         </a>
       </div>
