@@ -19,6 +19,18 @@
         src: url('/fonts/valkyrie_t4_regular.woff') format('woff');
     }
     @font-face {
+        font-family: "Concourse T3";
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/concourse_t3_regular.woff') format('woff');
+    }
+    @font-face {
+        font-family: "Concourse T4";
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/concourse_t4_regular.woff') format('woff');
+    }
+    @font-face {
         font-family: "Concourse C6";
         font-weight: normal;
         font-display: swap;

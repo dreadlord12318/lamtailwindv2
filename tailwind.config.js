@@ -9,6 +9,8 @@ module.exports = {
         'concoursec6': ['Concourse C6'],
         'copy': ['Valkyrie T3'],
         'copy2': ['Valkyrie T4'],
+        'concourset3': ['Concourse T3'],
+        'concourset4': ['Concourse T4'],
         'concourset7': ['Concourse T7'],
         'concourset6': ['Concourse T6'],
       },
@@ -27,7 +29,7 @@ module.exports = {
         },
         lamblue: {
             '50': '#e3edfd',
-            '100': '#a7c9ff',
+            '100': '#e2edfd',
             '200': '#79a5eb',
             '300': '#729fe8',
             '400':'#528be7',
@@ -39,7 +41,7 @@ module.exports = {
         },
         newgrowth: {
           '50': '#ebf9ba',
-          '100': '#cae275',
+          '100': '#6B7280',
           '200': '#bcd959',
           '300': '#a6cc25',
           '400':'#9cc510',
@@ -48,6 +50,10 @@ module.exports = {
           '700':'#6c8a03',
           '800': '#5c7604',
           '900': '#475b03',
+      },
+      newcolor: {
+        '50': '#111827',
+        '100': '#1F2937',
       }
       }
     }
