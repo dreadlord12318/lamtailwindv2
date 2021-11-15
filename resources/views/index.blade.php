@@ -234,14 +234,14 @@
 
 <!-- Features: Grid with offset icons -->
 
-<div class="relative bg-white py-16 sm:py-24 lg:py-32">
+<div class="relative bg-lamblue-50 py-16 sm:py-24 lg:py-32">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-base font-semibold tracking-wider text-indigo-500 uppercase">Deploy faster</h2>
+    <h2 class="text-base font-semibold tracking-wider text-indigo-500 uppercase">Get happy</h2>
     <p class="mt-2 text-3xl font-extrabold text-black tracking-tight sm:text-4xl">
-      Everything you need to deploy your app
+    Outsource Your Back-office
     </p>
     <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-      Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+    We’ve grouped our services into standard bundles yet our clients normally build their services according to specific needs. No two programs are alike beyond our standard process design and rigorous team selection and training.
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -256,9 +256,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Push to Deploy</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Online Marketing</h3>
               <p class="mt-5 text-base text-gray-500">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+              Build your audience and stay engaged. Strategy, design, scheduled updates, list development, CRM management.
               </p>
             </div>
           </div>
@@ -275,9 +275,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">SSL Certificates</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Customer Experience</h3>
               <p class="mt-5 text-base text-gray-500">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+              Keep your customers and them happy with best-in-class CX. Support across all channels and self-service platforms.
               </p>
             </div>
           </div>
@@ -294,9 +294,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Simple Queues</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Back-office Admin</h3>
               <p class="mt-5 text-base text-gray-500">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+              Offload any task and make it more efficient. Teams and processes support for any administrative function.
               </p>
             </div>
           </div>
@@ -313,9 +313,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Advanced Security</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Data Collection</h3>
               <p class="mt-5 text-base text-gray-500">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+              Expand or enhance your list with updates and additional data points. Data mining, tele-surveys, data verification, and append.
               </p>
             </div>
           </div>
@@ -333,9 +333,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Powerful API</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Documentation & Learning</h3>
               <p class="mt-5 text-base text-gray-500">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+              Leverage Lambent’s process development for your organization. process maps, operating procedures, and online training.
               </p>
             </div>
           </div>
@@ -352,9 +352,9 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Database Backups</h3>
+              <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Content Moderation</h3>
               <p class="mt-5 text-base text-gray-500">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+              Keep your community safe. Maintain your online assets. Social monitoring and moderation, image preparation and curation
               </p>
             </div>
           </div>
