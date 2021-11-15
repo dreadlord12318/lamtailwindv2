@@ -21,25 +21,25 @@
                 </button>
             </div>
             <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
-            <a href="/about" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
+                <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
+                <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+                <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+                <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Contact</a>
         </div>
         </div>
         <!-- Menu Mobile -->
         <div x-show="isOpen" class="md:flex items-center">
             <div class="flex flex-wrap justify-around content-around md:hidden flex-col md:flex-row md:ml-6">
-            <a href="/about" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
+                <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="text-lg text-white font-concoursec6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
+                <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+                <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="text-lg text-white font-concoursec6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+                <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Contact</a>
             </div>
         </div>
     </div>

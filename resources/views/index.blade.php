@@ -24,25 +24,25 @@
                 </button>
             </div>
             <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
-            <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
+              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
+              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+              <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
-        </div>
+              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+            </div>
         </div>
         <!-- Menu Mobile -->
         <div x-show="isOpen" class="md:flex items-center">
             <div class="flex flex-wrap justify-around content-around md:hidden flex-col md:flex-row md:ml-6">
-            <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
+              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
 
-<a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
+              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
 
-<a href="/illuminations" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+              <a href="/illuminations" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
 
-<a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
               </div>
               <div class="sm:col-span-2">
                     <div class="mt-1">
-                      <button type="submit" class="block w-full py-3 px-6 font-concourset6 text-lg font-semibold tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                      <button type="submit" class="block w-full py-3 px-6 font-concourset6 text-lg font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
                 </div>
                   </div>
@@ -185,16 +185,16 @@
         Teams, Processes, & Tools
         </h2>
         <div class="mt-6 text-lambright-50 font-normal-400 tracking-normal leading-normal  space-y-6">
-          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy">
           We build, staff, and manage processes for Small to Medium-sized organizations. Solid support — back-office administration, customer service, online marketing — returns time, blood, and treasure back to you to do with as you choose.  We know the difference between “making it” and unqualified success.   
           </p>
-          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy">
           Streamlined, high-quality offshore programs start with a comprehensive understanding of your work and objectives. When you work with Lambent, we dig in to understand the processes you need to accomplish your goals. We document this knowledge to build tools and techniques that eliminate waste and accelerate results.  
           </p>
-          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy">
           Staffing from the Philippines starts with the promise of lower rates. We find that our clients quickly appreciate our reliability and tenacious work ethic. Lambent teams stick around for the long haul, and this is the alchemy of experience becoming expertise. Many of our clients regard their Philippines team as leading actors in their business.
           </p>
-          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy2">
+          <p class="text-xl text-left tracking-normal leading-relaxed normal-case font-copy">
           Once launched, Lambent management invests regular effort to make your program even better. All business processes occasionally succumb to entropy. Our management philosophy and approach tackle this head-on with reporting that drives right to the heart of your desired outcome. We build rational measures for success and constantly test them against tangible results like customer retention, new business, and task completion.
           </p>
         </div>
@@ -412,7 +412,7 @@
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+          <img class="h-48 w-full object-cover" src="/images/LAMB-Site-Image-Home-IlluminationsPhils.jpg" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -461,7 +461,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+          <img class="h-48 w-full object-cover" src="/images/LAMB-Site-Image-Home-Illuminations_Outsourcing.jpg" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -510,7 +510,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+          <img class="h-48 w-full object-cover" src="/images/LAMB-Site-Image-Home-Illuminations_Work.jpg" alt="">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
