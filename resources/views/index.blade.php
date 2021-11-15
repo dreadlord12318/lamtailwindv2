@@ -403,10 +403,10 @@
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
       <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-        From the blog
+      Lambent Illuminations
       </h2>
       <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.
+      Resources and information for outsourcers and businesses. Leverage our process experience with insights into outsourcing best practices, the Philippines, and tools for work.
       </p>
     </div>
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
@@ -416,46 +416,17 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline text-indigo-500">
-                Article
-              </a>
-            </p>
+          
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
-                Boost your conversion rate
+              Philippines
               </p>
               <p class="mt-3 text-base text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+              All about the Philippines. Learn about the local outsourcing landscape, culture insights, business operations, and more. Benefit from two decades of business process outsourcing and call center operations in the world capital of outsourcing.
               </p>
             </a>
           </div>
-          <div class="mt-6 flex items-center">
-            <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Roel Aufderehar</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              </a>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline">
-                  Roel Aufderehar
-                </a>
-              </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-16">
-                  Mar 16, 2020
-                </time>
-                <span aria-hidden="true">
-                  &middot;
-                </span>
-                <span>
-                  6 min read
-                </span>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
 
@@ -465,46 +436,17 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline text-indigo-500">
-                Video
-              </a>
-            </p>
+          
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
-                How to use search engine optimization to drive sales
+              Outsourcing
               </p>
               <p class="mt-3 text-base text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
+              Real-life commentary, ideas, and tools for those outsourcing and those about to outsource. An excellent resource for team managers, corporate trainers, entrepreneurs, and solopreneurs who want insights into better operations.
               </p>
             </a>
           </div>
-          <div class="mt-6 flex items-center">
-            <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Brenna Goyette</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              </a>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline">
-                  Brenna Goyette
-                </a>
-              </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-10">
-                  Mar 10, 2020
-                </time>
-                <span aria-hidden="true">
-                  &middot;
-                </span>
-                <span>
-                  4 min read
-                </span>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
 
@@ -514,46 +456,17 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline text-indigo-500">
-                Case Study
-              </a>
-            </p>
+            
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
-                Improve your customer experience
+              Work
               </p>
               <p class="mt-3 text-base text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
+              Work we do for our clients, dispatches from the factory floor, challenges and broad overviews of process work we’ve documented. Understand what we do and why we do it to keep clients for lengthy productive engagements.
               </p>
             </a>
           </div>
-          <div class="mt-6 flex items-center">
-            <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Daniela Metz</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              </a>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline">
-                  Daniela Metz
-                </a>
-              </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-02-12">
-                  Feb 12, 2020
-                </time>
-                <span aria-hidden="true">
-                  &middot;
-                </span>
-                <span>
-                  11 min read
-                </span>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
