@@ -200,22 +200,22 @@
       <div class="mt-10">
         <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class=" font-councourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Founded</dt>
+            <dt class=" font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Founded</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">2006</dd>
           </div>
 
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-councourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Employees</dt>
+            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Employees</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">47</dd>
           </div>
 
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-councourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Managed Processes</dt>
+            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Managed Processes</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">22</dd>
           </div>
 
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-councourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Av. Program Life</dt>
+            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Av. Program Life</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">4.2 Years</dd>
           </div>
         </dl>
