@@ -417,7 +417,7 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
           
-            <a href="#" class="block mt-2">
+            <a href="https://lambent.co/tag/philippines/ " class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
               Philippines
               </p>
@@ -437,7 +437,7 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
           
-            <a href="#" class="block mt-2">
+            <a href="https://lambent.co/tag/business-process-outsourcing/" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
               Outsourcing
               </p>
@@ -457,7 +457,7 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             
-            <a href="#" class="block mt-2">
+            <a href="https://lambent.co/tag/case-study/" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
               Work
               </p>
