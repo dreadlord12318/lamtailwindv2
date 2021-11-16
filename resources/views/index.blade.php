@@ -24,25 +24,25 @@
                 </button>
             </div>
             <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
-              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">About</a>
+              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">About</a>
 
-              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">Pricing</a>
+              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">Pricing</a>
 
-              <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+              <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Illuminations</a>
 
-              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-tight tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Contact</a>
             </div>
         </div>
         <!-- Menu Mobile -->
         <div x-show="isOpen" class="md:flex items-center">
             <div class="flex flex-wrap justify-around content-around md:hidden flex-col md:flex-row md:ml-6">
-              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">About</a>
+              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-wide hover:text-newgrowth-100">About</a>
 
-              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-normal hover:text-newgrowth-100">Pricing</a>
+              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-wide hover:text-newgrowth-100">Pricing</a>
 
-              <a href="/illuminations" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Illuminations</a>
+              <a href="/illuminations" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-wide text-center hover:text-newgrowth-100">Illuminations</a>
 
-              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-normal text-center hover:text-newgrowth-100">Contact</a>
+              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-wide text-center hover:text-newgrowth-100">Contact</a>
             </div>
         </div>
     </div>
@@ -94,22 +94,22 @@
                   <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                       <div>
                 <div class="mt-1">
-                  <input type="text" placeholder="First Name" name="first-name" id="first-name" autocomplete="given-name" class="block w-full py-3.5 px-4 font-concourset3 text-xl font-normal-400 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input type="text" placeholder="First Name" name="first-name" id="first-name" autocomplete="given-name" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div>
                 <div class="mt-1">
-                  <input type="text" placeholder="Last Name" name="last-name" id="last-name" autocomplete="family-name" class="block w-full font-concourset3 text-xl font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input type="text" placeholder="Last Name" name="last-name" id="last-name" autocomplete="family-name" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div class="sm:col-span-2">
                 <div class="mt-1">
-                  <input id="email" placeholder="Email" name="email" type="email" autocomplete="email" class="block w-full font-concourset3 text-xl font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input id="email" placeholder="Email" name="email" type="email" autocomplete="email" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div class="sm:col-span-2">
                     <div class="mt-1">
-                      <button type="submit" class="block w-full py-3 px-6 font-concourset6 text-lg font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white font-medium hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                      <button type="submit" class="block w-full py-3 px-6 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
                 </div>
                   </div>
@@ -161,7 +161,7 @@
               <div class="relative text-lg font-medium text-white md:flex-grow">
                 
                 <p class="relative  font-copy text-xl font-normal tracking-normal leading-relaxed text-white normal-case">
-                  Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet.
+                Lambent and our Philippines entity, Lumikha, are purpose-built for growing business. We craft detailed processes to eliminate the unnecessary and accentuate value. Our clients come for the cost value and stay for the productive value.
                 </p>
               </div>
 
@@ -200,22 +200,22 @@
       <div class="mt-10">
         <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class=" font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Founded</dt>
+            <dt class=" font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Founded</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">2006</dd>
           </div>
 
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Employees</dt>
+            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Employees</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">47</dd>
           </div>
 
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Managed Processes</dt>
+            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Managed Processes</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">22</dd>
           </div>
 
           <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newgrowth-100">Av. Program Life</dt>
+            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Av. Program Life</dt>
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">4.2 Years</dd>
           </div>
         </dl>
@@ -232,7 +232,7 @@
 
 <div class="relative bg-lamblue-50 py-16 sm:py-24 lg:py-32">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-lambright-600 font-concourset6 text-3xl font-normal tracking-normal leading-normal normal-case ">Get happy</h2>
+    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase ">Get happy</h2>
     <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
     Outsource Your Back-office
     </p>
@@ -247,13 +247,13 @@
               <div>
                 <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/cloud-upload -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                  <svg class = "h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
                   </svg>
                 </span>
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Online Marketing</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newgrowth-100">
+              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
               Build your audience and stay engaged. Strategy, design, scheduled updates, list development, CRM management.
               </p>
             </div>
@@ -266,13 +266,13 @@
               <div>
                 <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/lock-closed -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  <svg class = "h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                 </span>
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Customer Experience</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newgrowth-100">
+              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
               Keep your customers and them happy with best-in-class CX. Support across all channels and self-service platforms.
               </p>
             </div>
@@ -285,13 +285,13 @@
               <div>
                 <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/refresh -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                  <svg class = "h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                 </span>
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Back-office Admin</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newgrowth-100">
+              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
               Offload any task and make it more efficient. Teams and processes support for any administrative function.
               </p>
             </div>
@@ -304,13 +304,13 @@
               <div>
                 <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/shield-check -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  <svg class = "h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
                   </svg>
                 </span>
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Data Collection</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newgrowth-100">
+              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
               Expand or enhance your list with updates and additional data points. Data mining, tele-surveys, data verification, and append.
               </p>
             </div>
@@ -323,14 +323,13 @@
               <div>
                 <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/cog -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <svg class = "h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 </span>
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Documentation & Learning</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newgrowth-100">
+              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
               Leverage Lambent’s process development for your organization. process maps, operating procedures, and online training.
               </p>
             </div>
@@ -343,13 +342,13 @@
               <div>
                 <span class="inline-flex items-center justify-center p-3 bg-lambright-500 rounded-md shadow-lg">
                   <!-- Heroicon name: outline/server -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                  <svg class = "h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
                   </svg>
                 </span>
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Content Moderation</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newgrowth-100">
+              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
               Keep your community safe. Maintain your online assets. Social monitoring and moderation, image preparation and curation
               </p>
             </div>
@@ -367,18 +366,18 @@
 
 <div class="bg-white py-16 lg:py-24">
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="relative py-24 px-8 bg-indigo-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
+    <div class="relative py-24 px-8 bg-lambright-600 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
       <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-        <img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover">
+        <img src="/images/LAMB-Site-Image-Home_Testimonial_Wescott.jpg" alt="" class="w-full h-full object-cover">
       </div>
       <div class="relative lg:col-span-1">
-        <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="">
-        <blockquote class="mt-6 text-white">
-          <p class="text-xl font-medium sm:text-2xl">Workflow has completely transformed how we interact with customers. We've seen record bookings, higher customer satisfaction, and reduced churn.</p>
+        
+        <blockquote class="mt-12 text-white">
+          <p class="font-copy text-xl font-normal tracking-normal leading-relaxed normal-case">The deliverables have helped the client with their needs. As a result, they are now moving to brand and development of their business. Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.</p>
           <footer class="mt-6">
-            <p class="flex flex-col font-medium">
-              <span>Marie Chilvers</span>
-              <span>CEO, Workcation</span>
+            <p class="flex flex-col font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-left normal-case text-lamblue-100">
+              <span>Branding and Online Marketing for Financial Consultancy</span>
+              <span><a href = "https://clutch.co/profile/lambent-consulting#review-1881918">Read the Complete Clutch Review</a></span>
             </p>
           </footer>
         </blockquote>
@@ -417,7 +416,7 @@
               <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
               Philippines
               </p>
-              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case">
+              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case">
               All about the Philippines. Learn about the local outsourcing landscape, culture insights, business operations, and more. Benefit from two decades of business process outsourcing and call center operations in the world capital of outsourcing.
               </p>
             </a>
@@ -437,7 +436,7 @@
               <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
               Outsourcing
               </p>
-              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case">
+              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case">
               Real-life commentary, ideas, and tools for those outsourcing and those about to outsource. An excellent resource for team managers, corporate trainers, entrepreneurs, and solopreneurs who want insights into better operations.
               </p>
             </a>
@@ -457,7 +456,7 @@
               <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
               Work
               </p>
-              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case">
+              <p class="mt-3 font-copy2 text-base font-normal tracking-normal text-newcolor-200 leading-relaxed normal-case">
               Work we do for our clients, dispatches from the factory floor, challenges and broad overviews of process work we’ve documented. Understand what we do and why we do it to keep clients for lengthy productive engagements.
               </p>
             </a>
