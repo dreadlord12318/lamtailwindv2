@@ -25596,7 +25596,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
                 var selected = _ref.selected;
                 return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-                  "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(['relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap', 'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto sm:px-8', selected ? 'bg-gray shadow' : 'text-black bg-lamblue-100 hover:bg-lambright-600 hover:text-white'])
+                  "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(['relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-lamblue-500 normal-case whitespace-nowrap', 'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto sm:px-8', selected ? 'bg-gray shadow' : 'text-black bg-lamblue-100 hover:bg-lambright-600 hover:text-white'])
                 }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(category), 3
                 /* TEXT, CLASS */
                 )];

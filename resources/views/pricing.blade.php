@@ -22,7 +22,7 @@
 <!-- Pricing - with five tiers and feature -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white">
+<div class="bg-white mt-8">
 <test2></test2>
 </div>
 

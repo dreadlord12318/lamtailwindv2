@@ -14,7 +14,7 @@
         >
           <button
             :class="[
-              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap',
+              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-lamblue-500 normal-case whitespace-nowrap',
               'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto sm:px-8',
               selected
                 ? 'bg-gray shadow'
