@@ -14,11 +14,11 @@
         >
           <button
             :class="[
-              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-lamblue-500 normal-case whitespace-nowrap',
+              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4 font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-lamblue-500 normal-case whitespace-nowrap',
               'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto sm:px-8',
               selected
                 ? 'bg-gray shadow'
-                : 'text-black bg-lamblue-100 hover:bg-lambright-600 hover:text-white',
+                : 'text-black bg-lamblue-100 ',
             ]"
           >
             {{ category }}
@@ -83,7 +83,7 @@ export default {
   },
   setup() {
     let categories = ref({
-      "Full-time": [
+      "Dedicated": [
         {
           id: 1,
           title: 'Data Assistant',
@@ -150,7 +150,7 @@ export default {
         },
       ],
     
-      "Part-time": [
+      "Shared": [
         {
           id: 1,
           title: 'Data Admin',

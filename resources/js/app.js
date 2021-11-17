@@ -9,10 +9,11 @@ Alpine.start()
 import {createApp} from 'vue'
 import test from './components/test.vue'
 import test2 from './components/test2.vue'
-
+import faq from './components/faq.vue'
 createApp({
     components:{
 test, 
-test2,}
+test2,
+faq,}
 }).mount('#app')
 

@@ -6,6 +6,6 @@
 
 <!-- Header Branded with Background -->
 <div class = "container relative top-14">
-<test2></test2>
+<faq></faq>
 </div>
 @endsection

@@ -24,9 +24,11 @@
     },
     "dependencies": {
         "@headlessui/vue": "^1.4.2",
+        "@heroicons/vue": "^1.0.5",
         "@tailwindcss/aspect-ratio": "^0.3.0",
         "@tailwindcss/forms": "^0.3.4",
         "@tailwindcss/typography": "^0.4.1",
+        "@vue-hero-icons/solid": "^1.7.2",
         "alpinejs": "^3.4.2",
         "vue": "^3.2.20",
         "vueperslides": "^3.3.2"
