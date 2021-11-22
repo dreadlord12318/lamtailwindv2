@@ -43,5 +43,11 @@ Route::get('/test', function () {
 });
 Auth::routes();
 
+// ---**MAIL**---
+Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
+
+Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'mail']);
+
+
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

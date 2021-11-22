@@ -10,10 +10,12 @@ import {createApp} from 'vue'
 import test from './components/test.vue'
 import test2 from './components/test2.vue'
 import faq from './components/faq.vue'
+import slider from './components/slider.vue'
 createApp({
     components:{
 test, 
 test2,
-faq,}
+faq,
+slider,}
 }).mount('#app')
 

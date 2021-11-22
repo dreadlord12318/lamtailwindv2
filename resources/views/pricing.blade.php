@@ -14,8 +14,7 @@
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
     <h1 class="text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal text-white">Commercial Notes</h1>
-    <p class="mt-6 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white max-w-3xl">Different jobs require different skills. Lambent’s pricing matches standard task assignments with an appropriate hourly rates. You can create remote teams for short-term 
-      projects or shared personel when you don’t need a full-time resource or for permanent teams and full-time staff.</p>
+    <p class="mt-6 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white max-w-3xl">Different jobs require different skills. Lambent’s pricing matches standard process assignments with hourly rates. Create remote teams for short-term projects or shared personnel when you don’t need full-time staff. Build permanent teams for long-term work.</p>
   </div>
 </div>
 
