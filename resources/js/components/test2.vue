@@ -45,8 +45,8 @@
             <h2 class="font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize"> {{ pricing.title }}</h2>
              <p class="mt-4 font-copy text-base font-normal tracking-normal leading-relaxed text-newcolor-200">{{ pricing.description }}</p>
             <p class="mt-8">
-              <span class="font-concourset6  text-base font-normal tracking-normal leading-normal uppercase text-lambright-600">${{ pricing.price}}</span>
-              <span class="font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-newcolor-400 lowercase">/hour</span>
+              <span class="font-concourset6  text-3xl font-normal tracking-normal leading-normal uppercase text-lambright-600">${{ pricing.price}}</span>
+              <span class="font-concourset3 text-xl font-normal tracking-normal leading-relaxed text-newcolor-400 lowercase">/hour</span>
             </p>
      <a   @click="openModal" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Start Today</a>
           </div>

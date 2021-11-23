@@ -362,29 +362,9 @@
 
 <!-- Testimonials: with Background -->
 
-<!-- <test></test> -->
+<slider></slider>
 
-<div class="bg-white py-16 lg:py-24">
-  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="relative py-24 px-8 bg-lambright-600 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
-      <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-        <img src="/images/LAMB-Site-Image-Home_Testimonial_Wescott.jpg" alt="" class="w-full h-full object-cover">
-      </div>
-      <div class="relative lg:col-span-1">
-        
-        <blockquote class="mt-12 text-white">
-          <p class="font-copy text-xl font-normal tracking-normal leading-relaxed normal-case">The deliverables have helped the client with their needs. As a result, they are now moving to brand and development of their business. Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.</p>
-          <footer class="mt-6">
-            <p class="flex flex-col font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-left normal-case text-lamblue-100">
-              <span>Branding and Online Marketing for Financial Consultancy</span>
-              <span><a href = "https://clutch.co/profile/lambent-consulting#review-1881918">Read the Complete Clutch Review</a></span>
-            </p>
-          </footer>
-        </blockquote>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 

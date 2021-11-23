@@ -1,7 +1,7 @@
 <template>
   <div class="w-full px-4 pt-4 bg-lamblue-100">
     <div class="max-w-full mx-auto pt-4 pb-16">
-        <div class="max-w-7xl mx-auto divide-y-2 divide-lambright-600">
+        <div class="max-w-7xl mx-auto divide-y divide-lambright-200">
             <h2 class="font-concourset7 text-3xl font-normal trackin-normal leading-snug text-black capitalize text-center">
                 Questions?
             </h2>
