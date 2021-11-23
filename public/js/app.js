@@ -28222,9 +28222,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_vueper_slides, {
     autoplay: "",
     fade: "",
-    arrow: false,
-    lazy: "",
-    "lazy-load-drag": "",
+    "arrows-outside": false,
     bullets: false,
     "class": "no-shadow"
   }, {

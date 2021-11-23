@@ -1,6 +1,6 @@
 <template>
 <div class="bg-lamblue-50 py-16 lg:py-24">
-<vueper-slides  autoplay fade  :arrow="false" lazy lazy-load-drag  :bullets="false" class = "no-shadow">
+<vueper-slides  autoplay fade  :arrows-outside="false"  :bullets="false" class = "no-shadow">
   <vueper-slide
     v-for="(slide, i) in slides"
     :key="i"
