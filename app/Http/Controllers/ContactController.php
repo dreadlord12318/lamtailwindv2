@@ -19,7 +19,7 @@ class ContactController extends Controller
     {
        
         
-            Mail::to('info@lambent')->send(new Contact( $request));
+            Mail::to('info@lambent.co')->send(new Contact( $request));
         
 
       
