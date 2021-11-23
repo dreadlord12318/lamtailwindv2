@@ -14,11 +14,11 @@
         >
           <button
             :class="[
-              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4 font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-lamblue-500 normal-case whitespace-nowrap',
+              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4  font-concourset4 text-xs font-normal tracking-normal leading-normal capitalize text-newcolor-50  whitespace-nowrap',
               'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto sm:px-8',
               selected
                 ? 'bg-gray shadow'
-                : 'text-black bg-lamblue-100 ',
+                : 'font-concourset5 text-xs bg-lamblue-100 font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case',
             ]"
           >
             {{ category }}
@@ -249,6 +249,7 @@ export default {
           id: 1,
           title: 'Data Admin',
           link: '#',
+          description: 'Build a custom list or append existing data. A data admin can finish work on your projects that require focused time and attention.',
           price: 6.99,
           includedFeatures: 
           ['Part-time',
@@ -264,7 +265,8 @@ export default {
         {
           id: 2,
           title: "Process Assistant",
-          date: '2h ago',
+          link: '#',
+          description: 'Engage Lambent to document process flows for complex procedures and support you with a temporary team or part-time assistant.',
           price: 8.49,
           includedFeatures: 
           ['Part-time/Temporary',
@@ -279,7 +281,8 @@ export default {
         {
           id: 2,
           title: "Voice Agent",
-          date: '2h ago',
+          link: '#',
+          description: 'Conduct short-term campaigns like tele-surveys, lead generation, appointment setting with all-in pricing for agents, scripts, and telco.',
           price: 12.99,
           includedFeatures: 
           ['Part-time/Temporary',
@@ -295,7 +298,8 @@ export default {
         {
           id: 2,
           title: "Writer/Designer/Developer",
-          date: '2h ago',
+          link: '#',
+          description: 'Complete quick online marketing projects or engage permanent, part-time support with Lambent’s team of marketing professionals.',
           price: 15.99,
           includedFeatures: 
           ['Part-time/Temporary',

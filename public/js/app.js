@@ -28222,24 +28222,28 @@ __webpack_require__.r(__webpack_exports__);
         id: 1,
         title: 'Data Admin',
         link: '#',
+        description: 'Build a custom list or append existing data. A data admin can finish work on your projects that require focused time and attention.',
         price: 6.99,
         includedFeatures: ['Part-time', '4-24 hours/weeks', 'Process design', 'Bi-weekly calibration calls', 'Data mining', 'Data append ', 'Reformatting', 'Research', 'Image tagging']
       }, {
         id: 2,
         title: "Process Assistant",
-        date: '2h ago',
+        link: '#',
+        description: 'Engage Lambent to document process flows for complex procedures and support you with a temporary team or part-time assistant.',
         price: 8.49,
         includedFeatures: ['Part-time/Temporary', 'Documented Process', 'Weekly Calibration', 'List Building', 'Data Migration', 'Document Organization', 'CRM Import']
       }, {
         id: 2,
         title: "Voice Agent",
-        date: '2h ago',
+        link: '#',
+        description: 'Conduct short-term campaigns like tele-surveys, lead generation, appointment setting with all-in pricing for agents, scripts, and telco.',
         price: 12.99,
         includedFeatures: ['Part-time/Temporary', 'Documented Process', 'Weekly Calibration', 'Scripts & Escalations', 'Telco Platform', 'Surveys', 'Reminders', 'Notifications', 'Lead Verification']
       }, {
         id: 2,
         title: "Writer/Designer/Developer",
-        date: '2h ago',
+        link: '#',
+        description: 'Complete quick online marketing projects or engage permanent, part-time support with Lambent’s team of marketing professionals.',
         price: 15.99,
         includedFeatures: ['Part-time/Temporary', 'Project Planning', 'Weekly Calibration', 'Site Updates', 'Site Copy', 'Social Templates', 'Branding', 'Laravel Development', 'Ghost Implementation']
       }]
@@ -29278,7 +29282,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
                 var selected = _ref.selected;
                 return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-                  "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(['relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4 font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-lamblue-500 normal-case whitespace-nowrap', 'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto sm:px-8', selected ? 'bg-gray shadow' : 'text-black bg-lamblue-100 '])
+                  "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(['relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4  font-concourset4 text-xs font-normal tracking-normal leading-normal capitalize text-newcolor-50  whitespace-nowrap', 'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto sm:px-8', selected ? 'bg-gray shadow' : 'font-concourset5 text-xs bg-lamblue-100 font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case'])
                 }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(category), 3
                 /* TEXT, CLASS */
                 )];

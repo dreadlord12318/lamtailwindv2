@@ -72,7 +72,7 @@
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/contact" class="text-base leading-normal leading-snug font-semiboldtext-center tracking-wide font-concourset6 text-white hover:text-white">
+        <a href="/contact" class="text-base leading-normal leading-snug font-semibold text-center tracking-wide font-concourset6 text-white hover:text-white">
        CONTACT
         </a>
       </div>
