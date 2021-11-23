@@ -60,13 +60,13 @@
             <div class="relative aspect-w-12 aspect-h-14  overflow-hidden mt-12 mb-14 rounded-lg">
                 <img class="absolute inset-0 h-full w-full object-cover" src="images/LAMB-Site-Image-About.jpg" alt="">
                   <div class="absolute inset-0 bg-lambright-600 mix-blend-multiply"></div>
-                  <div class="absolute inset-0 opacity-90"></div>
+                  <div class="absolute inset-0 bg-gradient-to-t from-lambright-600 via-lambright-600  opacity-90"></div>
             </div>
 
             <div class="relative aspect-w-12 aspect-h-14  overflow-hidden rounded-lg">
                 <img class="absolute inset-0 h-full w-full object-cover" src="images/LAMB-Site-Image-About2.jpg" alt="">
                   <div class="absolute inset-0 bg-lambright-600 mix-blend-multiply"></div>
-                  <div class="absolute inset-0 opacity-90"></div>
+                  <div class="absolute inset-0 bg-gradient-to-t from-lambright-600 via-lambright-600  opacity-90"></div>
             </div>
             <span class="font-concourset3 font-normal text-gray-500 text-lg">Lambent Actively Supports Remote Area Medical Philippines Missions</span>
           </figure>
