@@ -10,7 +10,7 @@
       <Disclosure v-slot="{ open }">
            <dt class="text-lg">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>Are there term commitments for Lambent’s services?</span>
           <ChevronUpIcon
@@ -19,7 +19,7 @@
           />
         </DisclosureButton>
            </dt>
-        <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 mt-2 pr-12" >
+        <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 mt-2 pr-12 normal-case" >
          <p>There are no term commitments for services. Our cancellation policy <i>requests</i> one month’s notice for a proper transition. 
            We offer an agreement that explains our perspective on the work we do. 
            You can read this in the Terms of Service</p>
@@ -29,7 +29,7 @@
             </dl>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize">
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case">
           <span>What if I don’t need a full-time employee? </span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
@@ -44,7 +44,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>What does “documented process” mean?</span>
           <ChevronUpIcon
@@ -59,7 +59,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>What is a Dedicated Resource?</span>
           <ChevronUpIcon
@@ -74,7 +74,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>What is a Shared Resource?</span>
           <ChevronUpIcon
@@ -89,7 +89,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>What are Calibration Calls?</span>
           <ChevronUpIcon
@@ -104,7 +104,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>How do you invoice for Shared services?</span>
           <ChevronUpIcon
@@ -120,7 +120,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>How do you invoice for Dedicated services?</span>
           <ChevronUpIcon
@@ -135,7 +135,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>Why do you consider 32 hours full-time?</span>
           <ChevronUpIcon
@@ -150,7 +150,7 @@
       </Disclosure>
       <Disclosure as="div" class="mt-2" v-slot="{ open }">
         <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
           <span>Can I adjust the scope as needed as my business or program evolve?</span>
           <ChevronUpIcon

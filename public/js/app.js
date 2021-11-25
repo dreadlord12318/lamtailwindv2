@@ -27824,7 +27824,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
       var open = _ref.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dt", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27839,7 +27839,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 mt-2 pr-12"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 mt-2 pr-12 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_9];
@@ -27859,7 +27859,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref2) {
       var open = _ref2.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27894,7 +27894,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref3) {
       var open = _ref3.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27929,7 +27929,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref4) {
       var open = _ref4.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27964,7 +27964,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref5) {
       var open = _ref5.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27999,7 +27999,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref6) {
       var open = _ref6.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -28034,7 +28034,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref7) {
       var open = _ref7.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -28069,7 +28069,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref8) {
       var open = _ref8.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -28104,7 +28104,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref9) {
       var open = _ref9.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -28139,7 +28139,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref10) {
       var open = _ref10.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 capitalize"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
