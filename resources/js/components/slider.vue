@@ -1,5 +1,5 @@
 <template>
-<div class="bg-white py-11 lg:py-24">
+<div class="bg-white py-11 lg:py-11">
 <vueper-slides  autoplay fade  :arrows-outside="false"  :bullets="false" class = "no-shadow">
   <vueper-slide
     v-for="(slide, i) in slides"
