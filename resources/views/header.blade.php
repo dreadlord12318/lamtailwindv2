@@ -20,7 +20,7 @@
                 </svg>
                 </button>
             </div>
-            <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
+            <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-10">
                 <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">About</a>
 
                 <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-normal hover:text-newgrowth-100">Pricing</a>

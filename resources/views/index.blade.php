@@ -2,52 +2,7 @@
 
 @section('content')
 
-<nav class = "bg-lambright-500 max-w-full z-40 fixed left-0 right-0">
-    <div x-cloak x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-7xl mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
-        <div class="flex justify-between items-center">
-            <div class="flex pl-6 items-center">
-            <a href="/">
-            <span class="sr-only">Lambent</span>
-            <img class="h-8 w-auto sm:h-10" src="/images/LAMB-Site-Image-AvatarDark.svg" alt="">
-          </a>
-            </div>
-            <div class="flex md:hidden">
-                <button type="button"
-                 class="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-grape-500"
-                 aria-label="toggle menu"
-                 x-on:click="isOpen = !isOpen">
-                <span class="sr-only">Open main menu</span>
-                <!-- Heroicon name: outline/menu -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-                </button>
-            </div>
-            <div class="hidden ml-10 md:block md:ml-4 space-x-10 lg:flex lg:ml-10">
-              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">About</a>
-
-              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">Pricing</a>
-
-              <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Illuminations</a>
-
-              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Contact</a>
-            </div>
-        </div>
-        <!-- Menu Mobile -->
-        <div x-show="isOpen" class="md:flex items-center">
-            <div class="flex flex-wrap justify-around content-around md:hidden flex-col md:flex-row md:ml-6">
-              <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-wide hover:text-newgrowth-100">About</a>
-
-              <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-normal tracking-wide hover:text-newgrowth-100">Pricing</a>
-
-              <a href="/illuminations" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-wide text-center hover:text-newgrowth-100">Illuminations</a>
-
-              <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-normal tracking-wide text-center hover:text-newgrowth-100">Contact</a>
-            </div>
-        </div>
-    </div>
-
-</nav>
+@include('header')
 
 <!--
   This example requires Tailwind CSS v2.0+ 
@@ -228,7 +183,7 @@
 
 <!-- Features: Grid with offset icons -->
 
-<div class="relative bg-white py-16 sm:py-24 lg:pt-32 lg:pb-4">
+<div class="relative bg-lamblue-50 py-16 sm:py-24 lg:pt-24 lg:pb-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
     <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase ">Get happy</h2>
     <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
@@ -369,9 +324,9 @@
 <!-- Blog: 3-column cards -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-lambright-500 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-14 lg:px-8">
+<div class="relative bg-lamblue-50 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-24 lg:px-8">
   <div class="absolute inset-0">
-    <div class="bg-white h-1/3 sm:h-2/3"></div>
+    <div class="bg-lamblue-50 h-1/3 sm:h-2/3"></div>
   </div>
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
