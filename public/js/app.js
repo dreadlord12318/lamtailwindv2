@@ -28253,7 +28253,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-white py-16 lg:py-24"
+  "class": "bg-white py-11 lg:py-24"
 };
 var _hoisted_2 = {
   "class": "relative max-w-7xl mx-auto pt-12 px-4 sm:px-6 lg:px-8"
