@@ -27572,30 +27572,97 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vueperslides__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vueperslides */ "./node_modules/vueperslides/dist/vueperslides.common.js");
-/* harmony import */ var vueperslides__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vueperslides__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vueperslides_dist_vueperslides_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vueperslides/dist/vueperslides.css */ "./node_modules/vueperslides/dist/vueperslides.css");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/tabs/tabs.esm.js");
+/* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/transitions/transition.esm.js");
+/* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/dialog/dialog.esm.js");
 
 
-var slides = [{
-  image: '/images/LAMB-Site-Image-HeaderAbout_Grey.jpg'
-}, {
-  image: '/images/LAMB-Site-Image-HeaderAbout_Grey.jpg'
-}, {
-  image: '/images/LAMB-Site-Image-HeaderAbout_Grey.jpg'
-}, {
-  image: '/images/LAMB-Site-Image-HeaderAbout_Grey.jpg'
-}, {
-  image: '/images/LAMB-Site-Image-HeaderAbout_Grey.jpg'
-}];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    VueperSlides: vueperslides__WEBPACK_IMPORTED_MODULE_0__.VueperSlides,
-    VueperSlide: vueperslides__WEBPACK_IMPORTED_MODULE_0__.VueperSlide
+    TabGroup: _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__.TabGroup,
+    TabList: _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__.TabList,
+    Tab: _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__.Tab,
+    TabPanels: _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__.TabPanels,
+    TabPanel: _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__.TabPanel,
+    TransitionRoot: _headlessui_vue__WEBPACK_IMPORTED_MODULE_2__.TransitionRoot,
+    TransitionChild: _headlessui_vue__WEBPACK_IMPORTED_MODULE_2__.TransitionChild,
+    Dialog: _headlessui_vue__WEBPACK_IMPORTED_MODULE_3__.Dialog,
+    DialogOverlay: _headlessui_vue__WEBPACK_IMPORTED_MODULE_3__.DialogOverlay,
+    DialogTitle: _headlessui_vue__WEBPACK_IMPORTED_MODULE_3__.DialogTitle
   },
   setup: function setup() {
+    var isOpen = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
+    var categories = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)({
+      "Dedicated": [{
+        id: 1,
+        title: 'Data Assistant',
+        link: 'openModal',
+        description: 'Move all things data from manipulation to collection. Data assistants handle ongoing, repetitive tasks that consume your time and attention.',
+        price: 4.99,
+        includedFeatures: ['Full-time (32 hs/week)', 'Documented Process', 'Weekly Calibration', 'Data Mining', 'Data Append', 'Reformatting', 'Basic Research', 'Image Tagging', 'Backlinking']
+      }, {
+        id: 2,
+        title: "Process Assistant",
+        link: '#',
+        description: 'Document your processes and transition them to a focused team of admin pros. Move your day-to-day work to capable, well-managed teams.',
+        price: 6.99,
+        includedFeatures: ['Full-time (32 hs/week)', 'Documented Process', 'Weekly Calibration', 'Order Tracking', 'Email Management', 'CRM Management', 'Basic Website Updates', 'Social Posting', 'Document Processing']
+      }, {
+        id: 3,
+        title: "Support Agent",
+        link: '#',
+        description: 'Build your happy, delighted customer team for organizations that want long-lasting, close customer relationships.',
+        price: 11.49,
+        includedFeatures: ['Full-time (32 hs/week)', 'Documented Process', 'Weekly Calibration', 'Helpdesk Platform', 'Chat, Email, Voice, Social', 'Billing Support', 'Reservation Support', 'Helpdesk Platform', 'Technical Support']
+      }, {
+        id: 4,
+        title: "Writer/Designer/Developer",
+        link: '#',
+        description: 'Content is king. Writers for blog and social copy, designers for engaging infographics and social posts, and developers to create and maintain your site.',
+        price: 14.99,
+        includedFeatures: ['Full-time (32 hs/week)', 'Weekly Calibration', 'Site Updates', 'Blogging', 'Presentations', 'Infographics', 'Branding', 'Laravel Development', 'Ghost Implementation']
+      }],
+      "Shared": [{
+        id: 1,
+        title: 'Data Admin',
+        link: '#',
+        description: 'Build a custom list or append existing data. A data admin can finish work on your projects that require focused time and attention.',
+        price: 6.99,
+        includedFeatures: ['Part-time', '4-24 hours/weeks', 'Process design', 'Bi-weekly calibration calls', 'Data mining', 'Data append ', 'Reformatting', 'Research', 'Image tagging']
+      }, {
+        id: 2,
+        title: "Process Assistant",
+        link: '#',
+        description: 'Engage Lambent to document process flows for complex procedures and support you with a temporary team or part-time assistant.',
+        price: 8.49,
+        includedFeatures: ['Part-time/Temporary', 'Documented Process', 'Weekly Calibration', 'List Building', 'Data Migration', 'Document Organization', 'CRM Import']
+      }, {
+        id: 2,
+        title: "Voice Agent",
+        link: '#',
+        description: 'Conduct short-term campaigns like tele-surveys, lead generation, appointment setting with all-in pricing for agents, scripts, and telco.',
+        price: 12.99,
+        includedFeatures: ['Part-time/Temporary', 'Documented Process', 'Weekly Calibration', 'Scripts & Escalations', 'Telco Platform', 'Surveys', 'Reminders', 'Notifications', 'Lead Verification']
+      }, {
+        id: 2,
+        title: "Writer/Designer/Developer",
+        link: '#',
+        description: 'Complete quick online marketing projects or engage permanent, part-time support with Lambent’s team of marketing professionals.',
+        price: 15.99,
+        includedFeatures: ['Part-time/Temporary', 'Project Planning', 'Weekly Calibration', 'Site Updates', 'Site Copy', 'Social Templates', 'Branding', 'Laravel Development', 'Ghost Implementation']
+      }]
+    });
     return {
-      slides: slides
+      isOpen: isOpen,
+      closeModal: function closeModal() {
+        isOpen.value = false;
+      },
+      openModal: function openModal() {
+        isOpen.value = true;
+      },
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+      categories: categories
     };
   }
 });
@@ -27638,7 +27705,7 @@ __webpack_require__.r(__webpack_exports__);
       "Dedicated": [{
         id: 1,
         title: 'Data Assistant',
-        link: '#',
+        link: 'openModal',
         description: 'Move all things data from manipulation to collection. Data assistants handle ongoing, repetitive tasks that consume your time and attention.',
         price: 4.99,
         includedFeatures: ['Full-time (32 hs/week)', 'Documented Process', 'Weekly Calibration', 'Data Mining', 'Data Append', 'Reformatting', 'Basic Research', 'Image Tagging', 'Backlinking']
@@ -28186,10 +28253,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-lamblue-50 py-16 lg:py-24"
+  "class": "bg-white py-16 lg:py-24"
 };
 var _hoisted_2 = {
-  "class": "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  "class": "relative max-w-7xl mx-auto pt-12 px-4 sm:px-6 lg:px-8"
 };
 var _hoisted_3 = {
   "class": "relative py-20 px-8 bg-lambright-600 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8"
@@ -28278,44 +28345,366 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-white py-16 lg:py-24"
+  "class": "max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8"
 };
 var _hoisted_2 = {
-  "class": "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  "class": "sm:flex sm:flex-col sm:align-center"
 };
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize sm:text-center"
+}, "Staff Your Remote Team Today", -1
+/* HOISTED */
+);
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case sm:text-center"
+}, "Select project rates based on short-term projects, shared staff or long-term programs with full-time support", -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
+  "class": "relative self-center mt-6 bg-gray-100 justify-center rounded-lg p-0.5 flex sm:mt-8"
+};
+var _hoisted_6 = {
+  "class": "mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4"
+};
+var _hoisted_7 = {
+  key: "post.id",
+  "class": "border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200"
+};
+var _hoisted_8 = {
+  "class": "py-6 px-3"
+};
+var _hoisted_9 = {
+  "class": "font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize"
+};
+var _hoisted_10 = {
+  "class": "mt-4 font-copy text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+};
+var _hoisted_11 = {
+  "class": "mt-8"
+};
+var _hoisted_12 = {
+  "class": "font-concourset6 text-3xl font-normal tracking-normal leading-normal uppercase text-lambright-600"
+};
+
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "font-concourset3 text-xl font-normal tracking-normal leading-relaxed text-newcolor-400 lowercase"
+}, "/hour", -1
+/* HOISTED */
+);
+
+var _hoisted_14 = {
+  "class": "pt-6 pb-8 px-6"
+};
+var _hoisted_15 = {
+  "class": "flex space-x-3"
+};
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "flex-shrink-0 h-5 w-5 text-lambright-400",
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 20 20",
+  fill: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "fill-rule": "evenodd",
+  d: "M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z",
+  "clip-rule": "evenodd"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_17 = {
+  "class": "font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+};
+var _hoisted_18 = {
+  "class": "fixed inset-0 z-10 overflow-y-auto"
+};
+var _hoisted_19 = {
+  "class": "min-h-screen px-4 text-center"
+};
+
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "inline-block h-screen align-middle",
+  "aria-hidden": "true"
+}, " ​ ", -1
+/* HOISTED */
+);
+
+var _hoisted_21 = {
+  "class": "inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
+};
+
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" START TODAY ");
+
+var _hoisted_23 = {
+  "class": "mt-2"
+};
+var _hoisted_24 = {
+  action: "/contact",
+  "class": "sm:max-w-xl sm:mx-auto lg:mx-0",
+  method: "POST"
+};
+var _hoisted_25 = ["value"];
+var _hoisted_26 = {
+  "class": "grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+};
+
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-1"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  type: "text",
+  placeholder: "First Name",
+  name: "first_name",
+  id: "first_name",
+  autocomplete: "given-name",
+  "class": "block w-full py-3.5 px-4 font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-1"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  type: "text",
+  placeholder: "Last Name",
+  name: "last_name",
+  id: "last_name",
+  autocomplete: "family-name",
+  "class": "block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case py-3.5 px-4 shadow-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "sm:col-span-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-1"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  id: "email",
+  placeholder: "Email",
+  name: "email",
+  type: "email",
+  autocomplete: "email",
+  "class": "block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case py-3.5 px-4 shadow-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_30 = {
+  "class": "sm:col-span-2"
+};
+var _hoisted_31 = {
+  "class": "mt-1"
+};
+
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-3 font-concourset3 font-normal tracking-normal leading-relaxed normal-case text-xs text-gray-300 sm:mt-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("By providing your email, you agree to our "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#",
+  "class": "font-medium text-black"
+}, "terms of service"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(".")], -1
+/* HOISTED */
+);
+
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-4"
+}, null, -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_vueper_slide = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vueper-slide");
+  var _component_Tab = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Tab");
 
-  var _component_vueper_slides = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vueper-slides");
+  var _component_TabList = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TabList");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_vueper_slides, {
-    "class": "relative py-24 px-8 bg-indigo-500 rounded-xl shadow-2xl overflow-hidden",
-    "slide-ratio": 0.2,
-    infinite: false,
-    "disable-arrows-on-edges": "",
-    "bullets-outside": "",
-    disable: _ctx.slideshowDisabled
+  var _component_TabPanel = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TabPanel");
+
+  var _component_TabPanels = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TabPanels");
+
+  var _component_TabGroup = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TabGroup");
+
+  var _component_DialogOverlay = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("DialogOverlay");
+
+  var _component_TransitionChild = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TransitionChild");
+
+  var _component_DialogTitle = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("DialogTitle");
+
+  var _component_Dialog = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Dialog");
+
+  var _component_TransitionRoot = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TransitionRoot");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabGroup, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabList, {
+        "class": "flex p-0.5 bg-lamblue-100 rounded-lg"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(Object.keys($setup.categories), function (category) {
+            return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Tab, {
+              as: "template",
+              key: category
+            }, {
+              "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
+                var selected = _ref.selected;
+                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+                  "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(['relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4  font-concourset4 text-sm font-normal tracking-normal leading-normal capitalize text-newcolor-50  whitespace-nowrap', 'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto px-12', selected ? 'bg-gray shadow' : 'font-concourset5 text-sm bg-lamblue-100 font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case'])
+                }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(category), 3
+                /* TEXT, CLASS */
+                )];
+              }),
+              _: 2
+              /* DYNAMIC */
+
+            }, 1024
+            /* DYNAMIC_SLOTS */
+            );
+          }), 128
+          /* KEYED_FRAGMENT */
+          ))];
+        }),
+        _: 1
+        /* STABLE */
+
+      })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabPanels, {
+        "class": "mt-12"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(Object.values($setup.categories), function (pricings, idx) {
+            return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_TabPanel, {
+              key: idx,
+              "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([' rounded-xl p-3', 'focus:outline-none focus:ring-2 ring-offset-2  ring-white ring-opacity-60'])
+            }, {
+              "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(pricings, function (pricing) {
+                  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.title), 1
+                  /* TEXT */
+                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.description), 1
+                  /* TEXT */
+                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, "$" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.price), 1
+                  /* TEXT */
+                  ), _hoisted_13]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+                    onClick: _cache[0] || (_cache[0] = function () {
+                      return $setup.openModal && $setup.openModal.apply($setup, arguments);
+                    }),
+                    "class": "mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600"
+                  }, "Start Today")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(pricing.includedFeatures, function (feature) {
+                    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("ul", {
+                      key: feature,
+                      role: "list",
+                      "class": "mt-6 space-y-4"
+                    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Heroicon name: solid/check "), _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(feature), 1
+                    /* TEXT */
+                    )])]);
+                  }), 128
+                  /* KEYED_FRAGMENT */
+                  ))])]);
+                }), 128
+                /* KEYED_FRAGMENT */
+                ))])];
+              }),
+              _: 2
+              /* DYNAMIC */
+
+            }, 1024
+            /* DYNAMIC_SLOTS */
+            );
+          }), 128
+          /* KEYED_FRAGMENT */
+          ))];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionRoot, {
+    appear: "",
+    show: $setup.isOpen,
+    as: "template"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.slides, function (slide, i) {
-        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_vueper_slide, {
-          key: i,
-          image: slide.image,
-          title: slide.title,
-          content: slide.content
-        }, null, 8
-        /* PROPS */
-        , ["image", "title", "content"]);
-      }), 128
-      /* KEYED_FRAGMENT */
-      ))];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Dialog, {
+        as: "div",
+        onClose: $setup.closeModal
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionChild, {
+            as: "template",
+            enter: "duration-300 ease-out",
+            "enter-from": "opacity-0",
+            "enter-to": "opacity-100",
+            leave: "duration-200 ease-in",
+            "leave-from": "opacity-100",
+            "leave-to": "opacity-0"
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DialogOverlay, {
+                "class": "fixed inset-0"
+              })];
+            }),
+            _: 1
+            /* STABLE */
+
+          }), _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionChild, {
+            as: "template",
+            enter: "duration-300 ease-out",
+            "enter-from": "opacity-0 scale-95",
+            "enter-to": "opacity-100 scale-100",
+            leave: "duration-200 ease-in",
+            "leave-from": "opacity-100 scale-100",
+            "leave-to": "opacity-0 scale-95"
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DialogTitle, {
+                as: "h3",
+                "class": "text-lg text-center font-medium leading-6 text-gray-900"
+              }, {
+                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                  return [_hoisted_22];
+                }),
+                _: 1
+                /* STABLE */
+
+              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+                type: "hidden",
+                name: "_token",
+                value: $setup.csrf
+              }, null, 8
+              /* PROPS */
+              , _hoisted_25), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [_hoisted_27, _hoisted_28, _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+                type: "submit",
+                onClick: _cache[1] || (_cache[1] = function () {
+                  return $setup.closeModal && $setup.closeModal.apply($setup, arguments);
+                }),
+                "class": "block w-full py-3 px-6 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
+              }, "Let's Talk")])])]), _hoisted_32])]), _hoisted_33])];
+            }),
+            _: 1
+            /* STABLE */
+
+          })])])];
+        }),
+        _: 1
+        /* STABLE */
+
+      }, 8
+      /* PROPS */
+      , ["onClose"])];
     }),
     _: 1
     /* STABLE */
 
   }, 8
   /* PROPS */
-  , ["slide-ratio", "disable"])])]);
+  , ["show"])], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),

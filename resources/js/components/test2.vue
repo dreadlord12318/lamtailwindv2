@@ -48,7 +48,7 @@
               <span class="font-concourset6  text-3xl font-normal tracking-normal leading-normal uppercase text-lambright-600">${{ pricing.price}}</span>
               <span class="font-concourset3 text-xl font-normal tracking-normal leading-relaxed text-newcolor-400 lowercase">/hour</span>
             </p>
-     <a   @click="openModal" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Start Today</a>
+     <a   v-on:click="openModal" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Start Today</a>
           </div>
           <div class="pt-6 pb-8 px-6">
             <ul v-for="feature in pricing.includedFeatures" :key="feature" role="list" class="mt-6 space-y-4">
@@ -177,7 +177,7 @@ export default {
         {
           id: 1,
           title: 'Data Assistant',
-          link: '#',
+          link: 'openModal',
           description: 'Move all things data from manipulation to collection. Data assistants handle ongoing, repetitive tasks that consume your time and attention.',
           price: 4.99,
           includedFeatures: 

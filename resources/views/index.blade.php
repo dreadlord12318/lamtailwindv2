@@ -23,7 +23,7 @@
                 </svg>
                 </button>
             </div>
-            <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-4">
+            <div class="hidden ml-10 md:block md:ml-4 space-x-10 lg:flex lg:ml-10">
               <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">About</a>
 
               <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">Pricing</a>
@@ -77,11 +77,11 @@
 
 
     <main class="mt-16 sm:mt-24">
-    <div class="pt-10 bg-lambright-500 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+    <div class="pt-10 bg-lambright-500 sm:pt-14 lg:pt-8 lg:pb-20 lg:overflow-hidden">
       <div class="mx-auto max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-2 lg:gap-8">
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-            <div class="lg:py-24">
+            <div class="">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
                 <span class="block text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal text-white">Outsource Better</span>
@@ -121,7 +121,7 @@
           <div class="mt-12 bg-blend-overlay -mb-16 sm:-mb-48 lg:m-0 lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="ml-32 mt-32 w-9/12 lg:absolute lg:inset-y-0 lg:left " src="images/LAMB-Site-Image-Home_HeaderIso.svg" alt="">
+              <img class="ml-24  w-11/12 lg:absolute lg:inset-y-0 lg:left " src="images/LAMB-Site-Image-Home_HeaderIso.svg" alt="">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
@@ -219,9 +219,7 @@
             <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">4.2 Years</dd>
           </div>
         </dl>
-        <div class="mt-10">
-          <a href="#" class="text-base font-medium text-indigo-500"> Learn more about how we're changing the world <span aria-hidden="true">&rarr;</span> </a>
-        </div>
+     
       </div>
     </div>
   </div>
@@ -230,7 +228,7 @@
 
 <!-- Features: Grid with offset icons -->
 
-<div class="relative bg-lamblue-50 py-16 sm:py-24 lg:py-32">
+<div class="relative bg-white py-16 sm:py-24 lg:pt-32 lg:pb-4">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
     <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase ">Get happy</h2>
     <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
@@ -371,7 +369,7 @@
 <!-- Blog: 3-column cards -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+<div class="relative bg-lambright-500 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-14 lg:px-8">
   <div class="absolute inset-0">
     <div class="bg-white h-1/3 sm:h-2/3"></div>
   </div>
