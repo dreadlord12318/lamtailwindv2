@@ -14,6 +14,13 @@
     
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+
+    <style>
+.prose-lg img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+</style>
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
