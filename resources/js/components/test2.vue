@@ -185,7 +185,7 @@
                 as="h3"
                 class="text-lg text-center font-medium leading-6 text-gray-900"
               >
-               START TODAY HEHEEHE
+               START TODAY 
               </DialogTitle>
               <div class="mt-2">
                 

@@ -28733,7 +28733,7 @@ var _hoisted_38 = {
   "class": "inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
 };
 
-var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" START TODAY HEHEEHE ");
+var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" START TODAY ");
 
 var _hoisted_40 = {
   "class": "mt-2"
