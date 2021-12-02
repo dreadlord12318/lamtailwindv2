@@ -7,7 +7,7 @@
     > 
   <template #content >
 
-    <div class="relative max-w-7xl mx-auto pt-12 pb-12 px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative py-20 px-8 bg-lambright-600 rounded-xl  overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
         <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
           <img :src="slide.image" />

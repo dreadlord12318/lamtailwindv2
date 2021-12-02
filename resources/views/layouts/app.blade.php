@@ -139,6 +139,7 @@
       &copy; 2021 Lambent Consulting, LLC. All rights reserved.
     </p>
   </div>
+</div>
   @include('cookie-consent::index')  
 </footer>
 </body>
