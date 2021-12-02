@@ -1,9 +1,22 @@
 <template>
   <div class="fixed inset-0 flex items-center justify-center">
-
+    <button
+      type="button"
+      @click="openModal(hello)"
+      class="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+    >
+      Open 1st dialog
+    </button>
+     <button
+      type="button"
+      @click="openModal(hello2)"
+      class="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+    >
+      Open 2nd dialog
+    </button>
   </div>
   <TransitionRoot appear :show="isOpen" as="template">
-    <Dialog as="div" @close="closeModal(hello)">
+    <Dialog as="div" @close="closeModal">
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div class="min-h-screen px-4 text-center">
           <TransitionChild
@@ -51,7 +64,7 @@
                 <button
                   type="button"
                   class="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
-                  @click="closeModal(hello)"
+                  @click="closeModal"
                 >
                   Got it, thanks!
                 </button>
@@ -62,9 +75,8 @@
       </div>
     </Dialog>
   </TransitionRoot>
-
   <TransitionRoot appear :show="isOpen2" as="template">
-    <Dialog as="div" @close="closeModal(hello2)">
+    <Dialog as="div" @close="closeModal">
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div class="min-h-screen px-4 text-center">
           <TransitionChild
@@ -99,7 +111,7 @@
                 as="h3"
                 class="text-lg font-medium leading-6 text-gray-900"
               >
-                Payment successful
+                Payment successful yawa
               </DialogTitle>
               <div class="mt-2">
                 <p class="text-sm text-gray-500">
@@ -112,7 +124,7 @@
                 <button
                   type="button"
                   class="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
-                  @click="closeModal(hello2)"
+                  @click="closeModal"
                 >
                   Got it, thanks!
                 </button>
@@ -143,24 +155,21 @@ export default {
     DialogOverlay,
     DialogTitle,
   },
+  
 
   setup() {
     const isOpen = ref(false)
-    const isOpen2 = ref(false)
+      const isOpen2 = ref(false)
 
     return {
-      isOpen,
-      isOpen2,
-      closeModal(hello) {
+      isOpen,isOpen2,
+      closeModal() {
         isOpen.value = false
       },
-       closeModal(hello2) {
-        isOpen2.value = false
-      },
-      openModal(hello) {
+       openModal: function(hello) {
         isOpen.value = true
       },
-      openModal(hello2) {
+      openModal: function(hello2) {
         isOpen2.value = true
       },
     }

@@ -48,7 +48,7 @@
               <span class="font-concourset6  text-3xl font-normal tracking-normal leading-normal uppercase text-lambright-600">${{ pricing.price}}</span>
               <span class="font-concourset3 text-xl font-normal tracking-normal leading-relaxed text-newcolor-400 lowercase">/hour</span>
             </p>
-     <a   v-on:click="openModal(pricing.link)" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Start Today</a>
+     <a @click="openModal(pricing.link)" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Start Today</a>
           </div>
           <div class="pt-6 pb-8 px-6">
             <ul v-for="feature in pricing.includedFeatures" :key="feature" role="list" class="mt-6 space-y-4">
@@ -69,6 +69,7 @@
     </TabGroup>
   </div>
 
+<!-- Data Assistant -->
   <TransitionRoot appear :show="isOpen" as="template">
     <Dialog as="div" @close="closeModal">
       <div class="fixed inset-0 z-10 overflow-y-auto">
@@ -147,6 +148,88 @@
       </div>
     </Dialog>
   </TransitionRoot>
+
+  <TransitionRoot appear :show="isOpen2" as="template">
+    <Dialog as="div" @close="closeModal">
+      <div class="fixed inset-0 z-10 overflow-y-auto">
+        <div class="min-h-screen px-4 text-center">
+          <TransitionChild
+            as="template"
+            enter="duration-300 ease-out"
+            enter-from="opacity-0"
+            enter-to="opacity-100"
+            leave="duration-200 ease-in"
+            leave-from="opacity-100"
+            leave-to="opacity-0"
+          >
+            <DialogOverlay class="fixed inset-0" />
+          </TransitionChild>
+
+          <span class="inline-block h-screen align-middle" aria-hidden="true">
+            &#8203;
+          </span>
+
+          <TransitionChild
+            as="template"
+            enter="duration-300 ease-out"
+            enter-from="opacity-0 scale-95"
+            enter-to="opacity-100 scale-100"
+            leave="duration-200 ease-in"
+            leave-from="opacity-100 scale-100"
+            leave-to="opacity-0 scale-95"
+          >
+            <div
+              class="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
+            >
+              <DialogTitle
+                as="h3"
+                class="text-lg text-center font-medium leading-6 text-gray-900"
+              >
+               START TODAY HEHEEHE
+              </DialogTitle>
+              <div class="mt-2">
+                
+               <form action="/contact" class="sm:max-w-xl sm:mx-auto lg:mx-0" method="POST">
+             <input type="hidden" name="_token" v-bind:value="csrf">
+                  <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                      <div>
+                <div class="mt-1">
+                  <input type="text" placeholder="First Name" name="first_name" id="first_name" autocomplete="given-name" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div>
+                <div class="mt-1">
+                  <input type="text" placeholder="Last Name" name="last_name" id="last_name" autocomplete="family-name" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <div class="mt-1">
+                  <input id="email" placeholder="Email" name="email" type="email" autocomplete="email" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                </div>
+              </div>
+               
+              <div class="sm:col-span-2">
+                    <div class="mt-1">
+                      <button type="submit"  @click="closeModal" class="block w-full py-3 px-6 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                    </div>
+                </div>
+                  </div>
+                  <p class="mt-3 font-concourset3 font-normal tracking-normal leading-relaxed normal-case text-xs text-gray-300 sm:mt-4">By providing your email, you agree to our <a href="#" class="font-medium text-black">terms of service</a>.</p>
+                </form>
+              </div>
+
+              <div class="mt-4">
+               
+              </div>
+            </div>
+          </TransitionChild>
+        </div>
+      </div>
+    </Dialog>
+  </TransitionRoot>
+
+<!-- Process Assistant -->
+
 </template>
 
 <script>
@@ -172,6 +255,7 @@ export default {
   },
   setup() {
      const isOpen = ref(false)
+     const isOpen2 = ref(false)
     let categories = ref({
       "Dedicated": [
         {
@@ -194,7 +278,7 @@ export default {
         {
           id: 2,
           title: "Process Assistant",
-          link: '#',
+          link: 'hello2',
           description: 'Document your processes and transition them to a focused team of admin pros. Move your day-to-day work to capable, well-managed teams.',
           price: 6.99,
           includedFeatures: 
@@ -317,11 +401,18 @@ export default {
 
     return { 
       isOpen,
+      isOpen2,
       closeModal() {
         isOpen.value = false
       },
+       closeModal() {
+        isOpen2.value = false
+      },
       openModal(hello) {
         isOpen.value = true
+      },
+      openModal(hello2) {
+        isOpen2.value = true
       },
       csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
       

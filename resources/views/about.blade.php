@@ -9,10 +9,10 @@
 
 <!-- Header Branded with Background -->
 
-<div class="relative top-16 bg-lambright-500">
+<div class="relative top-16 pb-20 bg-lambright-500">
   <div class="absolute inset-0">
     <img class="w-full h-full object-cover" src="images/LAMB-Site-Image-HeaderAbout_Grey.jpg" alt="">
-    <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
+    <div class="absolute inset-0 h-full bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
     <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">About Lambent</h1>
@@ -20,7 +20,7 @@
   </div>
 </div>
 
-<div class="relative py-16 bg-white overflow-hidden">
+<div class="relative py-16 top-12 bg-white overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
       <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
