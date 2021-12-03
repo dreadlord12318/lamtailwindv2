@@ -68,7 +68,7 @@
                     </div>
                 </div>
                   </div>
-                  <p class="mt-3 font-concourset3 font-normal tracking-normal leading-relaxed normal-case text-xs text-gray-300 sm:mt-4">By providing your email, you agree to our <a href="#" class="font-medium text-white">terms of service</a>.</p>
+                  <p class="mt-3 font-concourset3 text-xs font-normal leading-relaxed text-newcolor-700 sm:mt-4">By providing your email, you agree to our <a href="#" class=" font-concourset3 text-xs  text-white leading-relaxed font-bold">terms of service</a>.</p>
                 </form>
               </div>
             </div>
@@ -121,7 +121,7 @@
               </div>
 
               <footer class="mt-4">
-                <p class="text-base font-concourset3 text-xs font-normal leading-relaxed text-lamblue-100 normal-case">Harry Fozzard, Founder Lambent Consulting</p>
+                <p class=" font-concourset3 text-xs font-normal leading-relaxed text-newcolor-700 normal-case">Harry Fozzard, Founder Lambent Consulting</p>
               </footer>
             </blockquote>
           </div>
