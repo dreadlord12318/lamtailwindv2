@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '320px',
+      },
       fontFamily:{
         'concoursec6': ['Concourse C6'],
         'copy': ['Valkyrie T3'],
@@ -59,6 +62,7 @@ module.exports = {
         '400' : '#9CA3AF',
         '500' : '#4B5563',
         '600' : '#ffffff',
+        '700' : '#FCFDFF',
       }
       }
     }

@@ -90,7 +90,7 @@
 
 <!-- Content: with testimonials and stats -->
 
-<div class="relative bg-white py-16 sm:py-24">
+<div class="relative bg-newcolor-700 py-16 sm:py-24">
   <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
     <div class="relative sm:py-16 lg:py-0">
       <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
@@ -183,7 +183,7 @@
 
 <!-- Features: Grid with offset icons -->
 
-<div class="relative bg-lamblue-50 py-16 sm:py-24 lg:pt-24 lg:pb-24">
+<div class="relative bg-newcolor-700 py-16 sm:py-24 lg:pt-24 lg:pb-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
     <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase ">Get happy</h2>
     <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
@@ -324,9 +324,9 @@
 <!-- Blog: 3-column cards -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-lamblue-50 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-24 lg:px-8">
+<div class="relative bg-newcolor-700 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-24 lg:px-8">
   <div class="absolute inset-0">
-    <div class="bg-lamblue-50 h-1/3 sm:h-2/3"></div>
+    <div class="bg-newcolor-700 h-1/3 sm:h-2/3"></div>
   </div>
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
@@ -353,8 +353,13 @@
               All about the Philippines. Learn about the local outsourcing landscape, culture insights, business operations, and more. Benefit from two decades of business process outsourcing and call center operations in the world capital of outsourcing.
               </p>
             </a>
+           
           </div>
-          
+          <div class="flex flex-row justify-center mt-4">
+            <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+              Read More
+            </button> -->
+          </div>
         </div>
       </div>
 
@@ -374,7 +379,11 @@
               </p>
             </a>
           </div>
-          
+          <div class="flex flex-row justify-center mt-4">
+            <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+              Read More
+            </button> -->
+          </div>
         </div>
       </div>
 
@@ -394,7 +403,11 @@
               </p>
             </a>
           </div>
-          
+          <div class="flex flex-row justify-center mt-4">
+            <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+              Read More
+            </button> -->
+          </div>
         </div>
       </div>
     </div>
