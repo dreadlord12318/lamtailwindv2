@@ -15,8 +15,8 @@
     <div class="absolute inset-0 h-full bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-    <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">About Lambent</h1>
-    <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Lambent is an offshore outsourcer devoted to better processes for high-growth businesses, cost-conscious organizations, and driven entrepreneurs. </p>
+    <h1 class="font-concourset7 text-6xl font-normal tracking-normal text-white sm:text-5xl lg:text-6xl normal-case">About Lambent</h1>
+    <p class="mt-6 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case max-w-3xl">Lambent is an offshore outsourcer devoted to better processes for high-growth businesses, cost-conscious organizations, and driven entrepreneurs. </p>
   </div>
 </div>
 
@@ -50,28 +50,28 @@
     </div>
   </div>
   <div class="relative px-4 sm:px-6 lg:px-8 bg-newcolor-700">
-    <div class="text-lg prose prose-indigo prose-lg text-gray-500 mx-auto">
+    <div class="text-lg prose prose-indigo prose-lg text-gray-500 mx-auto text-center">
       <h1>
-        <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Case Study</span>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Better Outsourcing</span>
+
+        <span class="mt-2 block font-concourset7 text-3xl font-normal tracking-normal leading-snug text-black capitalize sm:text-4xl">Better Outsourcing</span>
       </h1>
     </div>
-    <div class="mt-6 prose prose-indigo prose-lg font-copy2 font-copy2 font-normal text-lg text-gray-500 mt-6 mx-auto">
+    <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal text-newcolor-200 normal-case mt-6 mx-auto">
       <p>Maybe you want to grow your business more quickly. Maybe you want to spend less time at work or more time on the big-picture stuff. Maybe you want some process daemons to make your back-office hum. Maybe you want to save money.</p>
       <p>You’re in luck. Since 2006, we’ve been perfecting managed back-office services for projects and programs from admin assistance for entrepreneurs to 24x7 customer support for high-growth technology companies.</p>
       <p>Our idea: create efficient, practical solutions for offshore work. Our mantra: build your value for your customers, your audience, your stakeholders.</p>
-      <h2>Our Mission</h2>
+      <h2 class = "font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize">Our Mission</h2>
        <p>Back-office work requires trust between provider and client. When we work for our clients, we represent them to the world. Our work becomes indistinguishable from their work. That’s why we invest in early process documentation and calibration to get the details right. This is the foundation for deep, long-term working relationships. </p>
        <p>We’ve learned that the best way to service our clients is to make sure we attract, develop, and keep the best talent we can. Duty to our clients, our team, and our community inform everything we do.</p>
-       <figure>
+       <!-- <figure>
           <div class="relative aspect-w-12 aspect-h-10 overflow-hidden mt-12 mb-14 rounded-lg">
             <img class="absolute inset-0 my-0 lg:mt-0 h-full w-full object-cover" src="images/LAMB-Site-Image-About.jpg" alt="">
               <div class="absolute inset-0 bg-lambright-600 mix-blend-multiply"></div>
               <div class="absolute inset-0 bg-gradient-to-t from-lambright-600 via-lambright-600  opacity-90">
           </div>
           </div>
-      </figure>
-      <p class = "text-4xl font-concourset6 font-semibold text-black my-2">Our Value</p>
+      </figure> -->
+      <h2 class = "font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize">Our Value</h2>
         <p>We Create Value for Our Clients - Our clients are why we do what we do. When we perform work for our clients, we assume their perspective to drive tangible gains. Deep collaboration makes our programs extraordinarily successful</p>
         <p>We Invest in Our Team’s Growth & Happiness - We believe in the virtuous cycle. Attract and train great people. Foster a comfortable, productive environment for those great people. Build happy and prosperous teams. Coach those teams to greatness.</p>
         <p>We Care About Our Community & the Environment - Our business lives in Dumaguete and Birmingham. These places are home, and in a greater sense, the world is our home. Taking care of our home is an essential part of our philosophy of work and life</p>
@@ -83,7 +83,7 @@
           </div>
           </div>
       </figure>
-      <figcaption>Lambent Actively Supports Remote Area Medical Philippines Missions</figcaption>
+      <figcaption class = "text-base">Lambent Actively Supports Remote Area Medical Philippines Missions</figcaption>
     </div>
   </div>
 </div>

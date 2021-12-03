@@ -39,7 +39,7 @@
             <div class="">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal normal-case text-white">Outsource Better</span>
+                <span class="block text-6xl text-left  font-concourset7 text-6xl font-normal tracking-normal text-white normal-case">Outsource Better</span>
               </h1>
               <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
               Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
@@ -344,19 +344,15 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-          
-            <a href="https://lambent.co/tag/philippines/ " class="block mt-2">
               <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
               Philippines
               </p>
               <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case">
               All about the Philippines. Learn about the local outsourcing landscape, culture insights, business operations, and more. Benefit from two decades of business process outsourcing and call center operations in the world capital of outsourcing.
               </p>
-            </a>
-           
           </div>
           <div class="flex flex-row justify-start mt-4">
-          <a class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
+          <a href = "https://lambent.co/tag/philippines/" class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
               Read More
             </a >
           </div>
@@ -369,18 +365,15 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-          
-            <a href="https://lambent.co/tag/business-process-outsourcing/" class="block mt-2">
               <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
               Outsourcing
               </p>
               <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case">
               Real-life commentary, ideas, and tools for those outsourcing and those about to outsource. An excellent resource for team managers, corporate trainers, entrepreneurs, and solopreneurs who want insights into better operations.
               </p>
-            </a>
           </div>
           <div class="flex flex-row justify-start mt-4">
-          <a class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
+          <a href="https://lambent.co/tag/business-process-outsourcing/" class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
               Read More
             </a >
           </div>
@@ -393,18 +386,15 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            
-            <a href="https://lambent.co/tag/case-study/" class="block mt-2">
               <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
               Work
               </p>
               <p class="mt-3 font-copy2 text-base font-normal tracking-normal text-newcolor-200 leading-relaxed normal-case">
               Work we do for our clients, dispatches from the factory floor, challenges and broad overviews of process work we’ve documented. Understand what we do and why we do it to keep clients for lengthy productive engagements.
               </p>
-            </a>
           </div>
           <div class="flex flex-row justify-start mt-4">
-          <a class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
+          <a href="https://lambent.co/tag/case-study/" class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
               Read More
           </a >
           </div>
