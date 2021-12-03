@@ -29205,7 +29205,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@media (min-width: 624px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 73.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 768px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 56.3333% !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1024px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 48.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1280px) {\n.vueperslides__parallax-wrapper{\r\n          padding-bottom: 35.3333% !important;\n}\n.img {\r\n          height: 100% !important;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media (min-width: 624px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 73.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 768px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 56.3333% !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1024px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 48.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1280px) {\n.vueperslides__parallax-wrapper{\r\n          padding-bottom: 28.3333% !important;\n}\n.img {\r\n          height: 100% !important;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

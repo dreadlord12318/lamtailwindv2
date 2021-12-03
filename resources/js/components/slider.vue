@@ -117,7 +117,7 @@ export default {
 
    @media (min-width: 1280px) { 
     .vueperslides__parallax-wrapper{
-          padding-bottom: 35.3333% !important; 
+          padding-bottom: 28.3333% !important; 
     } 
     .img {
           height: 100% !important;

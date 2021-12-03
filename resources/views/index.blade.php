@@ -39,9 +39,9 @@
             <div class="">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal text-white">Outsource Better</span>
+                <span class="block text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal normal-case text-white">Outsource Better</span>
               </h1>
-              <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white sm:mt-5">
+              <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
               Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
               </p>
               <div class="mt-5">
@@ -135,7 +135,7 @@
         <h2 class="text-4xl text-left  text-black font-normal-600 tracking-normal leading-snug font-concourset7 capitalize">
         Teams, Processes, & Tools
         </h2>
-        <div class="mt-6 text-lambright-50 font-normal-400 tracking-normal leading-normal  space-y-6">
+        <div class="mt-6 text-newcolor-800 font-normal-400 tracking-normal leading-normal  space-y-6">
           <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
           We build, staff, and manage processes for Small to Medium-sized organizations. Solid support — back-office administration, customer service, online marketing — returns time, blood, and treasure back to you to do with as you choose.  We know the difference between “making it” and unqualified success.   
           </p>
@@ -183,9 +183,9 @@
 
 <!-- Features: Grid with offset icons -->
 
-<div class="relative bg-newcolor-700 py-16 sm:py-24 lg:pt-24 lg:pb-24">
+<div class="relative bg-lamblue-50 py-16 sm:py-24 lg:pt-24 lg:pb-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase ">Get happy</h2>
+    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase">Get happy</h2>
     <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
     Outsource Your Back-office
     </p>
@@ -324,9 +324,9 @@
 <!-- Blog: 3-column cards -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-newcolor-700 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-24 lg:px-8">
+<div class="relative bg-lamblue-50 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-24 lg:px-8">
   <div class="absolute inset-0">
-    <div class="bg-newcolor-700 h-1/3 sm:h-2/3"></div>
+    <div class="bg-lamblue-50 h-1/3 sm:h-2/3"></div>
   </div>
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
@@ -355,10 +355,10 @@
             </a>
            
           </div>
-          <div class="flex flex-row justify-center mt-4">
-            <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+          <div class="flex flex-row justify-start mt-4">
+          <a class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
               Read More
-            </button> -->
+            </a >
           </div>
         </div>
       </div>
@@ -379,10 +379,10 @@
               </p>
             </a>
           </div>
-          <div class="flex flex-row justify-center mt-4">
-            <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+          <div class="flex flex-row justify-start mt-4">
+          <a class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
               Read More
-            </button> -->
+            </a >
           </div>
         </div>
       </div>
@@ -403,10 +403,10 @@
               </p>
             </a>
           </div>
-          <div class="flex flex-row justify-center mt-4">
-            <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+          <div class="flex flex-row justify-start mt-4">
+          <a class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
               Read More
-            </button> -->
+          </a >
           </div>
         </div>
       </div>
