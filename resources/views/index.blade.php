@@ -226,7 +226,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Customer Experience</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Keep your customers and them happy with best-in-class CX. Support across all channels and self-service platforms.
+              Keep your customers and keep them happy with best-in-class CX. Support across all channels and self-service platforms.
               </p>
             </div>
           </div>
@@ -283,7 +283,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Documentation & Learning</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Leverage Lambent’s process development for your organization. process maps, operating procedures, and online training.
+              Leverage Lambent’s process development for your organization: process maps, operating procedures, and online training.
               </p>
             </div>
           </div>
@@ -302,7 +302,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Content Moderation</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Keep your community safe. Maintain your online assets. Social monitoring and moderation, image preparation and curation
+              Keep your community safe. Maintain your online assets. Social monitoring and moderation, image preparation and curation.
               </p>
             </div>
           </div>
