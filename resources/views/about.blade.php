@@ -49,7 +49,7 @@
       </svg>
     </div>
   </div>
-  <div class="relative px-4 sm:px-6 lg:px-8">
+  <div class="relative px-4 sm:px-6 lg:px-8 bg-newcolor-700">
     <div class="text-lg prose prose-indigo prose-lg text-gray-500 mx-auto">
       <h1>
         <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Case Study</span>
@@ -104,7 +104,7 @@
   }
   ```
 -->
-<div class="bg-white">
+<div class="bg-newcolor-700">
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
