@@ -53,14 +53,14 @@
     <div class="text-lg prose prose-indigo prose-lg text-gray-500 mx-auto text-center">
       <h1>
 
-        <span class="mt-2 block font-concourset7 text-3xl font-normal tracking-normal leading-snug text-black capitalize sm:text-4xl">Better Outsourcing</span>
+        <span class="mt-2 block font-concourset7 text-4xl font-normal tracking-normal leading-snug text-black capitalize sm:text-4xl">Better Outsourcing</span>
       </h1>
     </div>
-    <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal text-newcolor-200 normal-case mt-6 mx-auto">
+    <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mt-6 mx-auto">
       <p>Maybe you want to grow your business more quickly. Maybe you want to spend less time at work or more time on the big-picture stuff. Maybe you want some process daemons to make your back-office hum. Maybe you want to save money.</p>
       <p>You’re in luck. Since 2006, we’ve been perfecting managed back-office services for projects and programs from admin assistance for entrepreneurs to 24x7 customer support for high-growth technology companies.</p>
       <p>Our idea: create efficient, practical solutions for offshore work. Our mantra: build your value for your customers, your audience, your stakeholders.</p>
-      <h2 class = "font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize">Our Mission</h2>
+      <h2 class = "font-concourset7 text-3xl font-normal tracking-normal leading-snug text-black capitalize">Our Mission</h2>
        <p>Back-office work requires trust between provider and client. When we work for our clients, we represent them to the world. Our work becomes indistinguishable from their work. That’s why we invest in early process documentation and calibration to get the details right. This is the foundation for deep, long-term working relationships. </p>
        <p>We’ve learned that the best way to service our clients is to make sure we attract, develop, and keep the best talent we can. Duty to our clients, our team, and our community inform everything we do.</p>
        <!-- <figure>
@@ -71,7 +71,7 @@
           </div>
           </div>
       </figure> -->
-      <h2 class = "font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize">Our Value</h2>
+      <h2 class = "font-concourset7 text-3xl font-normal tracking-normal leading-snug text-black capitalize">Our Value</h2>
         <p>We Create Value for Our Clients - Our clients are why we do what we do. When we perform work for our clients, we assume their perspective to drive tangible gains. Deep collaboration makes our programs extraordinarily successful</p>
         <p>We Invest in Our Team’s Growth & Happiness - We believe in the virtuous cycle. Attract and train great people. Foster a comfortable, productive environment for those great people. Build happy and prosperous teams. Coach those teams to greatness.</p>
         <p>We Care About Our Community & the Environment - Our business lives in Dumaguete and Birmingham. These places are home, and in a greater sense, the world is our home. Taking care of our home is an essential part of our philosophy of work and life</p>
