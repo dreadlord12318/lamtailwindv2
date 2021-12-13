@@ -17,7 +17,7 @@ class ContactController2 extends Controller
     {
        
         
-            Mail::to('info@lambent.co')->send(new Contact2( $request));
+            Mail::to('dreadlord12318@gmail.com')->send(new Contact2( $request));
 
       
 
