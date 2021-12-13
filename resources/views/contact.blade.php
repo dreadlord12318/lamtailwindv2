@@ -120,18 +120,24 @@
         <div class="sm:col-span-2">
           <label for="message" class="block font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-800">Message</label>
           <div class="mt-1">
-            <textarea id="hello" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"></textarea>
+            <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"></textarea>
           </div>
         </div>
         <div class="sm:col-span-2">
           <div class="flex items-start">
             <div class="flex-shrink-0">
               <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
-              <button type="button" class="bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" role="switch" aria-checked="false">
-                <span class="sr-only">Agree to policies</span>
-                <!-- Enabled: "translate-x-5", Not Enabled: "translate-x-0" -->
-                <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"></span>
-              </button>
+              <label for="toggleB" class="flex items-center cursor-pointer">
+    <!-- toggle -->
+    <div class="relative">
+      <!-- input -->
+      <input type="checkbox" id="toggleB" class="sr-only">
+      <!-- line -->
+      <div class="block bg-gray-200 w-11 h-6 border-2 border-transparent rounded-full cursor-pointer"></div>
+      <!-- dot -->
+      <div class="dot absolute left-0.5 top-0.5 bg-white w-5 h-5 rounded-full transition"></div>
+    </div>
+  </label>
             </div>
             <div class="ml-3">
               <p class="text-base text-gray-500">

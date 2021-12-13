@@ -20,6 +20,10 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #085ce5;
+}
 </style>
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
