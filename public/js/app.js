@@ -27755,7 +27755,7 @@ var _hoisted_5 = {
   "class": "mt-6 space-y-6"
 };
 var _hoisted_6 = {
-  "class": "pt-6"
+  "class": "pt-1"
 };
 var _hoisted_7 = {
   "class": "text-lg"

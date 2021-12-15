@@ -6,7 +6,7 @@
                 Questions?
             </h2>
             <dl class="mt-6 space-y-6 ">
-        <div class="pt-6">
+        <div class="pt-1">
       <Disclosure v-slot="{ open }">
            <dt class="text-lg">
         <DisclosureButton
