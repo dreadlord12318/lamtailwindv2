@@ -27,7 +27,7 @@
       </Disclosure>
         </div>
             </dl>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case">
           <span>What if I don’t need a full-time employee? </span>
@@ -42,7 +42,7 @@
           Clients can always request additional hours above their initial commitment.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
@@ -57,7 +57,7 @@
           We document this information into process maps that drive our hiring profiles, toll specifications, and program training.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
@@ -72,7 +72,7 @@
           Your team works on your program with operational management and guidance from Lambent’s managers.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
@@ -87,7 +87,7 @@
           We share staff across similar, but not competitive, projects or programs with operational management and guidance from Lambent’s managers. 
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
@@ -102,7 +102,7 @@
           These calls are critical in the early going for program success.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
@@ -118,7 +118,7 @@
           We denominate all invoices in USD.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
@@ -133,7 +133,7 @@
           The amount varies based on your staffing requirement. We denominatee all invoices in USD.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
@@ -148,7 +148,7 @@
           The shortened schedule aligns with our approach to Operational and Human Resource Management, focusing on employee retention for operational efficiency.
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+      <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
