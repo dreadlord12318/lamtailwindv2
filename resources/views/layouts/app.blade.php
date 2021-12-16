@@ -13,10 +13,9 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     
     <!-- Styles -->
-    <!-- <link href="" rel="stylesheet" defer> -->
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet" defer>
 
-    <link rel="preload" href="{{ mix('css/app.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ mix('css/app.css') }}"></noscript>
+    
 
     <style>
 .prose-lg img {
