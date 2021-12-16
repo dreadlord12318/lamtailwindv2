@@ -13,7 +13,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     
     <!-- Styles -->
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet" defer>
 
     <style>
 .prose-lg img {
