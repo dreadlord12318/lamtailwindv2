@@ -19,7 +19,7 @@
             <footer class="mt-6">
               <p class="flex flex-col font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-left normal-case text-lamblue-100">
                 <span>{{slide.content}}</span>
-                <span><a :href="slide.link">{{slide.content2}}</a></span>
+                <span><a target="_blank" :href="slide.link">{{slide.content2}}</a></span>
               </p>
             </footer>
           </blockquote>
