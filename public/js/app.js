@@ -28203,29 +28203,29 @@ var _hoisted_1 = {
 var _hoisted_2 = {
   "class": ""
 };
-var _hoisted_3 = {
+var _hoisted_3 = ["href"];
+var _hoisted_4 = {
   "class": "relative py-20 px-8 bg-lambright-600 rounded-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-x-8"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   "class": "absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply"
 };
-var _hoisted_5 = ["src"];
-var _hoisted_6 = {
+var _hoisted_6 = ["src"];
+var _hoisted_7 = {
   "class": "relative lg:col-span-1"
 };
-var _hoisted_7 = {
+var _hoisted_8 = {
   "class": "mt-6 text-white"
 };
-var _hoisted_8 = {
+var _hoisted_9 = {
   "class": "font-copy text-xl font-normal tracking-normal leading-relaxed normal-case"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "mt-6"
 };
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "flex flex-col font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-left normal-case text-lamblue-100"
 };
-var _hoisted_11 = ["href"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_vueper_slide = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vueper-slide");
 
@@ -28245,20 +28245,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "class": "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         }, {
           content: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+              target: "_blank",
+              href: slide.link
+            }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: slide.image
             }, null, 8
             /* PROPS */
-            , _hoisted_5)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.title), 1
+            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.title), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.content), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.content), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-              target: "_blank",
-              href: slide.link
-            }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.content2), 9
-            /* TEXT, PROPS */
-            , _hoisted_11)])])])])])])])];
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.content2), 1
+            /* TEXT */
+            )])])])])])], 8
+            /* PROPS */
+            , _hoisted_3)])];
           }),
           _: 2
           /* DYNAMIC */

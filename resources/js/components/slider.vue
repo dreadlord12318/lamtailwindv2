@@ -9,6 +9,7 @@
   <template #content >
 
     <div class="">
+      <a target="_blank" :href="slide.link">
       <div class="relative py-20 px-8 bg-lambright-600 rounded-xl  overflow-hidden  lg:grid lg:grid-cols-2 lg:gap-x-8">
         <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
           <img :src="slide.image" />
@@ -19,12 +20,13 @@
             <footer class="mt-6">
               <p class="flex flex-col font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-left normal-case text-lamblue-100">
                 <span>{{slide.content}}</span>
-                <span><a target="_blank" :href="slide.link">{{slide.content2}}</a></span>
+                <span>{{slide.content2}}</span>
               </p>
             </footer>
           </blockquote>
         </div>
       </div>
+      </a>
      </div>
   
     </template>
