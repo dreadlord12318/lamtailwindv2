@@ -29,7 +29,7 @@ Route::get('/illuminations', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('/termsofservice', function () {
+Route::get('/termsandcondition', function () {
     return view('terms');
 });
 Route::get('/GDPR', function () {

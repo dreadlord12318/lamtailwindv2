@@ -44,22 +44,33 @@
               <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
               Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
               </p>
+              @if (session('status'))
+                  <div role="alert" class = "w-full">
+                    <div class="bg-lambright-600 mt-2 text-white font-bold top-10 rounded-t px-4 py-3">
+                      Success
+                    </div>
+                    <div class="border border-t-0 border-lambright-600 rounded-b bg-white px-4 py-3 text-newcolor-200">
+                      <p>  {{ session('status') }}</p>
+                    </div>
+                  </div>
+              @endif
               <div class="mt-5">
-                <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
+                <form action="/contact" method="POST" class="sm:max-w-2xl sm:mx-auto lg:mx-0">
+                {{ csrf_field()}}
                   <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                       <div>
                 <div class="mt-1">
-                  <input type="text" placeholder="First Name" name="first-name" id="first-name" autocomplete="given-name" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input type="text" placeholder="First Name" name="first_name" id="first_name" autocomplete="given-name" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div>
                 <div class="mt-1">
-                  <input type="text" placeholder="Last Name" name="last-name" id="last-name" autocomplete="family-name" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input type="text" placeholder="Last Name" name="last_name" id="last_name" autocomplete="family-name" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div class="sm:col-span-2">
                 <div class="mt-1">
-                  <input id="email" placeholder="Email" name="email" type="email" autocomplete="email" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input id="email" placeholder="Email"  name="email" type="email" autocomplete="email" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div class="sm:col-span-2">
@@ -68,7 +79,7 @@
                     </div>
                 </div>
                   </div>
-                  <p class="mt-3 font-concourset3 text-xs font-normal leading-relaxed text-newcolor-700 sm:mt-4">By providing your email, you agree to our <a href="#" class=" font-concourset3 text-xs  text-white leading-relaxed font-bold">terms of service</a>.</p>
+                  <p class="mt-3 font-concourset3 text-xs font-normal leading-relaxed text-newcolor-700 sm:mt-4">By providing your email, you agree to our <a href="/termsandcondition" class=" font-concourset3 text-xs  text-white leading-relaxed font-bold">Terms and Condition</a>.</p>
                 </form>
               </div>
             </div>
