@@ -14,11 +14,11 @@
         >
           <button
             :class="[
-              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4  font-concourset4 text-sm font-normal tracking-normal leading-normal capitalize text-newcolor-50  whitespace-nowrap',
+              'relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 px-4  font-concourset4 text-xs font-normal tracking-normal leading-normal capitalize text-newcolor-200  whitespace-nowrap',
               'focus:outline-none  focus:ring-2 focus:ring-lamblue-100 focus:z-10 sm:w-auto px-12',
               selected
                 ? 'bg-gray shadow'
-                : 'font-concourset5 text-sm bg-lamblue-100 font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case',
+                : 'font-concourset4 text-xs bg-lamblue-100 font-normal tracking-normal leading-relaxed text-newcolor-50 capitalize',
             ]"
           >
             {{ category }}

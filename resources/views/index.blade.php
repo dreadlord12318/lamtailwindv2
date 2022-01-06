@@ -39,7 +39,7 @@
             <div class="">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl text-left  font-concourset7 text-6xl font-normal tracking-normal text-white normal-case">Outsource Better</span>
+                <span class="block text-6xl text-left  font-concourset7  leading-snug font-normal tracking-normal text-white normal-case">Outsource Better</span>
               </h1>
               <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
               Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
