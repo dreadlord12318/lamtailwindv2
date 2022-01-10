@@ -27575,8 +27575,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/transitions/transition.esm.js");
 /* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/dialog/dialog.esm.js");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -27590,18 +27588,22 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   setup: function setup() {
     var isOpen = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
     var isOpen2 = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
-    return _defineProperty({
+    return {
       isOpen: isOpen,
       isOpen2: isOpen2,
       closeModal: function closeModal() {
         isOpen.value = false;
       },
+      closeModal2: function closeModal2() {
+        isOpen2.value = false;
+      },
       openModal: function openModal(hello) {
         isOpen.value = true;
+      },
+      openModal2: function openModal2(hello2) {
+        isOpen2.value = true;
       }
-    }, "openModal", function openModal(hello2) {
-      isOpen2.value = true;
-    });
+    };
   }
 });
 
@@ -27622,8 +27624,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/tabs/tabs.esm.js");
 /* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/transitions/transition.esm.js");
 /* harmony import */ var _headlessui_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @headlessui/vue */ "./node_modules/@headlessui/vue/dist/components/dialog/dialog.esm.js");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -27640,22 +27640,20 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     DialogTitle: _headlessui_vue__WEBPACK_IMPORTED_MODULE_3__.DialogTitle
   },
   setup: function setup() {
-    var _ref;
-
     var isOpen = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
     var isOpen2 = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
     var categories = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)({
       "Dedicated": [{
         id: 1,
         title: 'Data Assistant',
-        link: 'hello',
+        link: 'openModal()',
         description: 'Move all things data from manipulation to collection. Data assistants handle ongoing, repetitive tasks that consume your time and attention.',
         price: 4.99,
         includedFeatures: ['Full-time (32 hs/week)', 'Documented Process', 'Weekly Calibration', 'Data Mining', 'Data Append', 'Reformatting', 'Basic Research', 'Image Tagging', 'Backlinking']
       }, {
         id: 2,
         title: "Process Assistant",
-        link: 'hello2',
+        link: 'openModal2()',
         description: 'Document your processes and transition them to a focused team of admin pros. Move your day-to-day work to capable, well-managed teams.',
         price: 6.99,
         includedFeatures: ['Full-time (32 hs/week)', 'Documented Process', 'Weekly Calibration', 'Order Tracking', 'Email Management', 'CRM Management', 'Basic Website Updates', 'Social Posting', 'Document Processing']
@@ -27704,19 +27702,24 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         includedFeatures: ['Part-time/Temporary', 'Project Planning', 'Weekly Calibration', 'Site Updates', 'Site Copy', 'Social Templates', 'Branding', 'Laravel Development', 'Ghost Implementation']
       }]
     });
-    return _ref = {
+    return {
       isOpen: isOpen,
       isOpen2: isOpen2,
       closeModal: function closeModal() {
         isOpen.value = false;
-      }
-    }, _defineProperty(_ref, "closeModal", function closeModal() {
-      isOpen2.value = false;
-    }), _defineProperty(_ref, "openModal", function openModal(hello) {
-      isOpen.value = true;
-    }), _defineProperty(_ref, "openModal", function openModal(hello2) {
-      isOpen2.value = true;
-    }), _defineProperty(_ref, "csrf", document.querySelector('meta[name="csrf-token"]').getAttribute('content')), _defineProperty(_ref, "categories", categories), _ref;
+      },
+      closeModal2: function closeModal2() {
+        isOpen2.value = false;
+      },
+      openModal: function openModal() {
+        isOpen.value = true;
+      },
+      openModal2: function openModal2() {
+        isOpen2.value = true;
+      },
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+      categories: categories
+    };
   }
 });
 
@@ -28345,7 +28348,7 @@ var _hoisted_12 = {
   "class": "inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
 };
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Payment successful yawa ");
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Payment successful 2 ");
 
 var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mt-2"
@@ -28375,13 +28378,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return $setup.openModal(_ctx.hello);
     }),
     "class": "px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
-  }, " Open 1st dialog "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, " Open dialog "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     type: "button",
     onClick: _cache[1] || (_cache[1] = function ($event) {
-      return $setup.openModal(_ctx.hello2);
+      return $setup.openModal2(_ctx.hello2);
     }),
     "class": "px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
-  }, " Open 2nd dialog ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionRoot, {
+  }, " Open dialog ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionRoot, {
     appear: "",
     show: $setup.isOpen,
     as: "template"
@@ -28462,7 +28465,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Dialog, {
         as: "div",
-        onClose: $setup.closeModal
+        onClose: $setup.closeModal2
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionChild, {
@@ -28506,7 +28509,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 type: "button",
                 "class": "inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500",
                 onClick: _cache[3] || (_cache[3] = function () {
-                  return $setup.closeModal && $setup.closeModal.apply($setup, arguments);
+                  return $setup.closeModal2 && $setup.closeModal2.apply($setup, arguments);
                 })
               }, " Got it, thanks! ")])])];
             }),
@@ -28737,7 +28740,7 @@ var _hoisted_38 = {
   "class": "inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
 };
 
-var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" START TODAY ");
+var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" START TODAY 2 ");
 
 var _hoisted_40 = {
   "class": "mt-2"
@@ -28886,9 +28889,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, "$" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.price), 1
                   /* TEXT */
                   ), _hoisted_13]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                    onClick: function onClick($event) {
-                      return $setup.openModal(pricing.link);
-                    },
+                    onClick: pricing.link,
                     "class": "mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600"
                   }, "Start Today", 8
                   /* PROPS */

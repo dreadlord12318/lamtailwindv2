@@ -5,14 +5,15 @@
       @click="openModal(hello)"
       class="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
     >
-      Open 1st dialog
+      Open dialog
     </button>
-     <button
+
+    <button
       type="button"
-      @click="openModal(hello2)"
+      @click="openModal2(hello2)"
       class="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
     >
-      Open 2nd dialog
+      Open dialog
     </button>
   </div>
   <TransitionRoot appear :show="isOpen" as="template">
@@ -75,8 +76,9 @@
       </div>
     </Dialog>
   </TransitionRoot>
-  <TransitionRoot appear :show="isOpen2" as="template">
-    <Dialog as="div" @close="closeModal">
+
+    <TransitionRoot appear :show="isOpen2" as="template">
+    <Dialog as="div" @close="closeModal2">
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div class="min-h-screen px-4 text-center">
           <TransitionChild
@@ -111,7 +113,7 @@
                 as="h3"
                 class="text-lg font-medium leading-6 text-gray-900"
               >
-                Payment successful yawa
+                Payment successful 2
               </DialogTitle>
               <div class="mt-2">
                 <p class="text-sm text-gray-500">
@@ -124,7 +126,7 @@
                 <button
                   type="button"
                   class="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
-                  @click="closeModal"
+                  @click="closeModal2"
                 >
                   Got it, thanks!
                 </button>
@@ -155,23 +157,27 @@ export default {
     DialogOverlay,
     DialogTitle,
   },
-  
 
   setup() {
     const isOpen = ref(false)
-      const isOpen2 = ref(false)
+    const isOpen2 = ref(false)
 
     return {
-      isOpen,isOpen2,
+      isOpen,
+        isOpen2,
       closeModal() {
         isOpen.value = false
       },
-       openModal: function(hello) {
+      closeModal2() {
+        isOpen2.value = false
+      },
+      openModal(hello) {
         isOpen.value = true
+         
       },
-      openModal: function(hello2) {
+      openModal2(hello2) {
         isOpen2.value = true
-      },
+      }
     }
   },
 }
