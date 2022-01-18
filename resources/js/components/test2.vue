@@ -48,7 +48,12 @@
               <span class="font-concourset6  text-3xl font-normal tracking-normal leading-normal uppercase text-lambright-600">${{ pricing.price}}</span>
               <span class="font-concourset3 text-xl font-normal tracking-normal leading-relaxed text-newcolor-400 lowercase">/hour</span>
             </p>
-     <a @click="pricing.link " class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Start Today</a>
+             <form  action="/transaction" class="sm:max-w-xl sm:mx-auto lg:mx-0" method="POST">
+                  <input type="hidden" name="_token" v-bind:value="csrf">
+                  <input type="hidden" placeholder="Last Name" name="last_name" id="last_name" autocomplete="family-name" v-bind:value="pricing.link">
+                  <input type="hidden" placeholder="First Name" name="first_name" id="first_name" autocomplete="given-name"  v-bind:value="pricing.title">
+              <button type="submit" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">TALK TO US</button>
+             </form>
           </div>
           <div class="pt-6 pb-8 px-6">
             <ul v-for="feature in pricing.includedFeatures" :key="feature" role="list" class="mt-6 space-y-4">
@@ -106,7 +111,7 @@
                 as="h3"
                 class="text-lg text-center font-medium leading-6 text-gray-900"
               >
-               START TODAY
+               DATA ASSISTANT
               </DialogTitle>
               <div class="mt-2">
                 
@@ -150,7 +155,7 @@
   </TransitionRoot>
 
   <TransitionRoot appear :show="isOpen2" as="template">
-    <Dialog as="div" @close="closeModal">
+    <Dialog as="div" @close="closeModal(hello2)">
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div class="min-h-screen px-4 text-center">
           <TransitionChild
@@ -189,7 +194,7 @@
               </DialogTitle>
               <div class="mt-2">
                 
-               <form action="/contact" class="sm:max-w-xl sm:mx-auto lg:mx-0" method="POST">
+               <form action="/transaction" class="sm:max-w-xl sm:mx-auto lg:mx-0" method="POST">
              <input type="hidden" name="_token" v-bind:value="csrf">
                   <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                       <div>
@@ -210,7 +215,7 @@
                
               <div class="sm:col-span-2">
                     <div class="mt-1">
-                      <button type="submit"  @click="closeModal" class="block w-full py-3 px-6 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                      <button type="submit"  @click="closeModal(hello2)" class="block w-full py-3 px-6 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
                 </div>
                   </div>
@@ -261,7 +266,7 @@ export default {
         {
           id: 1,
           title: 'Data Assistant',
-          link: 'openModal()',
+          link: 'Dedicated',
           description: 'Move all things data from manipulation to collection. Data assistants handle ongoing, repetitive tasks that consume your time and attention.',
           price: 4.99,
           includedFeatures: 
@@ -278,7 +283,7 @@ export default {
         {
           id: 2,
           title: "Process Assistant",
-          link: 'openModal2()',
+          link: 'Dedicated',
           description: 'Document your processes and transition them to a focused team of admin pros. Move your day-to-day work to capable, well-managed teams.',
           price: 6.99,
           includedFeatures: 
@@ -295,7 +300,7 @@ export default {
         {
           id: 3,
           title: "Support Agent",
-          link: '#',
+          link: 'Dedicated',
           description: 'Build your happy, delighted customer team for organizations that want long-lasting, close customer relationships.',
           price: 11.49,
           includedFeatures: 
@@ -312,7 +317,7 @@ export default {
         {
           id: 4,
           title: "Writer/Designer/Developer",
-          link: '#',
+          link: 'Dedicated',
           description: 'Content is king. Writers for blog and social copy, designers for engaging infographics and social posts, and developers to create and maintain your site.',
           price: 14.99,
           includedFeatures: 
@@ -332,7 +337,7 @@ export default {
         {
           id: 1,
           title: 'Data Admin',
-          link: '#',
+          link: 'Shared',
           description: 'Build a custom list or append existing data. A data admin can finish work on your projects that require focused time and attention.',
           price: 6.99,
           includedFeatures: 
@@ -349,7 +354,7 @@ export default {
         {
           id: 2,
           title: "Process Assistant",
-          link: '#',
+          link: 'Shared',
           description: 'Engage Lambent to document process flows for complex procedures and support you with a temporary team or part-time assistant.',
           price: 8.49,
           includedFeatures: 
@@ -365,7 +370,7 @@ export default {
         {
           id: 2,
           title: "Voice Agent",
-          link: '#',
+          link: 'Shared',
           description: 'Conduct short-term campaigns like tele-surveys, lead generation, appointment setting with all-in pricing for agents, scripts, and telco.',
           price: 12.99,
           includedFeatures: 
@@ -382,7 +387,7 @@ export default {
         {
           id: 2,
           title: "Writer/Designer/Developer",
-          link: '#',
+          link: 'Shared',
           description: 'Complete quick online marketing projects or engage permanent, part-time support with Lambent’s team of marketing professionals.',
           price: 15.99,
           includedFeatures: 
@@ -402,18 +407,23 @@ export default {
     return { 
       isOpen,
       isOpen2,
-      closeModal() {
+      closeModal(hello) {
         isOpen.value = false
       },
-       closeModal2() {
-        isOpen2.value = false
-      },
-      openModal() {
+      //  closeModal(hello2) {
+      //   isOpen2.value = false
+      // },
+      openModal(hello) {
         isOpen.value = true
       },
-      openModal2() {
-        isOpen2.value = true
+      openModal(hello2) {
+           isOpen2.value = true
       },
+      // openModal(hello2) {
+      //   isOpen2.value = true
+      // },
+
+      
       csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
       
       categories,

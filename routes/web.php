@@ -38,8 +38,8 @@ Route::get('/GDPR', function () {
 Route::get('/privacy', function () {
     return view('privacy');
 });
-Route::get('/test', function () {
-    return view('test');
+Route::get('/confirmation', function () {
+    return view('confirmation');
 });
 Auth::routes();
 
@@ -55,3 +55,11 @@ Route::post('/contact2', [\App\Http\Controllers\ContactController2::class, 'mail
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// --**Transaction Page Route**---
+Route::get('/transaction',  [\App\Http\Controllers\TransactionController::class, 'show']);
+
+Route::post('/transaction', [\App\Http\Controllers\TransactionController::class, 'getData']);
+
+// --**Transaction Contact Page Route**---
+Route::get('/reciept',  [\App\Http\Controllers\TransContactController::class, 'show']);
+Route::post('/reciept', [\App\Http\Controllers\TransContactController::class, 'mail']);
