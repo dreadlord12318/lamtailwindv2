@@ -2,6 +2,8 @@
 
 @section('content')
 
+@include('header')
+
 
 <!-- Header Branded with Background -->
 

@@ -27648,6 +27648,7 @@ __webpack_require__.r(__webpack_exports__);
     var categories = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)({
       "Dedicated": [{
         id: 1,
+        sub: 'Select project rates based on short-term projects, shared staff or long-term programs with full-time support',
         title: 'Data Assistant',
         link: 'Dedicated',
         description: 'Move all things data from manipulation to collection. Data assistants handle ongoing, repetitive tasks that consume your time and attention.',

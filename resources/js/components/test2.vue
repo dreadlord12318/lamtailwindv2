@@ -1,9 +1,11 @@
 <template>
   <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
     <TabGroup>
-      <div class="sm:flex sm:flex-col sm:align-center">
+      <div  class="sm:flex sm:flex-col sm:align-center">
         <h1 class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize sm:text-center">Staff Your Remote Team Today</h1>
+    
       <p class="mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case sm:text-center">Select project rates based on short-term projects, shared staff or long-term programs with full-time support</p>
+       
         <div class = "relative self-center mt-6 bg-gray-100 justify-center rounded-lg p-0.5 flex sm:mt-8">
       <TabList class="flex p-0.5  bg-lamblue-100 rounded-lg">
         <Tab
@@ -27,7 +29,8 @@
       </TabList>
         </div>
         </div>
-      <TabPanels class="mt-12">
+      <TabPanels  class="mt-12">
+          
         <TabPanel
           v-for="(pricings, idx) in Object.values(categories)"
           :key="idx"
@@ -105,6 +108,7 @@ export default {
       "Dedicated": [
         {
           id: 1,
+          sub: 'Select project rates based on short-term projects, shared staff or long-term programs with full-time support',
           title: 'Data Assistant',
           link: 'Dedicated',
           description: 'Move all things data from manipulation to collection. Data assistants handle ongoing, repetitive tasks that consume your time and attention.',
