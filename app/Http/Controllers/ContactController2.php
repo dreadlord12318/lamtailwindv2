@@ -19,7 +19,6 @@ class ContactController2 extends Controller
         
             Mail::to('info@lambent.co')->send(new Contact2( $request));
 
-      
 
        return back()->with('status', 'Your Message has been received');
     }

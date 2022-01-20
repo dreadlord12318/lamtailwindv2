@@ -93,8 +93,8 @@ input:checked ~ .dot {
       </div>
 
       <div class="px-5 py-2">
-        <a href="/termsofservice" class="text-base leading-normal font-normal text-center tracking-wide font-concourset6 text-white hover:text-white">
-          TERMS OF SERVICE
+        <a href="/termsandcondition" class="text-base leading-normal font-normal text-center tracking-wide font-concourset6 text-white hover:text-white">
+          TERMS AND CONDITION
         </a>
       </div>
 

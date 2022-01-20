@@ -30,6 +30,7 @@ class ContactRequest2 extends FormRequest
             'email' => 'required | email',
             'company' => 'max:255',
             'message' => 'max:255',
+            'terms' => 'accepted',
         ];
     }
 }
