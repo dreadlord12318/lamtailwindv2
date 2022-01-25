@@ -13,8 +13,8 @@
     <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-    <h1 class="text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal text-white">Commercial Notes</h1>
-    <p class="mt-6 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white max-w-3xl">Different jobs require different skills. Lambent’s pricing matches standard process assignments with hourly rates. Create remote teams for short-term projects or shared personnel when you don’t need full-time staff. Build permanent teams for long-term work.</p>
+    <h1 class="text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal text-white">Flat-rate Pricing </h1>
+    <p class="mt-6 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white max-w-3xl">Lambent's pricing structure keeps things simple and straightforward. You get total flexibility to fill your booked hours with any task you designate. Hand-off work with complete control and minimal hassle. Coordinate tasks on your weekly status call, receive weekly activity reports, assign and track your work in our dedicated project portal.</p>
   </div>
 </div>
 

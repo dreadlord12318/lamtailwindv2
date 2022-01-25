@@ -44,6 +44,52 @@
               <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
               Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
               </p>
+
+              <div class="mb-8 md:mt-4">
+        <div class="card mb-8 md:flex md:justify-between md:w-1/2">
+          <div class="flex justify-center">
+            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                fill="#EF9546"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                fill="#EF9546"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                fill="#EF9546"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                fill="#EF9546"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                fill="#EF9546"
+                fill-rule="nonzero"
+              />
+            </svg>
+          </div>
+
+          <p class="font-concourset7 font-bold text-white mt-3 md:mr-8  md:mt-0">
+            Rated 5 Stars in Clutch
+          </p>
+        </div>
+
               @if (session('status'))
                   <div role="alert" class = "w-full">
                     <div class="bg-lambright-600 mt-2 text-white font-bold top-10 rounded-t px-4 py-3">
