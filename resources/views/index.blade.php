@@ -45,7 +45,7 @@
               Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
               </p>
 
-              <div class="mb-8 md:mt-4">
+              <!-- <div class="mb-8 md:mt-4">
         <div class="card mb-8 md:flex md:justify-between md:w-1/2">
           <div class="flex justify-center">
             <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@
           <p class="font-concourset7 font-bold text-white mt-3 md:mr-8  md:mt-0">
             Rated 5 Stars in Clutch
           </p>
-        </div>
+        </div> -->
 
               @if (session('status'))
                   <div role="alert" class = "w-full">
