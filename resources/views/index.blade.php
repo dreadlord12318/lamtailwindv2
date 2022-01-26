@@ -44,7 +44,7 @@
               <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
               Gain productivity superpowers with your managed virtual assistant.  <br> Your dedicated account manager coordinates your tasks every week, matches them with our pool of experts, and your workflow turns into a supercharged productivity machine.   
               </p>
-              <img class="1/4 mt-3 md:center " src="images/shutterstock_1774780160.png" alt="">
+              <img class="w-40 mt-3 md:center " src="images/Proof Image - Rate Us - 1.svg" alt="">
               <!--  -->
                 <h2 class = "mt-3  font-copy text-2xl font-bold font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">We'll prove it: give us that task you've been putting off and we'll do it — for free.</h3>
               @if (session('status'))
