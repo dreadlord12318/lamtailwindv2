@@ -143,7 +143,7 @@ input:checked ~ .dot {
 
   
     </div>
-    <p class="mt-8 text-start text-base normal-case tracking-normal leading-normal text-left font-copy text-sm font-normal-400 text-white">
+    <p class="mt-8 text-start  normal-case tracking-normal leading-normal text-left font-copy text-sm font-normal-400 text-white">
       &copy; 2021 Lambent Consulting, LLC. All rights reserved.
     </p>
   </div>
