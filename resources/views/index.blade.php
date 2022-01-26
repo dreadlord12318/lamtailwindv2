@@ -39,57 +39,14 @@
             <div class="">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl text-left  font-concourset7  leading-snug font-normal tracking-normal text-white normal-case">Outsource Better</span>
+                <span class="block text-6xl text-left  font-concourset7  leading-snug font-normal tracking-normal text-white normal-case">Do More…Work Less </span>
               </h1>
               <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
-              Lambent dives into your business with expertise to streamline <br> your work-flow and teams to get the job done. To learn more, schedule a call to discuss how we can help you accomplish more with less.
+              Gain productivity superpowers with your managed virtual assistant.  <br> Your dedicated account manager coordinates your tasks every week, matches them with our pool of experts, and your workflow turns into a supercharged productivity machine.   
               </p>
-
-              <!-- <div class="mb-8 md:mt-4">
-        <div class="card mb-8 md:flex md:justify-between md:w-1/2">
-          <div class="flex justify-center">
-            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
-                fill="#EF9546"
-                fill-rule="nonzero"
-              />
-            </svg>
-            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
-                fill="#EF9546"
-                fill-rule="nonzero"
-              />
-            </svg>
-            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
-                fill="#EF9546"
-                fill-rule="nonzero"
-              />
-            </svg>
-            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
-                fill="#EF9546"
-                fill-rule="nonzero"
-              />
-            </svg>
-            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
-                fill="#EF9546"
-                fill-rule="nonzero"
-              />
-            </svg>
-          </div>
-
-          <p class="font-concourset7 font-bold text-white mt-3 md:mr-8  md:mt-0">
-            Rated 5 Stars in Clutch
-          </p>
-        </div> -->
-
+              <img class="1/4 mt-3 md:center " src="images/shutterstock_1774780160.png" alt="">
+              <!--  -->
+                <h2 class = "mt-3  font-copy text-2xl font-bold font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">We'll prove it: give us that task you've been putting off and we'll do it — for free.</h3>
               @if (session('status'))
                   <div role="alert" class = "w-full">
                     <div class="bg-lambright-600 mt-2 text-white font-bold top-10 rounded-t px-4 py-3">
@@ -131,9 +88,20 @@
                   <input id="email" placeholder="Email"  name="email" type="email" value = "{{old('email')}}" autocomplete="email" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
                 @if($errors->has('email'))
-          <div class="flex items-center bg-blue-500 text-white text-sm font-bold my-2 rounded-md px-4 py-3" role="alert">
+              <div class="flex items-center bg-blue-500 text-white text-sm font-bold my-2 rounded-md px-4 py-3" role="alert">
             <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z"/></svg>
             <p>{{ $errors->first('email') }}</p>
+          </div>
+          @endif
+              </div>
+              <div class="sm:col-span-2">
+                <div class="mt-1">
+                  <input id="phone" placeholder="Phone"  name="phone" type="phone" value = "{{old('phone')}}" autocomplete="phone" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                </div>
+                @if($errors->has('phone'))
+              <div class="flex items-center bg-blue-500 text-white text-sm font-bold my-2 rounded-md px-4 py-3" role="alert">
+            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z"/></svg>
+            <p>{{ $errors->first('phone') }}</p>
           </div>
           @endif
               </div>
@@ -260,12 +228,12 @@
 
 <div class="relative bg-lamblue-50 py-16 sm:py-24 lg:pt-24 lg:pb-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase">Get happy</h2>
+    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase">OF COURSE IT WILL</h2>
     <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
-    Outsource Your Back-office
+    Will it Outsource? 
     </p>
     <p class="font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case">
-    We’ve grouped our services into standard bundles yet our clients normally build their services according to specific needs. No two programs are alike beyond our standard process design and rigorous team selection and training.
+    If you want it off your plate, we can do it. Most folks want to accomplish more in one of these standard categories. Hundreds of documented operating procedures plus thousands of hours in the trenches delivering customer work mean you can outsource confidently and get on with your day. 
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -282,7 +250,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Online Marketing</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Build your audience and stay engaged. Strategy, design, scheduled updates, list development, CRM management.
+              Build your audience and stay engaged. Strategy, design, scheduled updates, list development, CRM management. 
               </p>
             </div>
           </div>
@@ -320,7 +288,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Back-office Admin</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Offload any task and make it more efficient. Teams and processes support for any administrative function.
+              Offload any task and make it more efficient.  Teams and processes support any administrative function.
               </p>
             </div>
           </div>
@@ -358,7 +326,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Documentation & Learning</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Leverage Lambent’s process development for your organization: process maps, operating procedures, and online training.
+              Leverage Lambent’s process development for your organization: process maps, operating procedures, and online training. 
               </p>
             </div>
           </div>
@@ -377,7 +345,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Content Moderation</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Keep your community safe. Maintain your online assets. Social monitoring and moderation, image preparation and curation.
+              Safeguard your community. Maintain your online assets: social monitoring and moderation, image preparation, and curation
               </p>
             </div>
           </div>
