@@ -45,7 +45,7 @@
               Gain productivity superpowers with your managed virtual assistant.  <br> Your dedicated account manager coordinates your tasks every week, matches them with our pool of experts, and your workflow turns into a supercharged productivity machine.   
               </p>
 		          <div class="mt-10 sm:mt-12">
-              <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Clutch Review.svg" alt="">
+              <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Rate on Clutch - 1.svg" alt="">
               <!--  -->
              
               @if (session('status'))
@@ -127,20 +127,19 @@
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-newcolor-300">
-  <div class="h-56 bg-newcolor-300 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-    <img class="w-full h-full object-cover" src="images/zeteny-lisztes-ErMciS1yBs0-unsplash.jpg" alt="">
+  <div class="h-56 bg-newcolor-300 mix-blend-darken sm:h-72 md:absolute md:right-0 md:h-full md:w-1/2">
+    <img class="w-9/12 h-full object-cover" src="images/shutterstock_55954336.jpg" alt="">
   </div>
-  <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-    <div class="md:ml-auto md:w-1/2 md:pl-10">
-      <h2 class="font-concourset6 text-base font-normal tracking-normal leading-normal uppercase text-white">
-        One Free Task
-      </h2>
+  <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
+    <div class=" md:w-1/2 ">
+    <p class="mt-2 text-white font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
+      Put Us to the Test
+</p>
       <p class="mt-2 text-white font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
-      We'll Eat Your Frog
-      </p>
-      <p class="mt-3 text-lg text-white">
-        Mark Twain famously prescribed frog-eating to combat procrastination.<br> What task do you daydream of doing? You
-        have nothing to lose but your frogs, so let us show you how we get the job done.
+      Feed Us Your Frog
+</p>
+      <p class="mt-3 text-lg font-copy text-gray-300">
+      Have a task that you’ve been putting off? Too obnoxious? Too time-consuming?   Let us take a run at it and see how Lambent can work magic for your productivity.
       </p>
       <div class="mt-8">
         <div class="inline-flex rounded-md shadow">
