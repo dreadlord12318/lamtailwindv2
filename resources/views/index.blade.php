@@ -126,8 +126,9 @@
 <!-- Split with image -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-newcolor-300">
-  <div class="h-56 bg-newcolor-300 mix-blend-darken sm:h-72 md:absolute md:right-0 md:h-full md:w-1/2">
+<div class="relative py-4 bg-white">
+<div class="relative rounded-lg m-8 bg-newcolor-300">
+  <div class="h-56 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-full md:w-1/2">
     <img class="w-9/12 h-full object-cover" src="images/shutterstock_55954336.jpg" alt="">
   </div>
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
@@ -154,7 +155,7 @@
   </div>
 </div>
 
-
+</div>
 
 <!-- Content: with testimonials and stats -->
 
