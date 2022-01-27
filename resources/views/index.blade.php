@@ -47,7 +47,7 @@
 		          <div class="mt-10 sm:mt-12">
               <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Clutch Review.svg" alt="">
               <!--  -->
-              <h2 class = "mt-3  font-copy text-2xl font-bold font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">We'll prove it: give us that task you've been putting off and we'll do it — for free.</h3>
+             
               @if (session('status'))
                   <div role="alert" class = "w-full">
                     <div class="bg-lambright-600 mt-2 text-white font-bold top-10 rounded-t px-4 py-3">
