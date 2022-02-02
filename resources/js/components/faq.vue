@@ -12,7 +12,7 @@
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
-          <span>Are there term commitments for Lambent’s services?</span>
+          <span>I don’t know where to start. Can you help me?</span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
             class="w-5 h-5 text-lambright-600"
@@ -20,9 +20,7 @@
         </DisclosureButton>
            </dt>
         <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 mt-2 pr-12 normal-case" >
-         <p>There are no term commitments for services. Our cancellation policy <i>requests</i> one month’s notice for a proper transition. 
-           We offer an agreement that explains our perspective on the work we do. 
-           You can read this in the Terms of Service</p>
+         <p>We’re happy to hunker down over a Zoom call and learn about your work. With that in mind, we can suggest how to proceed.</p>
         </DisclosurePanel>
       </Disclosure>
         </div>
@@ -30,138 +28,87 @@
       <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case">
-          <span>What if I don’t need a full-time employee? </span>
+          <span>Can I cancel? </span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
             class="w-5 h-5 text-lambright-600"
           />
         </DisclosureButton>
         <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          Just toggle the slider above to “Shared” to see our pricing for shared resources. 
-          In general, we match staff with experience in the clients’ industry or with similar process specifications. 
-          Clients can always request additional hours above their initial commitment.
+          You can cancel anytime. Send us an email or let your Concierge know on your calibration call. When you cancel, you can use any remaining hours and continue your weekly meetings until the end of the current billing cycle. 
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
-          <span>What does “documented process” mean?</span>
+          <span>What’s the Weekly Calibration call?</span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
             class="w-5 h-5 text-lambright-600"
           />
         </DisclosureButton>
         <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          Before we launch a program, we spend time understanding your process and business objectives. 
-          We document this information into process maps that drive our hiring profiles, toll specifications, and program training.
+          These calls start the week to review deliverables and plan the upcoming week. Once you hand the work off to your Concierge, he will assign the right people to your tasks and ensure it’s delivered on time and on spec. 
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
-          <span>What is a Dedicated Resource?</span>
+          <span>Is there a setup fee?</span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
             class="w-5 h-5 text-lambright-600"
           />
         </DisclosureButton>
         <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          A Dedicated Resource is a full-time remote worker or a virtual agent/assistant assigned exclusively to your program or project. 
-          Your team works on your program with operational management and guidance from Lambent’s managers.
+         Setup is on us! During onboarding, we work with you to design the most efficient approach to your work and then organize documentation and training for the processes you need. We also configure your project tool and reporting dashboard so you can see what’s happening 24x7.
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
-          <span>What is a Shared Resource?</span>
+          <span>Do my unused hours carry over?</span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
             class="w-5 h-5 text-lambright-600"
           />
         </DisclosureButton>
         <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          A Shared Resource is a part-time remote worker or a virtual agent/assistant assigned to your program or project. 
-          We share staff across similar, but not competitive, projects or programs with operational management and guidance from Lambent’s managers. 
+         Use them or lose them. This rarely happens since your Concierge will notify you of any unused hours. He will suggest ways to consume your hours based on your historical usage and task requirements. We can always change your plan to reflect fewer hours. 
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
-          <span>What are Calibration Calls?</span>
+          <span>How are tasks and hours tracked?</span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
             class="w-5 h-5 text-lambright-600"
           />
         </DisclosureButton>
         <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          Calibration calls are periodic discussions between our team and the client to align your expectations and requirements to our performance. 
-          These calls are critical in the early going for program success.
+         We give you access to a project portal to review hours and tasks. You can see tasks and attached deliverables whenever the mood strikes you. 
         </DisclosurePanel>
       </Disclosure>
       <Disclosure as="div" class="mt-0" v-slot="{ open }">
         <DisclosureButton
           class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
         >
-          <span>How do you invoice for Shared services?</span>
+          <span>Can you explain the Concierge thing?</span>
           <ChevronUpIcon
             :class="open ? 'transform rotate-180' : ''"
             class="w-5 h-5 text-lambright-600"
           />
         </DisclosureButton>
         <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          We agree to a minimum hour commitment for your program and invoice at the outset of each month. 
-          If your consumed hours exceed the prearranged commitment, we add this to your next invoice (subject to approval, of course). 
-          We denominate all invoices in USD.
+         Your Concierge coordinates with you to collect your tasks, expectations, and any other task or process information needed so we can deliver your work. Think of the Concierge as your hands-on guide to getting things done. He marshals necessary resources, reviews the work for quality and accuracy, and reports back to you each week. 
         </DisclosurePanel>
       </Disclosure>
-      <Disclosure as="div" class="mt-0" v-slot="{ open }">
-        <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
-        >
-          <span>How do you invoice for Dedicated services?</span>
-          <ChevronUpIcon
-            :class="open ? 'transform rotate-180' : ''"
-            class="w-5 h-5 text-lambright-600"
-          />
-        </DisclosureButton>
-        <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          For full-time staff, we invoice at the outset of the month for services. 
-          The amount varies based on your staffing requirement. We denominatee all invoices in USD.
-        </DisclosurePanel>
-      </Disclosure>
-      <Disclosure as="div" class="mt-0" v-slot="{ open }">
-        <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
-        >
-          <span>Why do you consider 32 hours full-time?</span>
-          <ChevronUpIcon
-            :class="open ? 'transform rotate-180' : ''"
-            class="w-5 h-5 text-lambright-600"
-          />
-        </DisclosureButton>
-        <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          Lambent and its Philippines affiliate work on a four-day, 32-hour workweek. 
-          The shortened schedule aligns with our approach to Operational and Human Resource Management, focusing on employee retention for operational efficiency.
-        </DisclosurePanel>
-      </Disclosure>
-      <Disclosure as="div" class="mt-0" v-slot="{ open }">
-        <DisclosureButton
-          class="flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
-        >
-          <span>Can I adjust the scope as needed as my business or program evolve?</span>
-          <ChevronUpIcon
-            :class="open ? 'transform rotate-180' : ''"
-            class="w-5 h-5 text-lambright-600"
-          />
-        </DisclosureButton>
-        <DisclosurePanel class=" pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-          Occasionally programs change. As schedules or task assignments evolve, we update your SoW to reflect these changes. Updates may have financial implications for lower or higher rates based on changes to the program complexity schedule. 
-        </DisclosurePanel>
-      </Disclosure>
+      
         </div>
     </div>
   </div>

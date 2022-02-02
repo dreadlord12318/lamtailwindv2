@@ -4,7 +4,7 @@
       <div  class="sm:flex sm:flex-col sm:align-center">
         <h1 class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize sm:text-center">How Much More Do Want to Accomplish?</h1>
     
-      <p class="mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case sm:text-center">Hand-off tasks to a pool of crackerjack subject-matter experts managed by your virtual account coordinator. For short-term projects or ongoing support work, Lambent has you covered. Building a project team? Let’s talk about requirements and pricing.</p>
+      <p class="mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case sm:text-center">Quick projects or long-term assignments. A full customer support team or a few hours of virtual assistance. Copywriting or data mining. (Why not both?) Building a project team? Let’s talk about requirements and pricing.</p>
        
         <div class = "relative self-center mt-6  justify-center rounded-lg p-0.5 flex sm:mt-8">
       <TabList class="">

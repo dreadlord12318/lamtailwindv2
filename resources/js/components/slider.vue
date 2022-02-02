@@ -4,7 +4,7 @@
   <vueper-slide
     v-for="(slide, i) in slides"
     :key="i"
-    class = "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+    class = "absolute max-w-7xl mx-auto pt-6 px-4 sm:px-6 lg:px-8"
     > 
   <template #content >
 
@@ -48,7 +48,7 @@ export default {
   internalAutoPlaying: true,
   slides: [
     {
-    title: 'Lambent Consulting successfully obtained licenses from SEC and Central Bank and made the company functional in the Philippines. The team blended well into the company that ensured a seamless workflow throughout the collaboration. Above all, their ability to think outside the box was exceptional.',
+    title: 'The team blended well into the company that ensured a seamless workflow throughout the collaboration. Above all, their ability to think outside the box was exceptional.',
     content: 'BPO Consulting for Fintech',
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
@@ -56,7 +56,7 @@ export default {
     image: '/images/LAMB-Site-Image-Home_Testimonial_Finefectivo.jpg',
   },
   {
-    title: 'Stakeholders are happy with Lambent Consulting’s work. Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
+    title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
     content: 'Online Marketing Management for Business Process Outsourcing ',
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1795022',
@@ -64,7 +64,7 @@ export default {
     image: '/images/LAMB-Site-Image-Home_Testimonial_OpenAccess.jpg',
   },
   {
-    title: 'Lambent Consulting successfully obtained licenses from SEC and Central Bank and made the company functional in the Philippines. The team blended well into the company that ensured a seamless workflow throughout the collaboration. Above all, their ability to think outside the box was exceptional.',
+    title: 'Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.',
     content: 'Branding and Online Marketing for Financial Consultancy',
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
@@ -72,7 +72,7 @@ export default {
     image: '/images/LAMB-Site-Image-Home_Testimonial_Wescott.jpg',
   },
    {
-    title: 'The results were confidential, but the client was happy with the outcomes. Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it. ',
+    title: 'Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it.',
     content: 'Email Marketing, Landing page Design, and Lead Journey Management for B2B Financing',
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1798153',

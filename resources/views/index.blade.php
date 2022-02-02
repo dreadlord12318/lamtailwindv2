@@ -39,10 +39,10 @@
               <div class="lg:py-24">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl text-left  font-concourset7  leading-snug font-normal tracking-normal text-white normal-case">Do More…Work Less </span>
+                <span class="block text-6xl text-left  font-concourset7  leading-snug font-normal tracking-normal text-white normal-case">Get Productivity Superpowers </span>
               </h1>
               <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
-              Gain productivity superpowers with your managed virtual assistant.  <br> Your dedicated account manager coordinates your tasks every week, matches them with our pool of experts, and your workflow turns into a supercharged productivity machine.   
+              Transform your workflow into a streamlined productivity machine. Get more done faster. Focus on what matters. Be happy.   <br> A dedicated concierge. A pool of task experts. Robust process management. Inexpensive, straightforward monthly billing.    
               </p>
 		          <div class="mt-10 sm:mt-12">
               <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Rate on Clutch - 1.svg" alt="">
@@ -134,13 +134,11 @@
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
     <div class=" md:w-1/2 ">
     <p class="mt-2 text-white font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
-      Put Us to the Test
+    What’s better than magic? Free magic!  
 </p>
-      <p class="mt-2 text-white font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
-      Feed Us Your Frog
-</p>
+      
       <p class="mt-3 text-lg font-copy text-gray-300">
-      Have a task that you’ve been putting off? Too obnoxious? Too time-consuming?   Let us take a run at it and see how Lambent can work magic for your productivity.
+      Do you have something that you’ve been putting off? Some task that stays at the bottom of your inbox pile? Well then, allow us to demonstrate how Lambent works its magic — for free. 
       </p>
       <div class="mt-8">
         <div class="inline-flex rounded-md shadow">
@@ -186,7 +184,7 @@
               <div class="relative text-lg font-medium text-white md:flex-grow">
                 
                 <p class="relative  font-copy text-xl font-normal tracking-normal leading-relaxed text-white normal-case">
-                Lambent and our Philippines entity, Lumikha, are purpose-built for growing business. We craft detailed processes to eliminate the unnecessary and accentuate value. Our clients come for the cost value and stay for the productive value.
+                Lambent is your swiss-army knife to get things done. We’re purpose-built to accelerate your success with meticulously designed processes that streamline your work with all the hacks and enhancements we've learned over fifteen years of operations.
                 </p>
               </div>
 
@@ -203,20 +201,23 @@
       <!-- Content area -->
       <div class="pt-12 sm:pt-16 lg:pt-20">
         <h2 class="text-4xl text-left  text-black font-normal-600 tracking-normal leading-snug font-concourset7 capitalize">
-        Teams, Processes, & Tools
+        What if it was easy?  
         </h2>
         <div class="mt-6 text-newcolor-800 font-normal-400 tracking-normal leading-normal  space-y-6">
           <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
-          We build, staff, and manage processes for Small to Medium-sized organizations. Solid support — back-office administration, customer service, online marketing — returns time, blood, and treasure back to you to do with as you choose.  We know the difference between “making it” and unqualified success.   
+          What if using a virtual assistant was easy? No delegation tutorials. No crossing cultural divides. Just work done and done. <br>First, we assign you a concierge whose single-minded focus is to make it easy.    
           </p>
           <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
-          Streamlined, high-quality offshore programs start with a comprehensive understanding of your work and objectives. When you work with Lambent, we dig in to understand the processes you need to accomplish your goals. We document this knowledge to build tools and techniques that eliminate waste and accelerate results.  
+          Your concierge is your go-to person who meets with you each week to plan your deliverable. She’s work savvy and highly experienced in delivering services to our global clientele. She coordinates with the team to assign tasks to copywriters, designers, data administrators, lead generators, and online marketers. She monitors the performance of your customer service team or your lead generators or your telesurvey agents.  
           </p>
           <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
-          Staffing from the Philippines starts with the promise of lower rates. We find that our clients quickly appreciate our reliability and tenacious work ethic. Lambent teams stick around for the long haul, and this is the alchemy of experience becoming expertise. Many of our clients regard their Philippines team as leading actors in their business.
+          Before the weekly meetings start your concierge coordinates the launch team as they imbibe your workflow. She goes under the hood to understand your workflow and build ultra streamlined processes that you monitor on a productivity dashboard.
           </p>
           <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
-          Once launched, Lambent management invests regular effort to make your program even better. All business processes occasionally succumb to entropy. Our management philosophy and approach tackle this head-on with reporting that drives right to the heart of your desired outcome. We build rational measures for success and constantly test them against tangible results like customer retention, new business, and task completion.
+          After launch, we calibrate across weekly sprints to keep improving and improving. Furiously documenting documentarians memorialize that hard-earned knowledge in a self-serve wiki for your reference. 
+          </p>
+          <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
+          Then we do it all over again.
           </p>
         </div>
       </div>
@@ -255,12 +256,12 @@
 
 <div class="relative bg-lamblue-50 py-16 sm:py-24 lg:pt-24 lg:pb-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase">OF COURSE IT WILL</h2>
+    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase">JUST DELEGATE IT</h2>
     <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
-    Will it Outsource? 
+    Choose Your Workflow…
     </p>
     <p class="font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case">
-    If you want it off your plate, we can do it. Most folks want to accomplish more in one of these standard categories. Hundreds of documented operating procedures plus thousands of hours in the trenches delivering customer work mean you can outsource confidently and get on with your day. 
+    …or mix and match. Delegate online marketing and back-office administration? No worries. Data collection for lead generation and content moderation? We’re here for you with documented operating procedures backed by thousands of hours in the trenches.
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -277,7 +278,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Online Marketing</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Build your audience and stay engaged. Strategy, design, scheduled updates, list development, CRM management. 
+              Build your audience and stay engaged. Strategy, design, updates, lists, and CRM management. 
               </p>
             </div>
           </div>
@@ -296,7 +297,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Customer Experience</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Keep your customers and keep them happy with best-in-class CX. Support across all channels and self-service platforms.
+              Keep your customers happy with best-in-class CX. Support across all channels and self-service platforms
               </p>
             </div>
           </div>
@@ -315,7 +316,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Back-office Admin</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Offload any task and make it more efficient.  Teams and processes support any administrative function.
+              Offload any task and optimize it. Assistants and processes support to any administrative function.
               </p>
             </div>
           </div>
@@ -372,7 +373,7 @@
               </div>
               <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Content Moderation</h3>
               <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
-              Safeguard your community. Maintain your online assets: social monitoring and moderation, image preparation, and curation
+              Safeguard your community. Maintain your online assets: social monitoring and moderation, image preparation, and curation.
               </p>
             </div>
           </div>

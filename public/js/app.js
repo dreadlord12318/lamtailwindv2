@@ -27543,28 +27543,28 @@ __webpack_require__.r(__webpack_exports__);
       autoPlaying: true,
       internalAutoPlaying: true,
       slides: [{
-        title: 'Lambent Consulting successfully obtained licenses from SEC and Central Bank and made the company functional in the Philippines. The team blended well into the company that ensured a seamless workflow throughout the collaboration. Above all, their ability to think outside the box was exceptional.',
+        title: 'The team blended well into the company that ensured a seamless workflow throughout the collaboration. Above all, their ability to think outside the box was exceptional.',
         content: 'BPO Consulting for Fintech',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
         // You can also provide a URL for the image.
         image: '/images/LAMB-Site-Image-Home_Testimonial_Finefectivo.jpg'
       }, {
-        title: 'Stakeholders are happy with Lambent Consulting’s work. Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
+        title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
         content: 'Online Marketing Management for Business Process Outsourcing ',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1795022',
         // You can also provide a URL for the image.
         image: '/images/LAMB-Site-Image-Home_Testimonial_OpenAccess.jpg'
       }, {
-        title: 'Lambent Consulting successfully obtained licenses from SEC and Central Bank and made the company functional in the Philippines. The team blended well into the company that ensured a seamless workflow throughout the collaboration. Above all, their ability to think outside the box was exceptional.',
+        title: 'Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.',
         content: 'Branding and Online Marketing for Financial Consultancy',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
         // You can also provide a URL for the image.
         image: '/images/LAMB-Site-Image-Home_Testimonial_Wescott.jpg'
       }, {
-        title: 'The results were confidential, but the client was happy with the outcomes. Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it. ',
+        title: 'Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it.',
         content: 'Email Marketing, Landing page Design, and Lead Journey Management for B2B Financing',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1798153',
@@ -27777,67 +27777,49 @@ var _hoisted_7 = {
   "class": "text-lg"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Are there term commitments for Lambent’s services?", -1
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "I don’t know where to start. Can you help me?", -1
 /* HOISTED */
 );
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("There are no term commitments for services. Our cancellation policy "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", null, "requests"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" one month’s notice for a proper transition. We offer an agreement that explains our perspective on the work we do. You can read this in the Terms of Service")], -1
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "We’re happy to hunker down over a Zoom call and learn about your work. With that in mind, we can suggest how to proceed.", -1
 /* HOISTED */
 );
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What if I don’t need a full-time employee? ", -1
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Can I cancel? ", -1
 /* HOISTED */
 );
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Just toggle the slider above to “Shared” to see our pricing for shared resources. In general, we match staff with experience in the clients’ industry or with similar process specifications. Clients can always request additional hours above their initial commitment. ");
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" You can cancel anytime. Send us an email or let your Concierge know on your calibration call. When you cancel, you can use any remaining hours and continue your weekly meetings until the end of the current billing cycle. ");
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What does “documented process” mean?", -1
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What’s the Weekly Calibration call?", -1
 /* HOISTED */
 );
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Before we launch a program, we spend time understanding your process and business objectives. We document this information into process maps that drive our hiring profiles, toll specifications, and program training. ");
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" These calls start the week to review deliverables and plan the upcoming week. Once you hand the work off to your Concierge, he will assign the right people to your tasks and ensure it’s delivered on time and on spec. ");
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What is a Dedicated Resource?", -1
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Is there a setup fee?", -1
 /* HOISTED */
 );
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" A Dedicated Resource is a full-time remote worker or a virtual agent/assistant assigned exclusively to your program or project. Your team works on your program with operational management and guidance from Lambent’s managers. ");
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Setup is on us! During onboarding, we work with you to design the most efficient approach to your work and then organize documentation and training for the processes you need. We also configure your project tool and reporting dashboard so you can see what’s happening 24x7. ");
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What is a Shared Resource?", -1
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Do my unused hours carry over?", -1
 /* HOISTED */
 );
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" A Shared Resource is a part-time remote worker or a virtual agent/assistant assigned to your program or project. We share staff across similar, but not competitive, projects or programs with operational management and guidance from Lambent’s managers. ");
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Use them or lose them. This rarely happens since your Concierge will notify you of any unused hours. He will suggest ways to consume your hours based on your historical usage and task requirements. We can always change your plan to reflect fewer hours. ");
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What are Calibration Calls?", -1
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "How are tasks and hours tracked?", -1
 /* HOISTED */
 );
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Calibration calls are periodic discussions between our team and the client to align your expectations and requirements to our performance. These calls are critical in the early going for program success. ");
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" We give you access to a project portal to review hours and tasks. You can see tasks and attached deliverables whenever the mood strikes you. ");
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "How do you invoice for Shared services?", -1
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Can you explain the Concierge thing?", -1
 /* HOISTED */
 );
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" We agree to a minimum hour commitment for your program and invoice at the outset of each month. If your consumed hours exceed the prearranged commitment, we add this to your next invoice (subject to approval, of course). We denominate all invoices in USD. ");
-
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "How do you invoice for Dedicated services?", -1
-/* HOISTED */
-);
-
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" For full-time staff, we invoice at the outset of the month for services. The amount varies based on your staffing requirement. We denominatee all invoices in USD. ");
-
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Why do you consider 32 hours full-time?", -1
-/* HOISTED */
-);
-
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Lambent and its Philippines affiliate work on a four-day, 32-hour workweek. The shortened schedule aligns with our approach to Operational and Human Resource Management, focusing on employee retention for operational efficiency. ");
-
-var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Can I adjust the scope as needed as my business or program evolve?", -1
-/* HOISTED */
-);
-
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Occasionally programs change. As schedules or task assignments evolve, we update your SoW to reflect these changes. Updates may have financial implications for lower or higher rates based on changes to the program complexity schedule. ");
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Your Concierge coordinates with you to collect your tasks, expectations, and any other task or process information needed so we can deliver your work. Think of the Concierge as your hands-on guide to getting things done. He marshals necessary resources, reviews the work for quality and accuracy, and reports back to you each week. ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ChevronUpIcon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ChevronUpIcon");
@@ -28090,111 +28072,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Disclosure, {
-    as: "div",
-    "class": "mt-0"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref8) {
-      var open = _ref8.open;
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
-            "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'transform rotate-180' : '', "w-5 h-5 text-lambright-600"])
-          }, null, 8
-          /* PROPS */
-          , ["class"])];
-        }),
-        _: 2
-        /* DYNAMIC */
-
-      }, 1024
-      /* DYNAMIC_SLOTS */
-      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_23];
-        }),
-        _: 1
-        /* STABLE */
-
-      })];
-    }),
-    _: 1
-    /* STABLE */
-
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Disclosure, {
-    as: "div",
-    "class": "mt-0"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref9) {
-      var open = _ref9.open;
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
-            "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'transform rotate-180' : '', "w-5 h-5 text-lambright-600"])
-          }, null, 8
-          /* PROPS */
-          , ["class"])];
-        }),
-        _: 2
-        /* DYNAMIC */
-
-      }, 1024
-      /* DYNAMIC_SLOTS */
-      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_25];
-        }),
-        _: 1
-        /* STABLE */
-
-      })];
-    }),
-    _: 1
-    /* STABLE */
-
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Disclosure, {
-    as: "div",
-    "class": "mt-0"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref10) {
-      var open = _ref10.open;
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
-            "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'transform rotate-180' : '', "w-5 h-5 text-lambright-600"])
-          }, null, 8
-          /* PROPS */
-          , ["class"])];
-        }),
-        _: 2
-        /* DYNAMIC */
-
-      }, 1024
-      /* DYNAMIC_SLOTS */
-      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_27];
-        }),
-        _: 1
-        /* STABLE */
-
-      })];
-    }),
-    _: 1
-    /* STABLE */
-
   })])])]);
 }
 
@@ -28258,7 +28135,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.slides, function (slide, i) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_vueper_slide, {
           key: i,
-          "class": "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+          "class": "absolute max-w-7xl mx-auto pt-6 px-4 sm:px-6 lg:px-8"
         }, {
           content: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
             return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
@@ -28371,7 +28248,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case sm:text-center"
-}, "Hand-off tasks to a pool of crackerjack subject-matter experts managed by your virtual account coordinator. For short-term projects or ongoing support work, Lambent has you covered. Building a project team? Let’s talk about requirements and pricing.", -1
+}, "Quick projects or long-term assignments. A full customer support team or a few hours of virtual assistance. Copywriting or data mining. (Why not both?) Building a project team? Let’s talk about requirements and pricing.", -1
 /* HOISTED */
 );
 
