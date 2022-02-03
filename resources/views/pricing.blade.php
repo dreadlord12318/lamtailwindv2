@@ -9,7 +9,7 @@
 
 <div class="relative top-16 bg-lambright-500">
   <div class="absolute inset-0">
-    <img class="w-full h-full object-cover" src="/images/LAMB-Site-Image-HeaderPricing_Grey.jpg" alt="">
+    <img class="w-full h-full object-cover" src="/images/LAMB-Site-Image-Header-Pricing.jpg" alt="">
     <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
