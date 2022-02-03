@@ -28,6 +28,6 @@ class Contact2 extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.email2-view');
+        return $this->subject('Contact Us Page')->view('mail.email2-view');
     }
 }
