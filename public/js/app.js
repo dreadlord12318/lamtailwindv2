@@ -27653,28 +27653,28 @@ __webpack_require__.r(__webpack_exports__);
         link: 'Dedicated',
         description: 'Offload Routine Tasks ',
         price: '$320/month',
-        includedFeatures: ['8 hours/week', 'Account Coordinator', 'Weekly Task Call', 'Task Platform', 'Time Tracking', 'Weekly Activity Report']
+        includedFeatures: ['8 hours/week', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
         id: 2,
         title: "Entrepreneur",
         link: 'Dedicated',
         description: 'Optimize Your Day',
         price: '$580/month',
-        includedFeatures: ['16 hours/week', 'Account Coordinator', 'Weekly Task Call', 'Task Platform', 'Time Tracking', 'Weekly Activity Report']
+        includedFeatures: ['16 hours/week', 'Process Wiki', 'Standard SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
         id: 3,
         title: "Startup ",
         link: 'Dedicated',
         description: 'Hack the Future',
         price: '$940/month',
-        includedFeatures: ['Full-time (32 hs/week)', 'Account Coordinator', 'Weekly Task Call', 'Task Platform', 'Time Tracking', 'Weekly Activity Report']
+        includedFeatures: ['32 hours/week', 'Process Wiki', 'Standard SOPs', 'Custom SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
         id: 4,
         title: "Accelerator",
         link: 'Dedicated',
         description: 'Build a Team',
         price: 'Tailored Pricing',
-        includedFeatures: ['Lead Generation', 'Online Marketing', 'Tech Support', 'Customer Support', 'Managed CRM', 'Data Mining', 'Blogging', 'Web Development']
+        includedFeatures: ['Data Mining', 'Lead Generation', 'Managed CRM', 'Content Moderation', 'Online Marketing', 'Tech Support', 'Customer Support', 'Blogging', 'Web Development']
       }]
     });
     return {
@@ -27785,11 +27785,11 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Can I cancel? ", -1
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Can you explain how the Concierge works?", -1
 /* HOISTED */
 );
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" You can cancel anytime. Send us an email or let your Concierge know on your calibration call. When you cancel, you can use any remaining hours and continue your weekly meetings until the end of the current billing cycle. ");
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Your Concierge coordinates with you to collect your tasks, expectations, and any other task or process information needed so we can deliver your work. Think of the Concierge as your hands-on, personal guide to getting things done. He marshals the necessary resources reviews your work for quality and accuracy and reports back to you each week. ");
 
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What’s the Weekly Calibration call?", -1
 /* HOISTED */
@@ -27797,29 +27797,35 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" These calls start the week to review deliverables and plan the upcoming week. Once you hand the work off to your Concierge, he will assign the right people to your tasks and ensure it’s delivered on time and on spec. ");
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Is there a setup fee?", -1
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "What’s the Process Wiki?", -1
 /* HOISTED */
 );
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Setup is on us! During onboarding, we work with you to design the most efficient approach to your work and then organize documentation and training for the processes you need. We also configure your project tool and reporting dashboard so you can see what’s happening 24x7. ");
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" This is a web-based repository of your processes. We publish them for our team and for you to reference, refine, and improve as we supercharge your workflow. ");
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Do my unused hours carry over?", -1
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Can I cancel? ", -1
 /* HOISTED */
 );
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Use them or lose them. This rarely happens since your Concierge will notify you of any unused hours. He will suggest ways to consume your hours based on your historical usage and task requirements. We can always change your plan to reflect fewer hours. ");
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" You can cancel anytime. Send us an email or let your Concierge know on your calibration call. When you cancel, you can use any remaining hours and continue your weekly meetings until the end of the current billing cycle. ");
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "How are tasks and hours tracked?", -1
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Is there a setup fee?", -1
 /* HOISTED */
 );
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" We give you access to a project portal to review hours and tasks. You can see tasks and attached deliverables whenever the mood strikes you. ");
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Setup is on us! During onboarding, we work with you to design the most efficient approach to your work and then organize documentation and training for the processes you need. We also configure your project tool and reporting dashboard so you can see what’s happening 24x7. ");
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Can you explain the Concierge thing?", -1
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Do my unused hours carry over?", -1
 /* HOISTED */
 );
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Your Concierge coordinates with you to collect your tasks, expectations, and any other task or process information needed so we can deliver your work. Think of the Concierge as your hands-on guide to getting things done. He marshals necessary resources, reviews the work for quality and accuracy, and reports back to you each week. ");
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Use them or lose them. This rarely happens since your Concierge will notify you of any unused hours. He will suggest ways to consume your hours based on your historical usage and task requirements. We can always change your plan to reflect fewer hours. ");
+
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "How are tasks and hours tracked?", -1
+/* HOISTED */
+);
+
+var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" We give you access to a project portal to review hours and tasks. You can see tasks and attached deliverables whenever the mood strikes you. ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ChevronUpIcon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ChevronUpIcon");
@@ -28063,6 +28069,41 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_21];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Disclosure, {
+    as: "div",
+    "class": "mt-0"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref8) {
+      var open = _ref8.open;
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
+        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
+            "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'transform rotate-180' : '', "w-5 h-5 text-lambright-600"])
+          }, null, 8
+          /* PROPS */
+          , ["class"])];
+        }),
+        _: 2
+        /* DYNAMIC */
+
+      }, 1024
+      /* DYNAMIC_SLOTS */
+      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_23];
         }),
         _: 1
         /* STABLE */

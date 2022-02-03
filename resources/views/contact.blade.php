@@ -52,14 +52,7 @@
       </defs>
       <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
     </svg>
-    <div class="text-center">
-      <h2 class="font-copy text-3xl font-normal tracking-normal leading-relaxed normal-case text-black">
-        Contact sales
-      </h2>
-      <p class="mt-4 font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-800">
-        Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
-      </p>
-    </div>
+  
     @if (session('status'))
     <div role="alert">
   <div class="bg-lambright-600 mt-2 text-white font-bold top-10 rounded-t px-4 py-3">
