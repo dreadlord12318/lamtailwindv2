@@ -24,7 +24,7 @@
 }
 input:checked ~ .dot {
   transform: translateX(100%);
-  background-color: #085ce5;
+  background-color: #FFFF;
 }
 </style>
 </head>

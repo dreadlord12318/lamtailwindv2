@@ -4,7 +4,7 @@
 
 @include('header')
 
-<div class="relative top-16 bg-lambright-500">
+<!-- <div class="relative top-16 bg-lambright-500">
   <div class="absolute inset-0">
     <img class="w-full h-full object-cover" src="images/LAMB-Site-Image-HeaderContact_Grey.jpg" alt="">
     <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
@@ -13,7 +13,20 @@
     <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">We Thrive on Conversation</h1>
     <p class="mt-6 text-xl text-indigo-100 max-w-3xl">What are you doing and how can we help you? We geek out on speaking with you about what’s getting you up in the morning and how we can caffeinate your workflow. Everything begins with a conversation. Let’s do this!</p>
   </div>
+</div> -->
+
+
+<div class="relative top-16 bg-lambright-500">
+  <div class="absolute inset-0">
+    <img class="w-full h-full object-cover" src="images/LAMB-Site-Image-HeaderContact_Grey.jpg" alt="">
+    <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+    <h1 class="text-6xl text-left  font-concourset7 leading-snug font-normal-400 tracking-normal text-white">We Thrive on Conversation</h1>
+    <p class="mt-6 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white max-w-3xl">What are you doing and how can we help you? We geek out on speaking with you about what’s getting you up in the morning and how we can caffeinate your workflow. Everything begins with a conversation. Let’s do this!</p>
+  </div>
 </div>
+
 
 
 <!-- Contact Centered -->
@@ -92,12 +105,7 @@
           @endif
           </div>
         </div>
-        <div class="sm:col-span-2">
-          <label for="company" class="block font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-800">Company</label>
-          <div class="mt-1">
-          <input type="text" placeholder="Company" name="company" id="company" autocomplete="company" value = "{{old('company')}}" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
-          </div>
-        </div>
+        
         <div class="sm:col-span-2">
           <label for="email" class="block font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-800">Email</label>
           <div class="mt-1">
@@ -110,12 +118,7 @@
           @endif
           </div>
         </div>
-        <div class="sm:col-span-2">
-          <label for="message" class="block font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-800">Message</label>
-          <div class="mt-1">
-            <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md">{{old('message')}}</textarea>
-          </div>
-        </div>
+        
         @if($errors->has('terms'))
           <div class="flex items-center bg-blue-500 text-white text-sm font-bold my-2 rounded-md px-4 py-3" role="alert">
   <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z"/></svg>
