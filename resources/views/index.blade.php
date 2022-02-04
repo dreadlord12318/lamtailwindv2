@@ -109,10 +109,10 @@
           
          
           </div>
-          <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 lg:relative">
+          <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 sm:static lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="lg:ml-2 lg:w-10/12 sm:w-8/12   lg:absolute lg:left " src="images/LAMB-Image-Home- Header.svg" alt="">
+              <img class="lg:ml-60 lg:w-7/12 sm:w-8/12 md:left-0 sm:left-0    lg:absolute lg:left " src="images/LAMB-Image-Home- Header.svg" alt="">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
