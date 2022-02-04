@@ -112,7 +112,7 @@
           <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="lg:ml-24  w-11/12 lg:absolute lg:top-40 lg:left " src="images/LAMB-Site-Image-Home_HeaderIso.svg" alt="">
+              <img class="lg:ml-24  w-10/12 lg:absolute lg:left " src="images/LAMB-Image-Home- Header.svg" alt="">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
