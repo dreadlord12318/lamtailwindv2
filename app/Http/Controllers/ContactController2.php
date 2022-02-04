@@ -17,8 +17,8 @@ class ContactController2 extends Controller
     {
        
         
-            Mail::to('a.t.169630176.u-25541662.f7cc6750-c6df-4527-a207-1b3c396f25ae@tasks.clickup.com')
-            ->cc('info@lambent.co')
+            Mail::to('dreadlord12318@gmail.com')
+            ->cc('janly@lumikha.co')
             ->send(new Contact2( $request));
 
 

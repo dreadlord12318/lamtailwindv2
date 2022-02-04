@@ -26,9 +26,11 @@ class ContactRequest2 extends FormRequest
         return [
             //
             'first_name' => 'required',
+            'phone' => 'numeric',
             'last_name' => 'required',
             'email' => 'required | email',
-            'terms' => 'accepted',
+            'message' => 'max:255',
+            // 'terms' => 'accepted',
         ];
     }
 }

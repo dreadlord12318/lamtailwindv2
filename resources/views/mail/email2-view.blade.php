@@ -9,6 +9,8 @@
   <div class="row" style = "color: black;">
       <strong>Name: {{$request->first_name}}{{$request->last_name}}</strong><br>
       <strong>Email: {{$request->email}}</strong><br>
+      <strong>Phone: {{$request->phone}}</strong><br>
+      <strong>Message: {{$request->message}}</strong><br>
 
   </div>
 
