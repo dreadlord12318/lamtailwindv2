@@ -139,7 +139,7 @@
 
       
         <div class="sm:col-span-2">
-          <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-lambright-600 hover:bg-lambright-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md  shadow-3xl bg-newgrowth-300 text-base font-medium text-white  hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Let's talk
           </button>
         </div>
