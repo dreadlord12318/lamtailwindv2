@@ -15,10 +15,13 @@
           <img :src="slide.image" />
         </div>
         <div class="relative lg:col-span-1">
+      
+        </div>
+        <div class="relative justify-end flex-row lg:col-span-1">
           <blockquote class="mt-6 text-white">
-            <p class="font-copy text-xl font-normal tracking-normal leading-relaxed normal-case">{{slide.title}}</p>
+            <p class="font-copy text-xl text-right font-normal tracking-normal leading-relaxed  normal-case">{{slide.title}}</p>
             <footer class="mt-6">
-              <p class="flex flex-col font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-left normal-case text-lamblue-100">
+              <p class="flex flex-col text-right  font-concourset3 text-xs font-normal tracking-normal leading-relaxed  normal-case text-lamblue-100">
                 <span>{{slide.content}}</span>
                 <span>{{slide.content2}}</span>
               </p>
@@ -53,7 +56,7 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home_Testimonial_Finefectivo.jpg',
+    image: '/images/LAMB-Site-Image-Home-Testimonial_1.jpg',
   },
   {
     title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
@@ -61,7 +64,7 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1795022',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home_Testimonial_OpenAccess.jpg',
+    image: '/images/LAMB-Site-Image-Home_Testimonial_2.jpg',
   },
   {
     title: 'Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.',
@@ -69,7 +72,7 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home_Testimonial_Wescott.jpg',
+    image: '/images/LAMB-Site-Image-Home_Testimonial_3.jpg',
   },
    {
     title: 'Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it.',
@@ -77,7 +80,7 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1798153',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home_Testimonial_FinancingCommittee.jpg'
+    image: '/images/LAMB-Site-Image-Home-Testimonial_4.jpg'
   },
   
   // Other slides.

@@ -27548,28 +27548,28 @@ __webpack_require__.r(__webpack_exports__);
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home_Testimonial_Finefectivo.jpg'
+        image: '/images/LAMB-Site-Image-Home-Testimonial_1.jpg'
       }, {
         title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
         content: 'Online Marketing Management for Business Process Outsourcing ',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1795022',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home_Testimonial_OpenAccess.jpg'
+        image: '/images/LAMB-Site-Image-Home_Testimonial_2.jpg'
       }, {
         title: 'Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.',
         content: 'Branding and Online Marketing for Financial Consultancy',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home_Testimonial_Wescott.jpg'
+        image: '/images/LAMB-Site-Image-Home_Testimonial_3.jpg'
       }, {
         title: 'Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it.',
         content: 'Email Marketing, Landing page Design, and Lead Journey Management for B2B Financing',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1798153',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home_Testimonial_FinancingCommittee.jpg'
+        image: '/images/LAMB-Site-Image-Home-Testimonial_4.jpg'
       } // Other slides.
       ]
     };
@@ -28145,20 +28145,27 @@ var _hoisted_5 = {
   "class": "absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply"
 };
 var _hoisted_6 = ["src"];
-var _hoisted_7 = {
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "relative lg:col-span-1"
-};
+}, null, -1
+/* HOISTED */
+);
+
 var _hoisted_8 = {
-  "class": "mt-6 text-white"
+  "class": "relative justify-end flex-row lg:col-span-1"
 };
 var _hoisted_9 = {
-  "class": "font-copy text-xl font-normal tracking-normal leading-relaxed normal-case"
+  "class": "mt-6 text-white"
 };
 var _hoisted_10 = {
-  "class": "mt-6"
+  "class": "font-copy text-xl text-right font-normal tracking-normal leading-relaxed normal-case"
 };
 var _hoisted_11 = {
-  "class": "flex flex-col font-concourset3 text-xs font-normal tracking-normal leading-relaxed text-left normal-case text-lamblue-100"
+  "class": "mt-6"
+};
+var _hoisted_12 = {
+  "class": "flex flex-col text-right font-concourset3 text-xs font-normal tracking-normal leading-relaxed normal-case text-lamblue-100"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_vueper_slide = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vueper-slide");
@@ -28186,9 +28193,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               src: slide.image
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.title), 1
+            , _hoisted_6)]), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.title), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.content), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.content), 1
             /* TEXT */
             ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.content2), 1
             /* TEXT */
