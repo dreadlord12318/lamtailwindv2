@@ -133,7 +133,7 @@
   </div>
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
     <div class=" md:w-1/2 ">
-    <p class="mt-2 text-newcolor-50 font-concourset6 text-5xl font-normal tracking-normal leading-tight text-left capitalize">
+    <p class="mt-2 text-newcolor-700 font-concourset6 text-5xl font-normal tracking-normal leading-tight text-left capitalize">
     What’s better than magic? Free magic!  
 </p>
       
