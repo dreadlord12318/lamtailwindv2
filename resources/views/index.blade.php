@@ -45,7 +45,7 @@
               Transform your workflow into a streamlined productivity machine. Get more done faster. Focus on what matters. Be happy.   <br> A dedicated concierge. A pool of task experts. Robust process management. Inexpensive, straightforward monthly billing.    
               </p>
 		          <div class="mt-10 sm:mt-12">
-              <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Rate on Clutch - 1.svg" alt="">
+              <!-- <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Rate on Clutch - 1.svg" alt=""> -->
               <!--  -->
              
               @if (session('status'))
@@ -112,7 +112,7 @@
           <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 sm:static lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="lg:ml-60 lg:w-7/12 sm:w-8/12 md:left-0 sm:left-0    lg:absolute lg:left " src="images/LAMB-Image-Home- Header.svg" alt="">
+              <img class="lg:ml-60 lg:w-6/12 sm:w-8/12 md:left-0 sm:left-0    lg:absolute lg:left " src="images/LAMB-Si_te-Image-Home-Header.svg" alt="">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
