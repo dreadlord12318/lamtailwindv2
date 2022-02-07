@@ -39,9 +39,9 @@
               <div class="lg:py-24">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl text-left  font-concourset7  leading-snug font-normal tracking-normal text-white normal-case">Get Productivity Superpowers </span>
+                <span class="block text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-50 capitalize">Get Productivity Superpowers </span>
               </h1>
-              <p class="mt-3 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case sm:mt-5">
+              <p class="mt-3 font-copy text-2xl font-normal tracking-normal  leading-normal text-left text-newcolor-700 normal-case sm:mt-5">
               Transform your workflow into a streamlined productivity machine. Get more done faster. Focus on what matters. Be happy.   <br> A dedicated concierge. A pool of task experts. Robust process management. Inexpensive, straightforward monthly billing.    
               </p>
 		          <div class="mt-10 sm:mt-12">
@@ -64,7 +64,7 @@
                   <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                       <div>
                 <div class="mt-1">
-                  <input type="text" placeholder="First Name" name="first_name" id="first_name" value = "{{old('first_name')}}" autocomplete="given-name" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input type="text" placeholder="First Name" name="first_name" id="first_name" value = "{{old('first_name')}}" autocomplete="given-name" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
                 @if($errors->has('first_name'))
           <div class="flex items-center bg-blue-500 text-white text-sm font-bold my-2 rounded-md px-4 py-3" role="alert">
@@ -75,7 +75,7 @@
               </div>
               <div>
                 <div class="mt-1">
-                  <input type="text" placeholder="Last Name" name="last_name" id="last_name" value = "{{old('last_name')}}" autocomplete="family-name" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input type="text" placeholder="Last Name" name="last_name" id="last_name" value = "{{old('last_name')}}" autocomplete="family-name" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
                 @if($errors->has('last_name'))
           <div class="flex items-center bg-blue-500 text-white text-sm font-bold my-2 rounded-md px-4 py-3" role="alert">
@@ -86,7 +86,7 @@
               </div>
               <div class="sm:col-span-2">
                 <div class="mt-1">
-                  <input id="email" placeholder="Email"  name="email" type="email" value = "{{old('email')}}" autocomplete="email" class="block w-full font-concourset3 text-base font-normal-400 tracking-normal leading-relaxed normal-case  py-3.5 px-4 shadow-sm  focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
+                  <input id="email" placeholder="Email"  name="email" type="email" value = "{{old('email')}}" autocomplete="email" class="block w-full py-3.5 px-4 font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case shadow-sm s focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md">
                 </div>
                 @if($errors->has('email'))
               <div class="flex items-center bg-blue-500 text-white text-sm font-bold my-2 rounded-md px-4 py-3" role="alert">
@@ -97,7 +97,7 @@
               </div>
               <div class="sm:col-span-2">
                     <div class="mt-1">
-                      <button type="submit" class="block w-full py-3  font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                      <button type="submit" class="block w-full py-3  font-concourset6 text-base normal-case  font-normal tracking-normal leading-relaxed align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
                 </div>
                   </div>
@@ -133,16 +133,16 @@
   </div>
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
     <div class=" md:w-1/2 ">
-    <p class="mt-2 text-white font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
+    <p class="mt-2 text-newcolor-50 font-concourset6 text-5xl font-normal tracking-normal leading-tight text-left capitalize">
     What’s better than magic? Free magic!  
 </p>
       
-      <p class="mt-3 text-lg font-copy text-gray-300">
+      <p class="mt-3 text-xl font-normal tracking-normal text-left font-copy normal-case text-newcolor-700">
       Do you have something that you’ve been putting off? Some task that stays at the bottom of your inbox pile? Well then, allow us to demonstrate how Lambent works its magic — for free. 
       </p>
       <div class="mt-8">
         <div class="inline-flex rounded-md shadow">
-          <a href="#" class="inline-flex items-center bg-lamblue-600 justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white  hover:bg-lamblue-400">
+          <a href="#" class="inline-flex items-center bg-lamblue-600 justify-center text-white px-5 py-3 border border-transparent rounded-md font-concourset6 text-base normal-case font-normal tracking-normal leading-relaxed hover:bg-lamblue-400">
             Schedule a Call Today!
             <!-- Heroicon name: solid/external-link -->
        
@@ -183,13 +183,13 @@
             <blockquote class="mt-8">
               <div class="relative text-lg font-medium text-white md:flex-grow">
                 
-                <p class="relative  font-copy text-xl font-normal tracking-normal leading-relaxed text-white normal-case">
+                <p class="relative  font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-700 normal-case">
                 Lambent is your swiss-army knife to get things done. We’re purpose-built to accelerate your success with meticulously designed processes that streamline your work with all the hacks and enhancements we've learned over fifteen years of operations.
                 </p>
               </div>
 
               <footer class="mt-4">
-                <p class=" font-concourset3 text-xs font-normal leading-relaxed text-newcolor-700 normal-case">Harry Fozzard, Founder Lambent Consulting</p>
+                <p class=" font-concourset3 text-sm font-normal leading-snug text-left text-newcolor-700 normal-case">Harry Fozzard, Founder Lambent Consulting</p>
               </footer>
             </blockquote>
           </div>
@@ -200,53 +200,30 @@
     <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
       <!-- Content area -->
       <div class="pt-12 sm:pt-16 lg:pt-20">
-        <h2 class="text-4xl text-left  text-black font-normal-600 tracking-normal leading-snug font-concourset7 capitalize">
+        <h2 class="text-6xl text-left  text-newcolor-50 font-normal-600 tracking-normal leading-tight font-concourset6 capitalize">
         What if it was easy?  
         </h2>
         <div class="mt-6 text-newcolor-800 font-normal-400 tracking-normal leading-normal  space-y-6">
-          <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
+          <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
           What if using a virtual assistant was easy? No delegation tutorials. No crossing cultural divides. Just work done and done. <br>First, we assign you a concierge whose single-minded focus is to make it easy.    
           </p>
-          <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
+          <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
           Your concierge is your go-to person who meets with you each week to plan your deliverable. She’s work savvy and highly experienced in delivering services to our global clientele. She coordinates with the team to assign tasks to copywriters, designers, data administrators, lead generators, and online marketers. She monitors the performance of your customer service team or your lead generators or your telesurvey agents.  
           </p>
-          <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
+          <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
           Before the weekly meetings start your concierge coordinates the launch team as they imbibe your workflow. She goes under the hood to understand your workflow and build ultra streamlined processes that you monitor on a productivity dashboard.
           </p>
-          <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
+          <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
           After launch, we calibrate across weekly sprints to keep improving and improving. Furiously documenting documentarians memorialize that hard-earned knowledge in a self-serve wiki for your reference. 
           </p>
-          <p class="text-xl text-left tracking-normal font-normal leading-relaxed normal-case font-copy">
+          <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
           Then we do it all over again.
           </p>
         </div>
       </div>
 
       <!-- Stats section -->
-      <div class="mt-10">
-        <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
-          <div class="border-t-2 border-gray-100 pt-6">
-            <dt class=" font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Founded</dt>
-            <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">2006</dd>
-          </div>
-
-          <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Employees</dt>
-            <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">47</dd>
-          </div>
-
-          <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Managed Processes</dt>
-            <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">22</dd>
-          </div>
-
-          <div class="border-t-2 border-gray-100 pt-6">
-            <dt class="font-concourset3 text-xs font-normal  tracking-normal leading-relaxed text-newcolor-200">Av. Program Life</dt>
-            <dd class="font-concourset6 text-3xl font-normal tracking-normal leading-normal text-black normal-case">4.2 Years</dd>
-          </div>
-        </dl>
      
-      </div>
     </div>
   </div>
 </div>
@@ -256,11 +233,11 @@
 
 <div class="relative bg-lamblue-50 py-16 sm:py-24 lg:pt-24 lg:pb-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-lambright-600 font-concourset6 text-base font-normal tracking-normal leading-normal uppercase">JUST DELEGATE IT</h2>
-    <p class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize">
+    <h2 class="text-lambright-500 font-concoursec3 text-base leading-none font-normal tracking-normal uppercase">JUST DELEGATE IT</h2>
+    <p class="font-concourset6 text-4xl font-normal tracking-normal leading-snug text-center text-newcolor-50 capitalize">
     Choose Your Workflow…
     </p>
-    <p class="font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case">
+    <p class="font-copy text-xl font-normal tracking-normal text-center leading-relaxed text-lambright-50 normal-case">
     …or mix and match. Delegate online marketing and back-office administration? No worries. Data collection for lead generation and content moderation? We’re here for you with documented operating procedures backed by thousands of hours in the trenches.
     </p>
     <div class="mt-12">
@@ -276,8 +253,8 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Online Marketing</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
+              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-50">Online Marketing</h3>
+              <p class="mt-5 font-copy2 text-base font-normal text-center tracking-normal normal-case leading-relaxed text-newcolor-200">
               Build your audience and stay engaged. Strategy, design, updates, lists, and CRM management. 
               </p>
             </div>
@@ -295,8 +272,8 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Customer Experience</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
+              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-50">Customer Experience</h3>
+              <p class="mt-5 font-copy2 text-base font-normal text-center tracking-normal normal-case leading-relaxed text-newcolor-200">
               Keep your customers happy with best-in-class CX. Support across all channels and self-service platforms
               </p>
             </div>
@@ -314,8 +291,8 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Back-office Admin</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
+              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-50">Back-office Admin</h3>
+              <p class="mt-5 font-copy2 text-base font-normal text-center tracking-normal normal-case leading-relaxed text-newcolor-200">
               Offload any task and optimize it. Assistants and processes support to any administrative function.
               </p>
             </div>
@@ -333,8 +310,8 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Data Collection</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
+              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-50">Data Collection</h3>
+              <p class="mt-5 font-copy2 text-base font-normal text-center tracking-normal normal-case leading-relaxed text-newcolor-200">
               Expand or enhance your list with updates and additional data points. Data mining, tele-surveys, data verification, and append.
               </p>
             </div>
@@ -352,8 +329,8 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Documentation & Learning</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
+              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-50">Documentation & Learning</h3>
+              <p class="mt-5 font-copy2 text-base font-normal text-center tracking-normal normal-case leading-relaxed text-newcolor-200">
               Leverage Lambent’s process development for your organization: process maps, operating procedures, and online training. 
               </p>
             </div>
@@ -371,8 +348,8 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug font-newcolor-50">Content Moderation</h3>
-              <p class="mt-5 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">
+              <h3 class="mt-8 font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-50">Content Moderation</h3>
+              <p class="mt-5 font-copy2 text-base font-normal text-center tracking-normal normal-case leading-relaxed text-newcolor-200">
               Safeguard your community. Maintain your online assets: social monitoring and moderation, image preparation, and curation.
               </p>
             </div>
@@ -401,10 +378,10 @@
   </div>
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
-      <h2 class="font-concourset7 text-3xl font-normal tracking-normal leading-snug text-newcolor-50 sm:text-4xl">
+      <h2 class="font-concourset6 lg:text-5xl font-normal tracking-normal leading-snug text-newcolor-50 sm:text-4xl">
       Lambent Illuminations
       </h2>
-      <p class="mt-3 max-w-2xl mx-auto font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-100 normal-case sm:mt-4">
+      <p class="mt-3 max-w-2xl mx-auto font-copy text-xl font-normal tracking-normal leading-relaxed text-lambright-50 normal-case sm:mt-4">
       Resources and information for outsourcers and businesses. Leverage our process experience with insights into outsourcing best practices, the Philippines, and tools for work.
       </p>
     </div>
@@ -415,15 +392,15 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-              <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
+              <p class="font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">
               Philippines
               </p>
-              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case">
+              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-lambright-50 normal-case">
               All about the Philippines. Learn about the local outsourcing landscape, culture insights, business operations, and more. Benefit from two decades of business process outsourcing and call center operations in the world capital of outsourcing.
               </p>
           </div>
           <div class="flex flex-row justify-start mt-4">
-          <a href = "https://lambent.co/tag/philippines/" class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
+          <a href = "https://lambent.co/tag/philippines/" class="font-copy text-base font-normal tracking-normal leading-none text-newgrowth-600 normal-case">
               Read More
             </a >
           </div>
@@ -436,15 +413,15 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-              <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
+              <p class="font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">
               Outsourcing
               </p>
-              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200 normal-case">
+              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-lambright-50 normal-case">
               Real-life commentary, ideas, and tools for those outsourcing and those about to outsource. An excellent resource for team managers, corporate trainers, entrepreneurs, and solopreneurs who want insights into better operations.
               </p>
           </div>
           <div class="flex flex-row justify-start mt-4">
-          <a href="https://lambent.co/tag/business-process-outsourcing/" class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
+          <a href="https://lambent.co/tag/business-process-outsourcing/" class="font-copy text-base font-normal tracking-normal leading-none text-newgrowth-600 normal-case">
               Read More
             </a >
           </div>
@@ -457,15 +434,15 @@
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-              <p class="font-concourset4 text-2xl font-normal tracking-normal leading-snug capitalize text-newcolor-100">
+              <p class="font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">
               Work
               </p>
-              <p class="mt-3 font-copy2 text-base font-normal tracking-normal text-newcolor-200 leading-relaxed normal-case">
+              <p class="mt-3 font-copy2 text-base font-normal tracking-normal leading-relaxed text-lambright-50 normal-case">
               Work we do for our clients, dispatches from the factory floor, challenges and broad overviews of process work we’ve documented. Understand what we do and why we do it to keep clients for lengthy productive engagements.
               </p>
           </div>
           <div class="flex flex-row justify-start mt-4">
-          <a href="https://lambent.co/tag/case-study/" class="font-copy2 text-base font-normal tracking-normal leading-loose text-newgrowth-400 normal-case">
+          <a href="https://lambent.co/tag/case-study/" class="font-copy text-base font-normal tracking-normal leading-none text-newgrowth-600 normal-case">
               Read More
           </a >
           </div>

@@ -19,9 +19,9 @@
         </div>
         <div class="relative justify-end flex-row lg:col-span-1">
           <blockquote class="mt-6 text-white">
-            <p class="font-copy text-xl text-right font-normal tracking-normal leading-relaxed  normal-case">{{slide.title}}</p>
+            <p class="font-copy text-xl text-right font-normal tracking-normal leading-normal text-newcolor-700  normal-case">{{slide.title}}</p>
             <footer class="mt-6">
-              <p class="flex flex-col text-right  font-concourset3 text-xs font-normal tracking-normal leading-relaxed  normal-case text-lamblue-100">
+              <p class="flex flex-col text-right  font-concourset3 text-sm font-normal tracking-normal leading-snug  normal-case text-newcolor-700">
                 <span>{{slide.content}}</span>
                 <span>{{slide.content2}}</span>
               </p>

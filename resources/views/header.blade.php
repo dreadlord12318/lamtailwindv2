@@ -21,13 +21,15 @@
                 </button>
             </div>
             <div class="hidden md:block md:ml-4 space-x-10 lg:flex lg:ml-10">
-                <a href="/about" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">About</a>
+                <a href="/" class="text-lg text-newcolor-700 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">Home</a>
 
-                <a href="/pricing" class="text-lg text-white uppercase font-concourset6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">Pricing</a>
+                <a href="/about" class="text-lg text-newcolor-700 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">About</a>
 
-                <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Illuminations</a>
+                <a href="/pricing" class="text-lg text-newcolor-700 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-newgrowth-100">Pricing</a>
 
-                <a href="/contact" class="text-lg text-white uppercase font-concourset6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Contact</a>
+                <a href="/illuminations" class="text-lg uppercase text-newcolor-700 font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Illuminations</a>
+
+                <a href="/contact" class="text-lg text-newcolor-700 uppercase font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Contact</a>
         </div>
         </div>
         <!-- Menu Mobile -->

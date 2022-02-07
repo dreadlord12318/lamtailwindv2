@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily:{
         'concoursec6': ['Concourse C6'],
+        'concoursec3': ['Concourse C3'],
         'copy': ['Valkyrie T3'],
         'copy2': ['Valkyrie T4'],
         'concourset3': ['Concourse T3'],

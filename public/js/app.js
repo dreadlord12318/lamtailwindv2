@@ -28159,13 +28159,13 @@ var _hoisted_9 = {
   "class": "mt-6 text-white"
 };
 var _hoisted_10 = {
-  "class": "font-copy text-xl text-right font-normal tracking-normal leading-relaxed normal-case"
+  "class": "font-copy text-xl text-right font-normal tracking-normal leading-normal text-newcolor-700 normal-case"
 };
 var _hoisted_11 = {
   "class": "mt-6"
 };
 var _hoisted_12 = {
-  "class": "flex flex-col text-right font-concourset3 text-xs font-normal tracking-normal leading-relaxed normal-case text-lamblue-100"
+  "class": "flex flex-col text-right font-concourset3 text-sm font-normal tracking-normal leading-snug normal-case text-newcolor-700"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_vueper_slide = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vueper-slide");
