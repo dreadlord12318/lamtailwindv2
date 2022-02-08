@@ -14,7 +14,7 @@
     
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet" defer>
-
+    <link rel="icon" type="image/png" sizes="32x32" href="images/LAMB-Image-Favicon.png">
     
 
     <style>
