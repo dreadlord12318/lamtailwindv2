@@ -54,7 +54,7 @@
                   <input type="hidden" name="_token" v-bind:value="csrf">
                   <input type="hidden" placeholder="Last Name" name="last_name" id="last_name" autocomplete="family-name" v-bind:value="pricing.price">
                   <input type="hidden" placeholder="First Name" name="first_name" id="first_name" autocomplete="given-name"  v-bind:value="pricing.title">
-              <button type="submit" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">TALK TO US</button>
+              <button type="submit" class="mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Talk to us</button>
              </form>
           </div>
           <div class="pt-6 pb-8 px-6">
