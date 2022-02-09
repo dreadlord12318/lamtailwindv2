@@ -27,7 +27,7 @@
 
 <!-- FAQ CENTERED ACCORDIAN -->
 
-<div class="bg-lamblue-100 pb-16">
+<div class="bg-lamblue-100">
 <faq></faq>
 </div>
 

@@ -27652,7 +27652,8 @@ __webpack_require__.r(__webpack_exports__);
         title: 'Solopreneur',
         link: 'Dedicated',
         description: 'Offload Routine Tasks ',
-        price: '$80',
+        dollar: '$',
+        price: '80',
         month: '/month',
         includedFeatures: ['8 hours/week', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
@@ -27660,7 +27661,8 @@ __webpack_require__.r(__webpack_exports__);
         title: "Entrepreneur",
         link: 'Dedicated',
         description: 'Optimize Your Day',
-        price: '$144',
+        dollar: '$',
+        price: '144',
         month: '/month',
         includedFeatures: ['16 hours/week', 'Process Wiki', 'Standard SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
@@ -27668,7 +27670,8 @@ __webpack_require__.r(__webpack_exports__);
         title: "Startup ",
         link: 'Dedicated',
         description: 'Hack the Future',
-        price: '$235',
+        dollar: '$',
+        price: '235',
         month: '/month',
         includedFeatures: ['32 hours/week', 'Process Wiki', 'Standard SOPs', 'Custom SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
@@ -28304,26 +28307,26 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_5 = {
-  "class": "relative self-center mt-6 justify-center rounded-lg p-0.5 flex sm:mt-8"
-};
-var _hoisted_6 = {
   "class": "mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4"
 };
-var _hoisted_7 = {
+var _hoisted_6 = {
   key: "post.id",
   "class": "border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200"
 };
-var _hoisted_8 = {
+var _hoisted_7 = {
   "class": "py-6 px-3"
 };
-var _hoisted_9 = {
+var _hoisted_8 = {
   "class": "font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
 };
-var _hoisted_10 = {
+var _hoisted_9 = {
   "class": "mt-4 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
 };
-var _hoisted_11 = {
+var _hoisted_10 = {
   "class": "mt-8"
+};
+var _hoisted_11 = {
+  "class": "font-concoursec6 text-5xl font-normal tracking-normal leading-none uppercase text-lambright-500"
 };
 var _hoisted_12 = {
   "class": "font-concoursec6 text-5xl font-normal tracking-normal leading-none uppercase text-lambright-500"
@@ -28355,7 +28358,7 @@ var _hoisted_20 = {
 };
 
 var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  "class": "flex-shrink-0 h-5 w-5 text-lambright-400",
+  "class": "flex-shrink-0 h-8 w-6 text-lambright-400",
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 20 20",
   fill: "currentColor",
@@ -28384,7 +28387,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabGroup, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabList, {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabList, {
         "class": ""
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -28415,22 +28418,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
         /* STABLE */
 
-      })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabPanels, {
+      })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabPanels, {
         "class": "mt-12"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(Object.values($setup.categories), function (pricings, idx) {
             return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_TabPanel, {
-              key: idx,
-              "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([' rounded-xl p-3', 'focus:outline-none focus:ring-2 ring-offset-2  ring-white ring-opacity-60'])
+              key: idx
             }, {
               "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(pricings, function (pricing) {
-                  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.title), 1
+                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(pricings, function (pricing) {
+                  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.title), 1
                   /* TEXT */
-                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.description), 1
+                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.description), 1
                   /* TEXT */
-                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.price), 1
+                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.dollar), 1
+                  /* TEXT */
+                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.price), 1
                   /* TEXT */
                   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.month), 1
                   /* TEXT */
