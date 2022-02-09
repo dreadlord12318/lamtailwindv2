@@ -2,9 +2,9 @@
   <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
     <TabGroup>
       <div  class="sm:flex sm:flex-col sm:align-center">
-        <h1 class="font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize sm:text-center">How Much More Do Want to Accomplish?</h1>
+        <h1 class="font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-center">How Much More Do Want to Accomplish?</h1>
     
-      <p class="mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case sm:text-center">Quick projects or long-term assignments. A full customer support team or a few hours of virtual assistance. Copywriting or data mining. (Why not both?) Building a project team? Let’s talk about requirements and pricing.</p>
+      <p class="mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-100 normal-case sm:text-center">Quick projects or long-term assignments. A full customer support team or a few hours of virtual assistance. Copywriting or data mining. (Why not both?) Building a project team? Let’s talk about requirements and pricing.</p>
        
         <div class = "relative self-center mt-6  justify-center rounded-lg p-0.5 flex sm:mt-8">
       <TabList class="">
@@ -45,10 +45,11 @@
               key="post.id"
               class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
           <div class="py-6 px-3">
-            <h2 class="font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize"> {{ pricing.title }}</h2>
-             <p class="mt-4 font-copy text-base font-normal tracking-normal leading-relaxed text-newcolor-200">{{ pricing.description }}</p>
+            <h2 class="font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"> {{ pricing.title }}</h2>
+             <p class="mt-4 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">{{ pricing.description }}</p>
             <p class="mt-8">
-              <span class="font-concourset6  text-xl font-normal tracking-normal leading-normal uppercase text-lambright-600">{{ pricing.price}}</span>
+              <span class="font-concoursec6  text-5xl font-normal tracking-normal leading-none uppercase text-lambright-500">{{ pricing.price}}</span>
+              <span class="font-concoursec3 text-lg font-normal tracking-normal leading-none uppercase text-lambright-500">{{ pricing.month}}</span>
               
             </p>
              <form  action="/transaction" class="sm:max-w-xl sm:mx-auto lg:mx-0" method="POST">
@@ -65,7 +66,7 @@
               <svg class="flex-shrink-0 h-5 w-5 text-lambright-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200">{{feature}}</span>
+              <span class="font-copy text-xl font-normal tracking-normal leading-relaxed text-lambright-50">{{feature}}</span>
             </li>
             </ul>
           </div>
@@ -112,7 +113,8 @@ export default {
           title: 'Solopreneur',
           link: 'Dedicated',
           description: 'Offload Routine Tasks ',
-          price: '$320/month',
+          price: '$80',
+          month: '/month',
           includedFeatures: 
           ['8 hours/week' ,
            'Dedicated Concierge',
@@ -126,7 +128,8 @@ export default {
           title: "Entrepreneur",
           link: 'Dedicated',
           description: 'Optimize Your Day',
-          price: '$580/month',
+          price: '$144',
+          month: '/month',
           includedFeatures: 
           ['16 hours/week',
            'Process Wiki',
@@ -143,7 +146,8 @@ export default {
           title: "Startup ",
           link: 'Dedicated',
           description: 'Hack the Future',
-          price: '$940/month',
+          price: '$235',
+          month: '/month',
           includedFeatures: 
           ['32 hours/week',
            'Process Wiki',
@@ -161,7 +165,7 @@ export default {
           title: "Accelerator",
           link: 'Dedicated',
           description: 'Build a Team',
-          price: 'Tailored Pricing',
+          month: 'Tailored Pricing',
           includedFeatures: 
           [ 'Data Mining',
             'Lead Generation',

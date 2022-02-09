@@ -27652,28 +27652,31 @@ __webpack_require__.r(__webpack_exports__);
         title: 'Solopreneur',
         link: 'Dedicated',
         description: 'Offload Routine Tasks ',
-        price: '$320/month',
+        price: '$80',
+        month: '/month',
         includedFeatures: ['8 hours/week', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
         id: 2,
         title: "Entrepreneur",
         link: 'Dedicated',
         description: 'Optimize Your Day',
-        price: '$580/month',
+        price: '$144',
+        month: '/month',
         includedFeatures: ['16 hours/week', 'Process Wiki', 'Standard SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
         id: 3,
         title: "Startup ",
         link: 'Dedicated',
         description: 'Hack the Future',
-        price: '$940/month',
+        price: '$235',
+        month: '/month',
         includedFeatures: ['32 hours/week', 'Process Wiki', 'Standard SOPs', 'Custom SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
       }, {
         id: 4,
         title: "Accelerator",
         link: 'Dedicated',
         description: 'Build a Team',
-        price: 'Tailored Pricing',
+        month: 'Tailored Pricing',
         includedFeatures: ['Data Mining', 'Lead Generation', 'Managed CRM', 'Content Moderation', 'Online Marketing', 'Tech Support', 'Customer Support', 'Blogging', 'Web Development']
       }]
     });
@@ -27762,7 +27765,7 @@ var _hoisted_3 = {
 };
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "font-concourset7 text-3xl font-normal trackin-normal leading-snug text-black capitalize text-center"
+  "class": "font-concourset6 text-5xl font-normal trackin-normal leading-tight text-newcolor-50 capitalize text-center"
 }, " Questions? ", -1
 /* HOISTED */
 );
@@ -27840,7 +27843,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
       var open = _ref.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dt", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27875,7 +27878,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref2) {
       var open = _ref2.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27890,7 +27893,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case text-newcolor-200"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_11];
@@ -27910,7 +27913,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref3) {
       var open = _ref3.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27925,7 +27928,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case text-newcolor-200"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_13];
@@ -27945,7 +27948,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref4) {
       var open = _ref4.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27960,7 +27963,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case text-newcolor-200"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_15];
@@ -27980,7 +27983,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref5) {
       var open = _ref5.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -27995,7 +27998,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case text-newcolor-200"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_17];
@@ -28015,7 +28018,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref6) {
       var open = _ref6.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -28030,7 +28033,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case text-newcolor-200"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_19];
@@ -28050,7 +28053,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref7) {
       var open = _ref7.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -28065,7 +28068,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case text-newcolor-200"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_21];
@@ -28085,7 +28088,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref8) {
       var open = _ref8.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosureButton, {
-        "class": "flex justify-between w-full py-2 font-concourset4 text-xl font-normal tracking-normal leading-snug text-newcolor-500 normal-case"
+        "class": "flex justify-between w-full py-2 font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChevronUpIcon, {
@@ -28100,7 +28103,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, 1024
       /* DYNAMIC_SLOTS */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DisclosurePanel, {
-        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+        "class": "pt-4 pb-2 font-copy2 text-base font-normal tracking-normal leading-relaxed normal-case text-newcolor-200"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_23];
@@ -28289,13 +28292,13 @@ var _hoisted_2 = {
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "font-concourset7 text-3xl font-normal tracking-normal leading-snug capitalize sm:text-center"
+  "class": "font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-center"
 }, "How Much More Do Want to Accomplish?", -1
 /* HOISTED */
 );
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-black normal-case sm:text-center"
+  "class": "mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-100 normal-case sm:text-center"
 }, "Quick projects or long-term assignments. A full customer support team or a few hours of virtual assistance. Copywriting or data mining. (Why not both?) Building a project team? Let’s talk about requirements and pricing.", -1
 /* HOISTED */
 );
@@ -28314,41 +28317,44 @@ var _hoisted_8 = {
   "class": "py-6 px-3"
 };
 var _hoisted_9 = {
-  "class": "font-concourset4 text-2xl font-normal tracking-normal leading-snug text-newcolor-50 capitalize"
+  "class": "font-concourset4 text-2xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize"
 };
 var _hoisted_10 = {
-  "class": "mt-4 font-copy text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+  "class": "mt-4 font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
 };
 var _hoisted_11 = {
   "class": "mt-8"
 };
 var _hoisted_12 = {
-  "class": "font-concourset6 text-xl font-normal tracking-normal leading-normal uppercase text-lambright-600"
+  "class": "font-concoursec6 text-5xl font-normal tracking-normal leading-none uppercase text-lambright-500"
 };
 var _hoisted_13 = {
+  "class": "font-concoursec3 text-lg font-normal tracking-normal leading-none uppercase text-lambright-500"
+};
+var _hoisted_14 = {
   action: "/transaction",
   "class": "sm:max-w-xl sm:mx-auto lg:mx-0",
   method: "POST"
 };
-var _hoisted_14 = ["value"];
 var _hoisted_15 = ["value"];
 var _hoisted_16 = ["value"];
+var _hoisted_17 = ["value"];
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   type: "submit",
   "class": "mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600"
 }, "TALK TO US", -1
 /* HOISTED */
 );
 
-var _hoisted_18 = {
+var _hoisted_19 = {
   "class": "pt-6 pb-8 px-6"
 };
-var _hoisted_19 = {
+var _hoisted_20 = {
   "class": "flex space-x-3"
 };
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "flex-shrink-0 h-5 w-5 text-lambright-400",
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 20 20",
@@ -28362,8 +28368,8 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_21 = {
-  "class": "font-copy2 text-base font-normal tracking-normal leading-relaxed text-newcolor-200"
+var _hoisted_22 = {
+  "class": "font-copy text-xl font-normal tracking-normal leading-relaxed text-lambright-50"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Tab = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Tab");
@@ -28426,13 +28432,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   /* TEXT */
                   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.price), 1
                   /* TEXT */
-                  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+                  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(pricing.month), 1
+                  /* TEXT */
+                  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
                     type: "hidden",
                     name: "_token",
                     value: $setup.csrf
                   }, null, 8
                   /* PROPS */
-                  , _hoisted_14), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+                  , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
                     type: "hidden",
                     placeholder: "Last Name",
                     name: "last_name",
@@ -28441,7 +28449,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     value: pricing.price
                   }, null, 8
                   /* PROPS */
-                  , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+                  , _hoisted_16), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
                     type: "hidden",
                     placeholder: "First Name",
                     name: "first_name",
@@ -28450,12 +28458,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     value: pricing.title
                   }, null, 8
                   /* PROPS */
-                  , _hoisted_16), _hoisted_17])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(pricing.includedFeatures, function (feature) {
+                  , _hoisted_17), _hoisted_18])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(pricing.includedFeatures, function (feature) {
                     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("ul", {
                       key: feature,
                       role: "list",
                       "class": "mt-6 space-y-4"
-                    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Heroicon name: solid/check "), _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(feature), 1
+                    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Heroicon name: solid/check "), _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(feature), 1
                     /* TEXT */
                     )])]);
                   }), 128

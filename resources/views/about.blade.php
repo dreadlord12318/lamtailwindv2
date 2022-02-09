@@ -15,8 +15,8 @@
     <div class="absolute inset-0 h-full bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-    <h1 class="font-concourset7 text-6xl font-normal tracking-normal text-white sm:text-5xl lg:text-6xl normal-case">About Lambent</h1>
-    <p class="mt-6 font-copy text-xl font-normal-400 tracking-normal leading-relaxed text-left text-white normal-case max-w-3xl">Lambent is an offshore outsourcer devoted to better processes for high-growth businesses, cost-conscious organizations, and driven entrepreneurs. </p>
+    <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">About Lambent</h1>
+    <p class="mt-6 font-copy text-2xl font-normal tracking-normal leading-normal text-left text-newcolor-700 max-w-3xl">Lambent is an offshore outsourcer devoted to better processes for high-growth businesses, cost-conscious organizations, and driven entrepreneurs. </p>
   </div>
 </div>
 
