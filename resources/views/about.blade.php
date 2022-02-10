@@ -83,7 +83,7 @@
           </div>
           </div>
       </figure>
-      <figcaption class = "text-base">Lambent Actively Supports Remote Area Medical Philippines Missions</figcaption>
+      <figcaption class = "font-concourset3 text-sm font-normal tracking-normal leading-snug text-newcolor-200 normal-case">Lambent Actively Supports Remote Area Medical Philippines Missions</figcaption>
     </div>
   </div>
 </div>
@@ -108,8 +108,8 @@
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Our Team</h2>
-        <p class="text-xl text-gray-500">Odio nisi, lectus dis nulla. Ultrices maecenas vitae rutrum dolor ultricies donec risus sodales. Tempus quis et.</p>
+        <h2 class="font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-4xl">Our Team</h2>
+        <p class="font-copy text-xl font-normal tracking-normal leading-relaxed normal-case text-lambright-50">Odio nisi, lectus dis nulla. Ultrices maecenas vitae rutrum dolor ultricies donec risus sodales. Tempus quis et.</p>
       </div>
       <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
         <li>
@@ -119,9 +119,9 @@
             </div>
 
             <div class="space-y-2">
-              <div class="text-lg  leading-6 font-medium space-y-1">
-                <h3>Harry Fozzard</h3>
-                <p class="text-indigo-600">Founder</p>
+              <div class="space-y-1">
+                <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">Harry Fozzard</h3>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Founder</p>
               </div>
               <ul role="list" class="flex space-x-5">
                 <li>
@@ -152,9 +152,9 @@
             </div>
 
             <div class="space-y-2">
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Jenny Bertol-Tan</h3>
-                <p class="text-indigo-600">Partner</p>
+              <div class="space-y-1">
+                <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">Jenny Bertol-Tan</h3>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Partner</p>
               </div>
               <ul role="list" class="flex space-x-5">
                 
@@ -178,9 +178,9 @@
             </div>
 
             <div class="space-y-2">
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Joy Dela Cruz</h3>
-                <p class="text-indigo-600">Operations</p>
+              <div class="space-y-1">
+              <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">Joy Dela Cruz</h3>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Operations</p>
               </div>
               <ul role="list" class="flex space-x-5">
                 
@@ -204,9 +204,9 @@
             </div>
 
             <div class="space-y-2">
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>John Paul Oira</h3>
-                <p class="text-indigo-600">People</p>
+              <div class="space-y-1">
+              <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">John Paul Oira</h3>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">People</p>
               </div>
               <ul role="list" class="flex space-x-5">
               
@@ -231,8 +231,8 @@
 
             <div class="space-y-2">
               <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Samantha Taganile</h3>
-                <p class="text-indigo-600">Process</p>
+              <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">Samantha Taganile</h3>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Process</p>
               </div>
               <ul role="list" class="flex space-x-5">
                 <li>
@@ -256,8 +256,8 @@
 
             <div class="space-y-2">
               <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Bernard Dadea</h3>
-                <p class="text-indigo-600">Technology</p>
+              <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">Bernard Dadea</h3>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Technology</p>
               </div>
               <ul role="list" class="flex space-x-5">
                 <li>
