@@ -113,7 +113,7 @@ export default {
           description: 'Offload Routine Tasks ',
           dollar:'$',
           price: '80',
-          month: '/month',
+          month: '/week',
           includedFeatures: 
           ['8 hours/week' ,
            'Dedicated Concierge',
@@ -129,7 +129,7 @@ export default {
           description: 'Optimize Your Day',
           dollar:'$',
           price: '144',
-          month: '/month',
+          month: '/week',
           includedFeatures: 
           ['16 hours/week',
            'Process Wiki',
@@ -148,7 +148,7 @@ export default {
           description: 'Hack the Future',
           dollar:'$',
           price: '235',
-          month: '/month',
+          month: '/week',
           includedFeatures: 
           ['32 hours/week',
            'Process Wiki',

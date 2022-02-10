@@ -39,10 +39,10 @@
               <div class="lg:py-24">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
-                <span class="block text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">Get Productivity Superpowers </span>
+                <span class="block text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">Productivity Superpowers   </span>
               </h1>
               <p class="mt-3 font-copy text-2xl font-normal tracking-normal  leading-normal text-left text-newcolor-700 normal-case sm:mt-5">
-              Transform your workflow into a streamlined productivity machine. Get more done faster. Focus on what matters. Be happy.   <br> A dedicated concierge. A pool of task experts. Robust process management. Inexpensive, straightforward monthly billing.    
+              A dedicated concierge. A pool of task experts. Robust process management. Inexpensive, straightforward monthly billing.   <br> Transform your workflow into a streamlined productivity machine. Get more done faster. Focus on what matters. Be happy.    
               </p>
 		          <div class="mt-10 sm:mt-12">
               <!-- <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Rate on Clutch - 1.svg" alt=""> -->
