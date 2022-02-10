@@ -34,8 +34,8 @@
     <main class="lg:mt-8 sm:mt-24">
     <div class="pt-10 bg-lambright-500 sm:pt-14 lg:pt-8 lg:pb-20 lg:overflow-hidden">
       <div class="mx-auto max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:gap-8">
-            <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+        <div class="lg:grid lg:grid-cols-3 gap-8 ">
+            <div class="mx-auto col-span-2 max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
               <div class="lg:py-24">
               
               <h1 class="mt-4  sm:mt-5 sm:text-6xl ">
@@ -112,7 +112,7 @@
           <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 sm:static lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="lg:ml-60 top-28  lg:w-5/12 sm:w-8/12 md:left-0 sm:left-0    lg:absolute lg:left " src="images/LAMB-Si_te-Image-Home-Header.svg" alt="">
+              <img class=" top-28  lg:w-8/12 sm:w-8/12 md:left-0 sm:left-0    lg:absolute lg:left " src="images/LAMB-Si_te-Image-Home-Header.svg" alt="">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
