@@ -2,9 +2,9 @@
   <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
     <TabGroup>
       <div  class="sm:flex sm:flex-col sm:align-center">
-        <h1 class="font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-center">How Much More Do Want to Accomplish?</h1>
+        <h1 class="font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-center">It’s Your Choice</h1>
     
-      <p class="mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-100 normal-case sm:text-center">Quick projects or long-term assignments. A full customer support team or a few hours of virtual assistance. Copywriting or data mining. (Why not both?) Building a project team? Let’s talk about requirements and pricing.</p>
+      <p class="mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-100 normal-case sm:text-center">We’ve got you covered: quick projects or long-term assignments. A complete customer support team or a few hours of virtual assistance. Copywriting or data mining. Building a project team? Let’s talk requirements and pricing. </p>
        
       
       <TabList class="">
@@ -110,7 +110,7 @@ export default {
           sub: 'Select project rates based on short-term projects, shared staff or long-term programs with full-time support',
           title: 'Solopreneur',
           link: 'Dedicated',
-          description: 'Offload Routine Tasks ',
+          description: 'Optimize Your Week ',
           dollar:'$',
           price: '80',
           month: '/week',
@@ -120,13 +120,14 @@ export default {
            'Weekly Call',
            'Program Portal',
            'Time Tracking',
-           'Weekly Report',],
+           'Weekly Report',
+           'Billed Monthly',],
         },
         {
           id: 2,
           title: "Entrepreneur",
           link: 'Dedicated',
-          description: 'Optimize Your Day',
+          description: 'Time Hack for Success',
           dollar:'$',
           price: '144',
           month: '/week',
@@ -139,13 +140,14 @@ export default {
            'Program Portal',
            'Time Tracking',
            'Weekly Report',
+           'Billed Monthly',
          ],
         },
         {
           id: 3,
           title: "Startup ",
           link: 'Dedicated',
-          description: 'Hack the Future',
+          description: 'Invent the Future',
           dollar:'$',
           price: '235',
           month: '/week',
@@ -159,13 +161,14 @@ export default {
            'Program Portal',
            'Time Tracking',
            'Weekly Report',
+           'Billed Monthly',
            ],
         },
         {
           id: 4,
           title: "Accelerator",
           link: 'Dedicated',
-          description: 'Build a Team',
+          description: 'Purpose-build your program team',
           month: 'Tailored Pricing',
           includedFeatures: 
           [ 'Data Mining',

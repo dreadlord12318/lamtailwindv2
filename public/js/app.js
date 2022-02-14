@@ -27651,34 +27651,34 @@ __webpack_require__.r(__webpack_exports__);
         sub: 'Select project rates based on short-term projects, shared staff or long-term programs with full-time support',
         title: 'Solopreneur',
         link: 'Dedicated',
-        description: 'Offload Routine Tasks ',
+        description: 'Optimize Your Week ',
         dollar: '$',
         price: '80',
-        month: '/month',
-        includedFeatures: ['8 hours/week', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
+        month: '/week',
+        includedFeatures: ['8 hours/week', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report', 'Billed Monthly']
       }, {
         id: 2,
         title: "Entrepreneur",
         link: 'Dedicated',
-        description: 'Optimize Your Day',
+        description: 'Time Hack for Success',
         dollar: '$',
         price: '144',
-        month: '/month',
-        includedFeatures: ['16 hours/week', 'Process Wiki', 'Standard SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
+        month: '/week',
+        includedFeatures: ['16 hours/week', 'Process Wiki', 'Standard SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report', 'Billed Monthly']
       }, {
         id: 3,
         title: "Startup ",
         link: 'Dedicated',
-        description: 'Hack the Future',
+        description: 'Invent the Future',
         dollar: '$',
         price: '235',
-        month: '/month',
-        includedFeatures: ['32 hours/week', 'Process Wiki', 'Standard SOPs', 'Custom SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report']
+        month: '/week',
+        includedFeatures: ['32 hours/week', 'Process Wiki', 'Standard SOPs', 'Custom SOPs', 'Dedicated Concierge', 'Weekly Call', 'Program Portal', 'Time Tracking', 'Weekly Report', 'Billed Monthly']
       }, {
         id: 4,
         title: "Accelerator",
         link: 'Dedicated',
-        description: 'Build a Team',
+        description: 'Purpose-build your program team',
         month: 'Tailored Pricing',
         includedFeatures: ['Data Mining', 'Lead Generation', 'Managed CRM', 'Content Moderation', 'Online Marketing', 'Tech Support', 'Customer Support', 'Blogging', 'Web Development']
       }]
@@ -28296,13 +28296,13 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-center"
-}, "How Much More Do Want to Accomplish?", -1
+}, "It’s Your Choice", -1
 /* HOISTED */
 );
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "mt-5 font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-100 normal-case sm:text-center"
-}, "Quick projects or long-term assignments. A full customer support team or a few hours of virtual assistance. Copywriting or data mining. (Why not both?) Building a project team? Let’s talk about requirements and pricing.", -1
+}, "We’ve got you covered: quick projects or long-term assignments. A complete customer support team or a few hours of virtual assistance. Copywriting or data mining. Building a project team? Let’s talk requirements and pricing. ", -1
 /* HOISTED */
 );
 

@@ -127,9 +127,9 @@
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative py-4 bg-white">
-<div class="relative rounded-lg m-8 bg-newcolor-300">
-  <div class="h-56 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-full md:w-1/2">
-    <img class="w-9/12 h-full object-cover" src="images/shutterstock_55954336.jpg" alt="">
+<div class="relative rounded-lg my-9  max-w-7xl mx-auto pt-6 px-4 sm:px-6 lg:px-8 bg-newcolor-300">
+  <div class="h-56 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-5/6 md:w-1/2">
+    <img class="w-90 ml-40 h-96 object-cover" src="images/LAMB-Site-Image-Home-CTA.svg" alt="">
   </div>
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
     <div class=" md:w-1/2 ">
