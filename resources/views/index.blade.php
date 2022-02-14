@@ -184,7 +184,7 @@
               <div class="relative text-lg font-medium text-white md:flex-grow">
                 
                 <p class="relative  font-copy text-xl font-normal tracking-normal leading-relaxed text-newcolor-700 normal-case">
-                Lambent is your swiss-army knife to get things done. We’re purpose-built to accelerate your success with meticulously designed processes that streamline your work with all the hacks and enhancements we've learned over fifteen years of operations.
+                Lambent is Gladwell’s 10,000-hour rule applied to remote teams. We’re purpose-built to streamline your work with meticulously designed processes and all the hacks and enhancements we've learned over fifteen years. 
                 </p>
               </div>
 
@@ -205,19 +205,19 @@
         </h2>
         <div class="mt-6 text-newcolor-800 font-normal-400 tracking-normal leading-normal  space-y-6">
           <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
-          What if using a virtual assistant was easy? No delegation tutorials. No crossing cultural divides. Just work done and done. <br>First, we assign you a concierge whose single-minded focus is to make it easy.    
+          No delegation tutorials. No crossing cultural divides. Just work done.   
           </p>
           <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
-          Your concierge is your go-to person who meets with you each week to plan your deliverable. She’s work savvy and highly experienced in delivering services to our global clientele. She coordinates with the team to assign tasks to copywriters, designers, data administrators, lead generators, and online marketers. She monitors the performance of your customer service team or your lead generators or your telesurvey agents.  
+          First, we assign you a Concierge. Your Concierge is your go-to person who meets with you each week to plan your deliverables. She coordinates with our data management, marketing, writing, social media, lead generation, design, documentation, coding, and data mining specialists. She monitors their performance and reviews deliverables.   
           </p>
           <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
-          Before the weekly meetings start your concierge coordinates the launch team as they imbibe your workflow. She goes under the hood to understand your workflow and build ultra streamlined processes that you monitor on a productivity dashboard.
+          Your Concierge is your interface to the launch team as they imbibe your expectations to engineer a lightning-fast, bulletproof workflow. Before your program goes live, we’ll spend hours configuring automation, documenting processes, and testing outcomes. We build a dashboard so you can see what’s happening 24/7.
           </p>
           <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
           After launch, we calibrate across weekly sprints to keep improving and improving. Furiously documenting documentarians memorialize that hard-earned knowledge in a self-serve wiki for your reference. 
           </p>
           <p class="text-xl text-left text-lambright-50 tracking-normal font-normal leading-relaxed normal-case font-copy">
-          Then we do it all over again.
+          Then we do it all over again. 
           </p>
         </div>
       </div>
@@ -238,7 +238,7 @@
     Choose Your Workflow…
     </p>
     <p class="font-copy text-xl font-normal tracking-normal text-center leading-relaxed text-lambright-50 normal-case">
-    …or mix and match. Delegate online marketing and back-office administration? No worries. Data collection for lead generation and content moderation? We’re here for you with documented operating procedures backed by thousands of hours in the trenches.
+    Online marketing and back-office administration? No worries. Data collection for lead generation and content moderation? We’re here for you.  
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
