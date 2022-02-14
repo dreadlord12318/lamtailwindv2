@@ -127,12 +127,12 @@
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative py-4 bg-white">
-<div class="relative rounded-lg my-9  max-w-7xl mx-auto pt-6 px-4 sm:px-6 lg:px-8 bg-newcolor-300">
-  <div class="h-56 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-5/6 md:w-1/2">
-    <img class="w-90 ml-40 h-96 object-cover" src="images/LAMB-Site-Image-Home-CTA.svg" alt="">
+<div class="relative rounded-lg my-9  max-w-7xl mx-auto pt-6 px-12 sm:px-6 lg:px-14 bg-newcolor-300">
+  <div class="h-80 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-5/6 md:w-1/2">
+    <img class="w-72 ml-72 mt-4 h-80 object-fit" src="images/LAMB-Site-Image-Home-CTA.svg" alt="">
   </div>
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
-    <div class=" md:w-1/2 ">
+    <div class=" md:w-9/12 ">
     <p class="mt-2 text-newcolor-700 font-concourset6 text-5xl font-normal tracking-normal leading-tight text-left capitalize">
     What’s better than magic? Free magic!  
 </p>

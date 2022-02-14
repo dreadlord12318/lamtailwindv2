@@ -15,8 +15,8 @@
     <div class="absolute inset-0 h-full bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-    <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">About Lambent</h1>
-    <p class="mt-6 font-copy text-2xl font-normal tracking-normal leading-normal text-left text-newcolor-700 max-w-3xl">Lambent is an offshore outsourcer devoted to better processes for high-growth businesses, cost-conscious organizations, and driven entrepreneurs. </p>
+    <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">We’re Ready</h1>
+    <p class="mt-6 font-copy text-2xl font-normal tracking-normal leading-normal text-left text-newcolor-700 max-w-3xl">If you’re an entrepreneur, a creator, a leader: you have a dream, a goal. Whatever you’re building, we’re here, ready and waiting to stand shoulder-to-shoulder with you. You bring the inspiration to do something unique, relevant, new, special. We’ll bring the process chops and the team.</p>
   </div>
 </div>
 
@@ -53,16 +53,13 @@
     <div class="text-lg prose prose-indigo prose-lg text-gray-500 mx-auto text-center">
       <h1>
 
-        <span class="mt-2 block font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-4xl">Better Outsourcing</span>
+        <span class="mt-2 block font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-4xl">Possibility</span>
       </h1>
     </div>
     <div class="mt-6 prose prose-indigo  prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
-      <p>Maybe you want to grow your business more quickly. Maybe you want to spend less time at work or more time on the big-picture stuff. Maybe you want some process daemons to make your back-office hum. Maybe you want to save money.</p>
-      <p>You’re in luck. Since 2006, we’ve been perfecting managed back-office services for projects and programs from admin assistance for entrepreneurs to 24x7 customer support for high-growth technology companies.</p>
-      <p>Our idea: create efficient, practical solutions for offshore work. Our mantra: build your value for your customers, your audience, your stakeholders.</p>
-      <h2 class = "font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize">Our Mission</h2>
-       <p>Back-office work requires trust between provider and client. When we work for our clients, we represent them to the world. Our work becomes indistinguishable from their work. That’s why we invest in early process documentation and calibration to get the details right. This is the foundation for deep, long-term working relationships. </p>
-       <p>We’ve learned that the best way to service our clients is to make sure we attract, develop, and keep the best talent we can. Duty to our clients, our team, and our community inform everything we do.</p>
+      <p>Possibility opens the door. It’s the spark of  What if…? of  How can this be better? Each engagement pushes the envelope of possibility to make it a reality. </p>
+      <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50 capitalize">Trust</h2>
+       <p>The warp and woof of smooth give and take, of timely, quality deliverables, and of decisive, proactive, intelligent operations build trust over time. Trust binds us into a making machine.</p>
        <!-- <figure>
           <div class="relative aspect-w-12 aspect-h-10 overflow-hidden mt-12 mb-14 rounded-lg">
             <img class="absolute inset-0 my-0 lg:mt-0 h-full w-full object-cover" src="images/LAMB-Site-Image-About.jpg" alt="">
@@ -71,10 +68,14 @@
           </div>
           </div>
       </figure> -->
-      <h2 class = "font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Our Value</h2>
-        <p>We Create Value for Our Clients - Our clients are why we do what we do. When we perform work for our clients, we assume their perspective to drive tangible gains. Deep collaboration makes our programs extraordinarily successful</p>
-        <p>We Invest in Our Team’s Growth & Happiness - We believe in the virtuous cycle. Attract and train great people. Foster a comfortable, productive environment for those great people. Build happy and prosperous teams. Coach those teams to greatness.</p>
-        <p>We Care About Our Community & the Environment - Our business lives in Dumaguete and Birmingham. These places are home, and in a greater sense, the world is our home. Taking care of our home is an essential part of our philosophy of work and life</p>
+      <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Our Value</h2>
+        <p>Ultimately, we journey to value. Whatever you’re doing, it’s because you believe in its worth to you and the world, in its value. Lambent amplifies your value. </p>
+        <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Learning</h2>
+        <p>Learning is the craft for knowing workflow minutiae, building expertise with our tools, and the discipline of unceasing improvement through kaizen. We learn: we keep learning </p>
+        <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Community</h2>
+        <p>Lambent is one strand of a community woven from our team, clients, families, neighbors, species, and planet. It’s our job to do right by all of them and to leave the world better than we found it. </p>
+        <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Excellence</h2>
+        <p>Excellence is a destination that lies on the horizon. We’re never there because we raise the bar with every success.  </p>
         <figure>
           <div class="relative aspect-w-12 aspect-h-10  overflow-hidden mt-12 mb-14 rounded-lg">
             <img class="absolute inset-0 my-0 lg:mt-0 h-full w-full object-cover" src="images/LAMB-Site-Image-About2.jpg" alt="">
@@ -108,8 +109,8 @@
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-        <h2 class="font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-4xl">Our Team</h2>
-        <p class="font-copy text-xl font-normal tracking-normal leading-relaxed normal-case text-lambright-50">Odio nisi, lectus dis nulla. Ultrices maecenas vitae rutrum dolor ultricies donec risus sodales. Tempus quis et.</p>
+        <h2 class="font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-4xl">Leadership </h2>
+        <p class="font-copy text-xl font-normal tracking-normal leading-relaxed normal-case text-lambright-50">Before your program starts, there are people who learn about what you want to do, your processes, and your technology stack. People who build the foundation for your program’s success. These are those people. </p>
       </div>
       <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
         <li>
