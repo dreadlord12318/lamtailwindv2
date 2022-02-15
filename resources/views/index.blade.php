@@ -32,7 +32,7 @@
 
 
     <main class="lg:mt-8 sm:mt-24">
-    <div class="pt-10 bg-lambright-500 sm:pt-14 lg:pt-8 lg:pb-20 lg:overflow-hidden">
+    <div class="pt-10 bg-lambright-500 sm:pt-14 lg:pt-0 lg:pb-20 lg:overflow-hidden">
       <div class="mx-auto max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-3 gap-8 ">
             <div class="mx-auto col-span-2 max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
@@ -42,7 +42,7 @@
                 <span class="block text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">Productivity Superpowers   </span>
               </h1>
               <p class="mt-3 font-copy text-2xl font-normal tracking-normal  leading-normal text-left text-newcolor-700 normal-case sm:mt-5">
-              A dedicated concierge. A pool of task experts. Robust process management. Inexpensive, straightforward monthly billing.   <br> Transform your workflow into a streamlined productivity machine. Get more done faster. Focus on what matters. Be happy.    
+              A dedicated concierge. A pool of task experts. Robust process management. Inexpensive, straightforward monthly billing.   <br> Transform your workflow into a streamlined productivity machine. Get more done faster. Focus on what matters.<br> Be happy.    
               </p>
 		          <div class="mt-10 sm:mt-12">
               <!-- <img class="w-44 mt-3 md:center " src="images/LAMB - Proof Image - Rate on Clutch - 1.svg" alt=""> -->
@@ -112,7 +112,7 @@
           <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 sm:static lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class=" top-28  lg:w-8/12 sm:w-8/12 md:left-16 sm:left-0    lg:absolute lg:left " src="images/LAMB-Si_te-Image-Home-Header.svg" alt="">
+              <img class=" top-12  lg:w-8/12 sm:w-8/12 md:left-16 sm:left-0    lg:absolute lg:left " src="images/LAMB-Si_te-Image-Home-Header.svg" alt="">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
@@ -126,7 +126,7 @@
 <!-- Split with image -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative py-4 bg-white">
+<div class="relative py-24 bg-white">
 <div class="relative rounded-lg my-9  max-w-7xl mx-auto pt-6 px-12 sm:px-6 lg:px-14 bg-newcolor-300">
   <div class="h-80 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-5/6 md:w-1/2">
     <img class="w-72 ml-72 mt-4 h-80 object-fit" src="images/LAMB-Site-Image-Home-CTA.svg" alt="">
@@ -158,7 +158,7 @@
 <!-- Content: with testimonials and stats -->
 
 
-<div class="relative bg-newcolor-700 py-16 sm:py-24">
+<div class="relative bg-newcolor-700 py-24 sm:py-24">
   <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
     <div class="relative sm:py-16 lg:py-0">
       <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
@@ -231,7 +231,7 @@
 
 <!-- Features: Grid with offset icons -->
 
-<div class="relative bg-lamblue-50 py-16 sm:py-24 lg:pt-24 lg:pb-24">
+<div class="relative bg-lamblue-50 py-24 sm:py-24 lg:py-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
     <h2 class="text-lambright-500 font-concoursec3 text-base leading-none font-normal tracking-normal uppercase">JUST DELEGATE IT</h2>
     <p class="font-concourset6 text-4xl font-normal tracking-normal leading-snug text-center text-newcolor-50 capitalize">
@@ -372,7 +372,7 @@
 <!-- Blog: 3-column cards -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-lamblue-50 pt-16 pb-14 px-4 sm:px-6 lg:pt-24 lg:pb-24 lg:px-8">
+<div class="relative bg-lamblue-50 py-24 px-4 sm:px-6 lg:py-24 lg:px-8">
   <div class="absolute inset-0">
     <div class="bg-lamblue-50 h-1/3 sm:h-2/3"></div>
   </div>

@@ -1,5 +1,5 @@
 
-<nav class = "bg-lambright-500 max-w-full z-40 fixed left-0 right-0">
+<nav class = "bg-lambright-500 max-w-full h-20 z-40 fixed left-0 right-0">
     <div x-data="{ isOpen: false }" class=" md:max-w-7xl lg:max-w-7xl  mx-auto py-6 px-6 md:px-0 md:flex md:justify-between md:items-center">
         <div class="flex justify-between pl-6 items-center">
             <div class="flex items-center">

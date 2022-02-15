@@ -1,10 +1,10 @@
 <template>
 <div class="">
-<vueper-slides  autoplay fade  :arrows-outside="false"  :bullets="false" class = "no-shadow bg-white py-9 lg:py-9">
+<vueper-slides  autoplay fade  :arrows-outside="false"  :bullets="false" class = "no-shadow bg-white py-24 lg:py-24">
   <vueper-slide
     v-for="(slide, i) in slides"
     :key="i"
-    class = "absolute max-w-7xl mx-auto pt-6 px-4 sm:px-6 lg:px-8"
+    class = "absolute max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8"
     > 
   <template #content >
 
@@ -22,7 +22,7 @@
             <p class="font-copy text-xl text-right font-normal tracking-normal leading-normal text-newcolor-700  normal-case">{{slide.title}}</p>
             <footer class="mt-6">
               <p class="flex flex-col text-right  font-concourset3 text-sm font-normal tracking-normal leading-snug  normal-case text-newcolor-700">
-                <span>{{slide.content}}</span>
+                <!-- <span>{{slide.content3}}</span> -->
                 <span>{{slide.content2}}</span>
               </p>
             </footer>
@@ -122,7 +122,7 @@ export default {
 
    @media (min-width: 1280px) { 
     .vueperslides__parallax-wrapper{
-          padding-bottom: 28.3333% !important; 
+          padding-bottom: 24.3333% !important; 
     } 
     .img {
           height: 100% !important;
