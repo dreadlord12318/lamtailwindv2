@@ -122,7 +122,7 @@
             <div class="space-y-2">
               <div class="space-y-1">
                 <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">Harry Fozzard</h3>
-                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Founder</p>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Founder + Operations</p>
               </div>
               <ul role="list" class="flex space-x-5">
                 <li>
@@ -155,7 +155,7 @@
             <div class="space-y-2">
               <div class="space-y-1">
                 <h3 class = "font-concourset4 text-2xl font-normal tracking-normal leading-tight capitalize text-newcolor-50">Jenny Bertol-Tan</h3>
-                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Partner</p>
+                <p class="font-concoursec3 text-lg font-normal tracking-normal leading-none text-lambright-500 uppercase">Partner + Support </p>
               </div>
               <ul role="list" class="flex space-x-5">
                 
