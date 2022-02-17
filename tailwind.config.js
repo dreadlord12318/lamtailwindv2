@@ -1,7 +1,10 @@
 module.exports = {
-  purge: [
+  content: [
+    // Example content paths...
     './resources/views/**/*.blade.php',
     './resources/css/**/*.css',
+    './resources/js/**/*.vue',
+    
   ],
   theme: {
     extend: {
@@ -74,7 +77,6 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/ui'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),

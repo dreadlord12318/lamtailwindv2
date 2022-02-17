@@ -27548,28 +27548,32 @@ __webpack_require__.r(__webpack_exports__);
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home-Testimonial_1.jpg'
+        image: '/images/clutch-social-proof-seamless-workflow.jpg',
+        alt: 'Above all, Lambent’s ability to think outside the box was exceptional.'
       }, {
         title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
         content: 'Online Marketing Management for Business Process Outsourcing ',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1795022',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home_Testimonial_2.jpg'
+        image: '/images/clutch-social-proof-aligned-with-client.jpg',
+        alt: 'Lambent is communicative and manages the project effectively.'
       }, {
         title: 'Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.',
         content: 'Branding and Online Marketing for Financial Consultancy',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home_Testimonial_3.jpg'
+        image: '/images/clutch-social-proof-on-time-flexible.jpg',
+        alt: 'Lambent Consulting completes tasks on time'
       }, {
         title: 'Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it.',
         content: 'Email Marketing, Landing page Design, and Lead Journey Management for B2B Financing',
         content2: 'Read the Complete Clutch Review',
         link: 'https://clutch.co/profile/lambent-consulting#review-1798153',
         // You can also provide a URL for the image.
-        image: '/images/LAMB-Site-Image-Home-Testimonial_4.jpg'
+        image: '/images/clutch-social-proof-positive-partnership.jpg',
+        alt: 'Lambent easily grasped our vision and improved it.'
       } // Other slides.
       ]
     };
@@ -28145,12 +28149,12 @@ var _hoisted_2 = {
 };
 var _hoisted_3 = ["href"];
 var _hoisted_4 = {
-  "class": "relative py-20 px-8 bg-lambright-600 rounded-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-x-8"
+  "class": "relative py-36 px-8 bg-lambright-600 rounded-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-x-8"
 };
 var _hoisted_5 = {
   "class": "absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply"
 };
-var _hoisted_6 = ["src"];
+var _hoisted_6 = ["src", "alt"];
 
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "relative lg:col-span-1"
@@ -28183,7 +28187,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     fade: "",
     "arrows-outside": false,
     bullets: false,
-    "class": "no-shadow bg-white py-24 lg:py-24"
+    "class": "no-shadow bg-lime-50 py-24 lg:py-24"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.slides, function (slide, i) {
@@ -28196,7 +28200,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               target: "_blank",
               href: slide.link
             }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-              src: slide.image
+              src: slide.image,
+              alt: slide.alt
             }, null, 8
             /* PROPS */
             , _hoisted_6)]), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(slide.title), 1
@@ -28343,7 +28348,7 @@ var _hoisted_17 = ["value"];
 
 var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   type: "submit",
-  "class": "mt-8 block w-full bg-newcolor-300 border border-newcolor-300 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600"
+  "class": "mt-8 block w-full bg-lime-500 border border-lime-500 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600"
 }, "Let's talk", -1
 /* HOISTED */
 );

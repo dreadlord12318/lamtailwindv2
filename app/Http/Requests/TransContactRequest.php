@@ -27,7 +27,7 @@ class TransContactRequest extends FormRequest
             'fname' => 'required',
             'lname' => 'required',
             'email' => 'required | email',
-            'phone' => 'max:11',
+            'phone' => 'required | max:11',
             'subject' => 'max:255',
             'message' => 'max:255',
         ];

@@ -1,25 +1,13 @@
 @extends('layouts.app')
+@section('title', 'Lambent: Managed Virtual Assistants and Remote Teams in the Philippines')
+
+@section('description', 'The easiest, most straightforward system for getting your work done. Reclaim your time for the important things.')
 
 @section('content')
 
 @include('header')
 
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
+
 
 <!-- Hero: With Sign in Form -->
 <div class="relative bg-lambright-500 overflow-hidden">
@@ -32,7 +20,7 @@
 
 
     <main class="lg:mt-8 sm:mt-24">
-    <div class="pt-10 bg-lambright-500 sm:pt-14 lg:pt-0 lg:pb-20 lg:overflow-hidden">
+    <div class="pt-10 bg-blue-700 sm:pt-14 lg:pt-0 lg:pb-20 lg:overflow-hidden">
       <div class="mx-auto max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-3 gap-8 ">
             <div class="mx-auto col-span-2 max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
@@ -97,7 +85,7 @@
               </div>
               <div class="sm:col-span-2">
                     <div class="mt-1">
-                      <button type="submit" class="block w-full py-3  font-concourset6 text-base normal-case  font-normal tracking-normal leading-relaxed align-middle px-5 rounded-md shadow bg-newgrowth-300 text-white hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                      <button type="submit" class="block w-full py-3  font-concourset6 text-base normal-case  font-normal tracking-normal leading-relaxed align-middle px-5 rounded-md shadow bg-lime-500 text-white hover:bg-lime-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
                 </div>
                   </div>
@@ -112,7 +100,7 @@
           <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 sm:static lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="w-60 mb-28 ml-14 mt-8 top-12 sm:mb-60 sm:ml-40 lg:ml-16  lg:w-8/12  md:left-16 sm:left-0 lg:absolute lg:left  " src="images/LAMB-Si_te-Image-Home-Header.svg" alt="">
+              <img class="w-60 mb-28 ml-14 mt-8 top-48 sm:mb-60 sm:ml-40 lg:ml-16  lg:w-8/12  md:left-16 sm:left-0 lg:absolute lg:left "  src="images/Enlighted-Virtual-Assistance.svg" alt="Supercharge your productivity with offshore virtual assistants.">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>
@@ -126,10 +114,10 @@
 <!-- Split with image -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative py-24 bg-white">
+<div class="relative py-24 bg-slate-100">
 <div class="relative rounded-lg my-9  max-w-7xl mx-auto pt-6 px-12 sm:px-6 lg:px-14 bg-newcolor-300">
   <div class="h-80 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-5/6 md:w-1/2">
-    <img class="w-72 ml-72 mt-4 h-80 object-fit" src="images/LAMB-Site-Image-Home-CTA.svg" alt="">
+    <img class="w-72 ml-72 mt-4 h-80 object-fit" src="images/Lambent-Works-Magic-on-Tasks.svg" alt="One free task to demonstrate Lambent’s managed virtual assistant approach.">
   </div>
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">
     <div class=" md:w-9/12 ">
@@ -138,7 +126,9 @@
 </p>
       
       <p class="mt-3 text-xl font-normal tracking-normal text-left font-copy normal-case text-newcolor-700">
-      Do you have something that you’ve been putting off? Some task that stays at the bottom of your inbox pile? Well then, allow us to demonstrate how Lambent works its magic — for free. 
+      Do you have something that you’ve been putting off?<br>
+       Some task that stays at the bottom of your inbox pile?<br>
+        Well then, allow us to demonstrate how Lambent works its magic — for free. 
       </p>
       <div class="mt-8">
         <div class="inline-flex rounded-md shadow">
@@ -158,11 +148,11 @@
 <!-- Content: with testimonials and stats -->
 
 
-<div class="relative bg-newcolor-700 py-24 sm:py-24">
+<div class="relative bg-lime-50 py-24 sm:py-24">
   <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
     <div class="relative sm:py-16 lg:py-0">
       <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-        <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
+        <div class="absolute inset-y-0 right-1/2 w-full bg-lime-50 rounded-r-3xl lg:right-72"></div>
         <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
           <defs>
             <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -175,7 +165,7 @@
       <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
         <!-- Testimonial card-->
         <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
-          <img class="absolute inset-0 h-full w-full object-cover" src="images/LAMB-Site-Image-Home_Founder.jpg" alt="">
+          <img class="absolute inset-0 h-full w-full object-cover" src="images/harry-fozzard-mountain.jpg" alt="Harry Fozzard with Remote Area Medical Philippines mission to Itbayat Philippines">
           <div class="absolute inset-0 bg-lambright-600 mix-blend-multiply"></div>
           <div class="absolute inset-0 bg-gradient-to-t from-lambright-600 via-lambright-600 opacity-90"></div>
           <div class="relative px-8">
@@ -231,14 +221,14 @@
 
 <!-- Features: Grid with offset icons -->
 
-<div class="relative bg-lamblue-50 py-24 sm:py-24 lg:py-24">
+<div class="relative bg-slate-100 py-24 sm:py-24 lg:py-24">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-lambright-500 font-concoursec3 text-base leading-none font-normal tracking-normal uppercase">JUST DELEGATE IT</h2>
+    <h2 class="text-blue-700 font-concoursec5 text-lg leading-none font-normal tracking-normal uppercase">JUST DELEGATE</h2>
     <p class="font-concourset6 text-4xl font-normal tracking-normal leading-snug text-center text-newcolor-50 capitalize">
     Choose Your Workflow…
     </p>
     <p class="font-copy text-xl font-normal tracking-normal text-center leading-relaxed text-lambright-50 normal-case">
-    Online marketing and back-office administration? No worries. Data collection for lead generation and content moderation? We’re here for you.  
+    Online marketing and back-office administration? No worries.<br> Data collection for lead generation and content moderation? We’re here for you.  
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -372,9 +362,9 @@
 <!-- Blog: 3-column cards -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-lamblue-50 py-24 px-4 sm:px-6 lg:py-24 lg:px-8">
+<div class="relative bg-slate-100 py-24 px-4 sm:px-6 lg:py-24 lg:px-8">
   <div class="absolute inset-0">
-    <div class="bg-lamblue-50 h-1/3 sm:h-2/3"></div>
+    <div class="bg-slate-100 h-1/3 sm:h-2/3"></div>
   </div>
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
@@ -388,7 +378,7 @@
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="/images/LAMB-Site-Image-Home-IlluminationsPhils.jpg" alt="">
+          <img class="h-48 w-full object-cover" src="/images/philippines-global-outsourcing-capital.jpg" alt="Learn about outsourcing in the Philippines.">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -409,7 +399,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="/images/LAMB-Site-Image-Home-Illuminations_Outsourcing.jpg" alt="">
+          <img class="h-48 w-full object-cover" src="/images/how-businesses-scale-with-lambent.jpg" alt="Tips, insights, and hacks for outsouricng.">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
@@ -430,7 +420,7 @@
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="/images/LAMB-Site-Image-Home-Illuminations_Work.jpg" alt="">
+          <img class="h-48 w-full object-cover" src="/images/working-with-lambent.jpg" alt="Outsourcing theory and practice with real-world examples.">
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">

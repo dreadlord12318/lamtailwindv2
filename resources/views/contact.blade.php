@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title', 'Supercharge Your Productivity with a Managed Virtual Team')
+
+@section('description', 'Reasonably priced, astoundingly productive remote workers and teams from the Philippines. Learn more with a brief, on-point, mishigas-free consultation today!')
+
 @section('content')
 
 @include('header')
@@ -16,10 +20,10 @@
 </div> -->
 
 
-<div class="relative top-16 bg-lambright-500">
+<div class="relative top-16 bg-blue-700">
   <div class="absolute inset-0">
     <img class="w-full h-full object-cover" src="images/LAMB-Site-Image-Header-Contact.jpg" alt="">
-    <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-blue-700 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
     <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">We Thrive on Conversation</h1>
@@ -140,7 +144,7 @@
 
       
         <div class="sm:col-span-2">
-          <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md  shadow-3xl bg-newgrowth-300 font-concourset6 text-lg font-normal tracking-normal leading-none capitalize text-newcolor-700  hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md  shadow-3xl bg-lime-500 font-concourset6 text-lg font-normal tracking-normal leading-none capitalize text-slate-50  hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Let's talk
           </button>
         </div>

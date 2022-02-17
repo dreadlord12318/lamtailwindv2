@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title', 'Lambent: Managed remote teams with skills committed to your success')
+
+@section('description', 'Lambent’s values: synched with your success through dedication to craft and mutual trust. Our leaders: the team that gets your program rolling.')
+
 @section('content')
 
 
@@ -9,10 +13,10 @@
 
 <!-- Header Branded with Background -->
 
-<div class="relative top-16 pb-20 bg-lambright-500">
+<div class="relative top-16 pb-20 bg-blue-700">
   <div class="absolute inset-0">
-    <img class="w-full h-full object-cover" src="images/LAMB-Site-Image-Header-About.jpg" alt="">
-    <div class="absolute inset-0 h-full bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
+    <img class="w-full h-full object-cover" src="images/Lambent-Team-Values.jpg" alt="Lambent’s values inform our work.">
+    <div class="absolute inset-0 h-full bg-blue-700 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
     <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">We’re Ready</h1>
@@ -20,7 +24,7 @@
   </div>
 </div>
 
-<div class="relative py-16 top-12 bg-white overflow-hidden">
+<div class="relative py-16 top-12 bg-slate-100 overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
       <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
@@ -49,32 +53,35 @@
       </svg>
     </div>
   </div>
-  <div class="relative px-4 sm:px-6 lg:px-8 bg-newcolor-700">
-    <div class="text-lg prose prose-indigo prose-lg text-gray-500 mx-auto text-center">
-      <h1>
-
-        <span class="mt-2 block font-concourset6 text-5xl font-normal tracking-normal leading-tight text-newcolor-50 capitalize sm:text-4xl">Possibility</span>
-      </h1>
-    </div>
-    <div class="mt-6 prose prose-indigo  prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+  <div class="relative px-4 sm:px-6 lg:px-8 bg-slate-100">
+    <div class=" prose prose-indigo  font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+      <h4>
+        <span class="mt-2 block font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50 capitalize ">Possibility</span>
+      </h4>
       <p>Possibility opens the door. It’s the spark of  What if…? of  How can this be better? Each engagement pushes the envelope of possibility to make it a reality. </p>
-      <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50 capitalize">Trust</h2>
+
+      <h4> 
+        <span class = "block font-concourset6 text-5xl  font-normal text-center tracking-normal leading-tight text-newcolor-50 capitalize">Trust</span>
+      </h4>
        <p>The warp and woof of smooth give and take, of timely, quality deliverables, and of decisive, proactive, intelligent operations build trust over time. Trust binds us into a making machine.</p>
-       <!-- <figure>
-          <div class="relative aspect-w-12 aspect-h-10 overflow-hidden mt-12 mb-14 rounded-lg">
-            <img class="absolute inset-0 my-0 lg:mt-0 h-full w-full object-cover" src="images/LAMB-Site-Image-About.jpg" alt="">
-              <div class="absolute inset-0 bg-lambright-600 mix-blend-multiply"></div>
-              <div class="absolute inset-0 bg-gradient-to-t from-lambright-600 via-lambright-600  opacity-90">
-          </div>
-          </div>
-      </figure> -->
-      <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Our Value</h2>
+      
+       <h4> 
+         <span class = "block font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Our Value</span>
+       </h4>
         <p>Ultimately, we journey to value. Whatever you’re doing, it’s because you believe in its worth to you and the world, in its value. Lambent amplifies your value. </p>
-        <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Learning</h2>
+        <h4>
+          <span class = "block font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Learning</span>
+        </h4>
         <p>Learning is the craft for knowing workflow minutiae, building expertise with our tools, and the discipline of unceasing improvement through kaizen. We learn: we keep learning </p>
-        <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Community</h2>
+        
+        <h4>
+          <span class = "block font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Community</span>
+        </h4>
         <p>Lambent is one strand of a community woven from our team, clients, families, neighbors, species, and planet. It’s our job to do right by all of them and to leave the world better than we found it. </p>
-        <h2 class = "font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Excellence</h2>
+        
+        <h4>
+          <span class = "block font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50  capitalize">Excellence</span>
+        </h4>
         <p>Excellence is a destination that lies on the horizon. We’re never there because we raise the bar with every success.  </p>
         <figure>
           <div class="relative aspect-w-12 aspect-h-10  overflow-hidden mt-12 mb-14 rounded-lg">
@@ -84,7 +91,7 @@
           </div>
           </div>
       </figure>
-      <figcaption class = "font-concourset3 text-sm font-normal tracking-normal leading-snug text-newcolor-200 normal-case">Lambent Actively Supports Remote Area Medical Philippines Missions</figcaption>
+      <!-- <figcaption class = "font-concourset3 text-sm font-normal tracking-normal leading-snug text-newcolor-200 normal-case">Lambent Actively Supports Remote Area Medical Philippines Missions</figcaption> -->
     </div>
   </div>
 </div>
@@ -105,7 +112,7 @@
   }
   ```
 -->
-<div class="bg-newcolor-700">
+<div class="bg-lime-50">
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -116,7 +123,7 @@
         <li>
           <div class="space-y-4">
             <div class="aspect-w-3 aspect-h-2">
-              <img class="object-cover shadow-lg rounded-lg" src="images/Harry.jpg" alt="">
+              <img class="object-cover shadow-lg rounded-lg" src="images/Lambent-Team-Harry-Fozzard.jpg" alt="Lambent’s founder and head coach.">
             </div>
 
             <div class="space-y-2">
@@ -149,7 +156,7 @@
         <li>
           <div class="space-y-4">
             <div class="aspect-w-3 aspect-h-2">
-              <img class="object-cover shadow-lg rounded-lg" src="images/Jenny.jpg" alt="">
+              <img class="object-cover shadow-lg rounded-lg" src="images/Lambent-Team-Jenny-Bertol-Tan.jpg" alt="Lambent’s people and support team leader.">
             </div>
 
             <div class="space-y-2">
@@ -175,7 +182,7 @@
         <li>
           <div class="space-y-4">
             <div class="aspect-w-3 aspect-h-2">
-              <img class="object-cover shadow-lg rounded-lg" src="images/Joy%20Dela%20Cruz.jpg" alt="">
+              <img class="object-cover shadow-lg rounded-lg" src="images/Lambent-Team-Joy Dela-Cruz.jpg" alt="Lambent’s operations manager.">
             </div>
 
             <div class="space-y-2">
@@ -201,7 +208,7 @@
         <li>
           <div class="space-y-4">
             <div class="aspect-w-3 aspect-h-2">
-              <img class="object-cover shadow-lg rounded-lg" src="images/John%20Paul%20Oira.jpg" alt="">
+              <img class="object-cover shadow-lg rounded-lg" src="images/Lambent-Team-John-Paul-Oira.jpg" alt="Lambent’s people manager">
             </div>
 
             <div class="space-y-2">
@@ -227,7 +234,7 @@
         <li>
           <div class="space-y-4">
             <div class="aspect-w-3 aspect-h-2">
-              <img class="object-cover shadow-lg rounded-lg" src="images/Samantha.jpg" alt="">
+              <img class="object-cover shadow-lg rounded-lg" src="images/Lambent-Team-Samantha Taganile.jpg" alt="Lambent’s process supervisor.">
             </div>
 
             <div class="space-y-2">
@@ -252,7 +259,7 @@
         <li>
           <div class="space-y-4">
             <div class="aspect-w-3 aspect-h-2">
-              <img class="object-cover shadow-lg rounded-lg" src="images/Bernard.jpg" alt="">
+              <img class="object-cover shadow-lg rounded-lg" src="images/Lambent-Team-Bernard Dadea.jpg" alt="Lambent’s technologist">
             </div>
 
             <div class="space-y-2">

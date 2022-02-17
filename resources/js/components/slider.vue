@@ -1,6 +1,6 @@
 <template>
 <div class="">
-<vueper-slides  autoplay fade  :arrows-outside="false"  :bullets="false" class = "no-shadow bg-white py-24 lg:py-24">
+<vueper-slides  autoplay fade  :arrows-outside="false"  :bullets="false" class = "no-shadow bg-lime-50 py-24 lg:py-24">
   <vueper-slide
     v-for="(slide, i) in slides"
     :key="i"
@@ -10,9 +10,9 @@
 
     <div class="">
       <a target="_blank" :href="slide.link">
-      <div class="relative py-20 px-8 bg-lambright-600 rounded-xl  overflow-hidden  lg:grid lg:grid-cols-2 lg:gap-x-8">
+      <div class="relative py-36 px-8 bg-lambright-600 rounded-xl  overflow-hidden  lg:grid lg:grid-cols-2 lg:gap-x-8">
         <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-          <img :src="slide.image" />
+          <img :src="slide.image" :alt="slide.alt" />
         </div>
         <div class="relative lg:col-span-1">
       
@@ -56,7 +56,8 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home-Testimonial_1.jpg',
+    image: '/images/clutch-social-proof-seamless-workflow.jpg',
+    alt: 'Above all, Lambent’s ability to think outside the box was exceptional.',
   },
   {
     title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
@@ -64,7 +65,8 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1795022',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home_Testimonial_2.jpg',
+    image: '/images/clutch-social-proof-aligned-with-client.jpg',
+    alt: 'Lambent is communicative and manages the project effectively.',
   },
   {
     title: 'Lambent Consulting completes tasks on time and can easily insert other requirements if the client needs them immediately.',
@@ -72,7 +74,8 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1799292',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home_Testimonial_3.jpg',
+    image: '/images/clutch-social-proof-on-time-flexible.jpg',
+    alt: 'Lambent Consulting completes tasks on time',
   },
    {
     title: 'Lambent Consulting fostered a positive partnership through consistent communication via Zoom. Overall, they easily grasped the company’s vision and improved it.',
@@ -80,7 +83,8 @@ export default {
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1798153',
     // You can also provide a URL for the image.
-    image: '/images/LAMB-Site-Image-Home-Testimonial_4.jpg'
+    image: '/images/clutch-social-proof-positive-partnership.jpg',
+    alt: 'Lambent easily grasped our vision and improved it.',
   },
   
   // Other slides.

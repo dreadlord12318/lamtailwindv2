@@ -7,14 +7,17 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+
+    <title>@yield('title')</title>
+    <meta name="description" content="@yield('description')">
+    <!-- <meta name="keywords" content="@yield('keywords')"> -->
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet" defer>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/LAMB-Image-Favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/LAMB-LambentLogoDark_Favicon.png">
     
 
     <style>
@@ -66,18 +69,18 @@ input:checked ~ .dot {
     <!-- Footer: Simple Centered -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<footer class="bg-lambright-500
+<footer class="bg-blue-700
              inset-x-0
              bottom-0">
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-start" aria-label="Footer">
       <div class="px-5 py-2">
-        <a href="/about" class="text-base tracking-wide leading-snug font-normal text-center uppercase text-newcolor-700 font-concoursec6 hover:text-white">
+        <a href="/about" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">
        ABOUT
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/pricing" class="text-base leading-normal font-normal text-center tracking-wide uppercase font-concoursec6 text-newcolor-700 hover:text-white">
+        <a href="/pricing" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">
       PRICING
         </a>
       </div>
@@ -87,7 +90,7 @@ input:checked ~ .dot {
         </a>
       </div> -->
       <div class="px-5 py-2">
-        <a href="/contact" class="text-base leading-normal  font-normal text-center tracking-wide uppercase font-concoursec6 text-newcolor-700 hover:text-white">
+        <a href="/contact" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">
        CONTACT
         </a>
       </div>

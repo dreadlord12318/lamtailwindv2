@@ -1,16 +1,20 @@
 
 @extends('layouts.app')
 
+@section('title', 'Managed Virtual Assistant Pricing - Part-time, Full-time, Any time ')
+
+@section('description', 'Your single point of contact delivers well-managed, cost-effective offshore expertise. Packages start at USD80/week for Philippines-based managed virtual assistants. ')
+
 @section('content')
 
 @include('header')
 
 <!-- Header Branded with Background -->
 
-<div class="relative top-16 bg-lambright-500">
+<div class="relative top-16 bg-blue-700">
   <div class="absolute inset-0">
-    <img class="w-full h-full object-cover" src="/images/LAMB-Site-Image-Header-Pricing.jpg" alt="">
-    <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
+    <img class="w-full h-full object-cover" src="/images/Managed-Virtual-Assistants.jpg" alt="Schedule a call with Lambent, tell us how we can help.">
+    <div class="absolute inset-0 bg-blue-700 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
     <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">Easy Pricing </h1>
@@ -21,13 +25,13 @@
 <!-- Pricing - with five tiers and feature -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white mt-8">
+<div class="bg-slate-100 mt-8">
 <test2></test2>
 </div>
 
 <!-- FAQ CENTERED ACCORDIAN -->
 
-<div class="bg-lamblue-100">
+<div class="bg-lime-50">
 <faq></faq>
 </div>
 
