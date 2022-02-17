@@ -81,11 +81,11 @@ input:checked ~ .dot {
       PRICING
         </a>
       </div>
-      <div class="px-5 py-2">
+      <!-- <div class="px-5 py-2">
         <a href="/illuminations" class="text-base leading-normal font-normal text-center tracking-wide uppercase font-concoursec6 text-newcolor-700 hover:text-white">
        ILLUMINATIONS
         </a>
-      </div>
+      </div> -->
       <div class="px-5 py-2">
         <a href="/contact" class="text-base leading-normal  font-normal text-center tracking-wide uppercase font-concoursec6 text-newcolor-700 hover:text-white">
        CONTACT
