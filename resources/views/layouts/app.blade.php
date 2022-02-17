@@ -92,7 +92,7 @@ input:checked ~ .dot {
         </a>
       </div>
 
-      <div class="px-5 py-2">
+      <!-- <div class="px-5 py-2">
         <a href="/termsandcondition" class="text-base leading-normal font-normal text-center tracking-wide uppercase font-concoursec6 text-newcolor-700 hover:text-white">
           TERMS AND CONDITION
         </a>
@@ -108,7 +108,7 @@ input:checked ~ .dot {
         <a href="/GDPR" class="text-base tracking-wide uppercase font-normal text-center leading-normal font-concoursec6 text-newcolor-700 hover:text-white">
          GPDR POLICY
         </a>
-      </div>
+      </div> -->
 
     </nav>
     <div class="mt-8 flex justify-start space-x-6">
