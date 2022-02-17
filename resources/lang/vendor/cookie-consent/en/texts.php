@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'message' => 'Our website uses cookies to give you the best and most relevant experience. By clickin on allow, you give consent to the use of cookies as per our <a href = "/privacy">privacy policy</a>',
-    'agree' => 'Allow Cookies',
+    'message' => 'We use cookies like everybody else to deliver a tasty website experience. By clicking the cookie icon, you consent to the use of cookies.',
+    'agree' => '',
 ];
