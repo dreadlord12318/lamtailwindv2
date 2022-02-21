@@ -21,7 +21,7 @@ class ContactController2 extends Controller
         //     ->cc('info@lambent.co')
         //     ->send(new Contact2( $request));
 
-        Mail::to('janly@lumikha.c')->send(new Contact( $request));
+        Mail::to('janly@lumikha.c')->send(new Contact2( $request));
 
 
        return back()->with('status', 'Your Message has been received');
