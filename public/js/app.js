@@ -28162,7 +28162,7 @@ var _hoisted_4 = {
   "class": "relative py-36 px-8 bg-lambright-600 rounded-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-x-8"
 };
 var _hoisted_5 = {
-  "class": "absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply"
+  "class": "absolute inset-0 opacity-50 filter rounded-xl saturate-0 mix-blend-multiply"
 };
 var _hoisted_6 = ["src", "alt"];
 
@@ -28745,7 +28745,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@media (min-width: 624px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 73.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 768px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 56.3333% !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1024px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 48.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1280px) {\n.vueperslides__parallax-wrapper{\r\n          padding-bottom: 24.3333% !important;\n}\n.img {\r\n          height: 100% !important;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media (min-width: 624px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 73.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 768px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 56.3333% !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1024px) {\n.vueperslides__parallax-wrapper{\r\n   padding-bottom: 48.3333%  !important;\n}\n.img {\r\n  height: 100% !important;\n}\n}\n@media (min-width: 1280px) {\n.vueperslides__parallax-wrapper{\r\n          padding-bottom:29.3333% !important;\n}\n.img {\r\n          height: 100% !important;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

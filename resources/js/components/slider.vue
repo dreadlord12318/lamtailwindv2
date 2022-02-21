@@ -11,7 +11,7 @@
     <div class="">
       <a target="_blank" :href="slide.link">
       <div class="relative py-36 px-8 bg-lambright-600 rounded-xl  overflow-hidden  lg:grid lg:grid-cols-2 lg:gap-x-8">
-        <div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
+        <div class="absolute inset-0 opacity-50 filter rounded-xl saturate-0 mix-blend-multiply">
           <img :src="slide.image" :alt="slide.alt" />
         </div>
         <div class="relative lg:col-span-1">
@@ -126,7 +126,7 @@ export default {
 
    @media (min-width: 1280px) { 
     .vueperslides__parallax-wrapper{
-          padding-bottom: 24.3333% !important; 
+          padding-bottom:29.3333% !important; 
     } 
     .img {
           height: 100% !important;

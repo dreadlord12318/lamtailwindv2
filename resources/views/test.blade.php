@@ -8,9 +8,9 @@
 <!-- Header Branded with Background -->
 
 
-<div class="bg-gray-100">
-  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-    <div class="relative bg-white shadow-xl">
+<div class="bg-gray-100 ">
+  <div class="max-w-7xl mx-auto py-16 px-4  sm:py-24 sm:px-6 lg:px-8">
+    <div class="relative top-8 bg-white shadow-xl">
       <h2 class="sr-only">Contact us</h2>
 
       <div class="grid grid-cols-1 lg:grid-cols-3">
