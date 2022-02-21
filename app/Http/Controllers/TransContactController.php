@@ -18,7 +18,9 @@ class TransContactController extends Controller
     {
        
         
-            Mail::to('info@lambent.co')->send(new TransReciept( $request));
+            // Mail::to('info@lambent.co')->send(new TransReciept( $request));
+
+            Mail::to('janly@lumikha.c')->send(new Contact( $request));
 
 
 
