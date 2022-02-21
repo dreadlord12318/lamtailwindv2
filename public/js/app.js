@@ -28387,37 +28387,6 @@ var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 var _hoisted_22 = {
   "class": "font-copy text-xl font-normal tracking-normal leading-relaxed text-lambright-50"
 };
-var _hoisted_23 = {
-  "class": "fixed inset-0 z-10 overflow-y-auto"
-};
-var _hoisted_24 = {
-  "class": "min-h-screen px-4 text-center"
-};
-
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "inline-block h-screen align-middle",
-  "aria-hidden": "true"
-}, " ​ ", -1
-/* HOISTED */
-);
-
-var _hoisted_26 = {
-  "class": "inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
-};
-
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Payment successful ");
-
-var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-sm text-gray-500"
-}, " Your payment has been successfully submitted. We’ve sent you an email with all of the details of your order. ")], -1
-/* HOISTED */
-);
-
-var _hoisted_29 = {
-  "class": "mt-4"
-};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Tab = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Tab");
 
@@ -28428,16 +28397,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_TabPanels = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TabPanels");
 
   var _component_TabGroup = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TabGroup");
-
-  var _component_DialogOverlay = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("DialogOverlay");
-
-  var _component_TransitionChild = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TransitionChild");
-
-  var _component_DialogTitle = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("DialogTitle");
-
-  var _component_Dialog = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Dialog");
-
-  var _component_TransitionRoot = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("TransitionRoot");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TabGroup, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -28549,80 +28508,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionRoot, {
-    appear: "",
-    show: $setup.isOpen,
-    as: "template"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Dialog, {
-        as: "div",
-        onClose: $setup.closeModal
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionChild, {
-            as: "template",
-            enter: "duration-300 ease-out",
-            "enter-from": "opacity-0",
-            "enter-to": "opacity-100",
-            leave: "duration-200 ease-in",
-            "leave-from": "opacity-100",
-            "leave-to": "opacity-0"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DialogOverlay, {
-                "class": "fixed inset-0"
-              })];
-            }),
-            _: 1
-            /* STABLE */
-
-          }), _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_TransitionChild, {
-            as: "template",
-            enter: "duration-300 ease-out",
-            "enter-from": "opacity-0 scale-95",
-            "enter-to": "opacity-100 scale-100",
-            leave: "duration-200 ease-in",
-            "leave-from": "opacity-100 scale-100",
-            "leave-to": "opacity-0 scale-95"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_DialogTitle, {
-                as: "h3",
-                "class": "text-lg font-medium leading-6 text-gray-900"
-              }, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_27];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-                type: "button",
-                "class": "inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500",
-                onClick: _cache[0] || (_cache[0] = function () {
-                  return $setup.closeModal && $setup.closeModal.apply($setup, arguments);
-                })
-              }, " Got it, thanks! ")])])];
-            }),
-            _: 1
-            /* STABLE */
-
-          })])])];
-        }),
-        _: 1
-        /* STABLE */
-
-      }, 8
-      /* PROPS */
-      , ["onClose"])];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["show"])]);
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" \r\n    <TransitionRoot appear :show=\"isOpen\" as=\"template\">\r\n    <Dialog as=\"div\" @close=\"closeModal\">\r\n      <div class=\"fixed inset-0 z-10 overflow-y-auto\">\r\n        <div class=\"min-h-screen px-4 text-center\">\r\n          <TransitionChild\r\n            as=\"template\"\r\n            enter=\"duration-300 ease-out\"\r\n            enter-from=\"opacity-0\"\r\n            enter-to=\"opacity-100\"\r\n            leave=\"duration-200 ease-in\"\r\n            leave-from=\"opacity-100\"\r\n            leave-to=\"opacity-0\"\r\n          >\r\n            <DialogOverlay class=\"fixed inset-0\" />\r\n          </TransitionChild>\r\n\r\n          <span class=\"inline-block h-screen align-middle\" aria-hidden=\"true\">\r\n            &#8203;\r\n          </span>\r\n\r\n          <TransitionChild\r\n            as=\"template\"\r\n            enter=\"duration-300 ease-out\"\r\n            enter-from=\"opacity-0 scale-95\"\r\n            enter-to=\"opacity-100 scale-100\"\r\n            leave=\"duration-200 ease-in\"\r\n            leave-from=\"opacity-100 scale-100\"\r\n            leave-to=\"opacity-0 scale-95\"\r\n          >\r\n            <div\r\n              class=\"inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl\"\r\n            >\r\n              <DialogTitle\r\n                as=\"h3\"\r\n                class=\"text-lg font-medium leading-6 text-gray-900\"\r\n              >\r\n                Payment successful\r\n              </DialogTitle>\r\n              <div class=\"mt-2\">\r\n                <p class=\"text-sm text-gray-500\">\r\n                  Your payment has been successfully submitted. We’ve sent you\r\n                  an email with all of the details of your order.\r\n                </p>\r\n              </div>\r\n\r\n              <div class=\"mt-4\">\r\n                <button\r\n                  type=\"button\"\r\n                  class=\"inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500\"\r\n                  @click=\"closeModal\"\r\n                >\r\n                  Got it, thanks!\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </TransitionChild>\r\n        </div>\r\n      </div>\r\n    </Dialog>\r\n  </TransitionRoot> ")]);
 }
 
 /***/ }),
