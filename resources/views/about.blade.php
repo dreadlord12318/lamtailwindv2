@@ -84,11 +84,11 @@
         </h4>
         <p>Excellence is a destination that lies on the horizon. We’re never there because we raise the bar with every success.  </p>
         <figure>
-          <div class="relative aspect-w-12 aspect-h-10  overflow-hidden mt-12 mb-14 rounded-lg">
+          <!-- <div class="relative aspect-w-12 aspect-h-10  overflow-hidden mt-12 mb-14 rounded-lg">
             <img class="absolute inset-0 my-0 lg:mt-0 h-full w-full object-cover" src="images/LAMB-Site-Image-About2.jpg" alt="">
               <div class="absolute inset-0 bg-lambright-600 mix-blend-multiply"></div>
               <div class="absolute inset-0 bg-gradient-to-t from-lambright-600 via-lambright-600  opacity-90">
-          </div>
+          </div> -->
           </div>
       </figure>
       <!-- <figcaption class = "font-concourset3 text-sm font-normal tracking-normal leading-snug text-newcolor-200 normal-case">Lambent Actively Supports Remote Area Medical Philippines Missions</figcaption> -->
