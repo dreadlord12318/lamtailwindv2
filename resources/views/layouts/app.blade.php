@@ -92,12 +92,12 @@ input:checked ~ .dot {
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-start" aria-label="Footer">
       <div class="px-5 py-2">
-        <a href="/about" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">
+        <a href="/about" class="text-base text-slate-50 uppercase font-concoursec6 text-center font-normal leading-normal tracking-wide">
        ABOUT
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/pricing" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">
+        <a href="/pricing" class="text-base text-slate-50 uppercase font-concoursec6 text-center font-normal leading-normal tracking-wide">
       PRICING
         </a>
       </div>
@@ -107,7 +107,7 @@ input:checked ~ .dot {
         </a>
       </div> -->
       <div class="px-5 py-2">
-        <a href="/contact" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">
+        <a href="/contact" class="text-base text-slate-50 uppercase font-concoursec6 text-center font-normal leading-normal tracking-wide">
        CONTACT
         </a>
       </div>
