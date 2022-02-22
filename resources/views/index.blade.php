@@ -132,11 +132,12 @@
       </p>
       <div class="mt-8">
         <div class="inline-flex rounded-md shadow">
-          <a href="#" class="inline-flex items-center bg-lamblue-600 justify-center text-white px-5 py-3 border border-transparent rounded-md font-concourset6 text-base normal-case font-normal tracking-normal leading-relaxed hover:bg-lamblue-400">
-            Schedule a Call Today!
-            <!-- Heroicon name: solid/external-link -->
-       
-          </a>
+        <form  action="/transaction" class="sm:max-w-xl sm:mx-auto lg:mx-0" method="POST">
+              {{ csrf_field()}}
+                  <input type="hidden" placeholder="Last Name" name="last_name" id="last_name" autocomplete="family-name" value="Free Magic">
+                  <input type="hidden" placeholder="First Name" name="first_name" id="first_name" autocomplete="given-name"  value="I wanna talk">
+              <button type="submit"  class="inline-flex items-center bg-lamblue-600 justify-center text-white px-5 py-3 border border-transparent rounded-md font-concourset6 text-base normal-case font-normal tracking-normal leading-relaxed hover:bg-lamblue-400"> Schedule a Call Today!</button>
+             </form>
         </div>
       </div>
     </div>
