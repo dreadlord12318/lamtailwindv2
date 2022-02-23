@@ -28,6 +28,6 @@ class TransReciept extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.transemail-view');
+        return $this->subject('Free Magic')->view('mail.transemail-view');
     }
 }

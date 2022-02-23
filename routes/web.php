@@ -63,3 +63,7 @@ Route::post('/transaction', [\App\Http\Controllers\TransactionController::class,
 // --**Transaction Contact Page Route**---
 Route::get('/reciept',  [\App\Http\Controllers\TransContactController::class, 'show']);
 Route::post('/reciept', [\App\Http\Controllers\TransContactController::class, 'mail']);
+
+
+
+Route::get('/blog/blogs', [\App\Http\Controllers\PagesController::class, 'getIndex']);
