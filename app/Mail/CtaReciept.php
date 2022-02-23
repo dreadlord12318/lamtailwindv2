@@ -7,10 +7,11 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class TransReciept extends Mailable
+class CtaReciept extends Mailable
 {
     use Queueable, SerializesModels;
     public $request;
+
     /**
      * Create a new message instance.
      *
@@ -19,6 +20,7 @@ class TransReciept extends Mailable
     public function __construct($request)
     {
         $this->request = $request;
+    
     }
 
     /**
@@ -28,6 +30,6 @@ class TransReciept extends Mailable
      */
     public function build()
     {
-        return $this->subject('Pricing Page Lead')->view('mail.transemail-view');
+        return $this->subject('CTA Lead')->view('mail.transemail-view');
     }
 }

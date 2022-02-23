@@ -50,11 +50,11 @@
             </svg> -->
           </div>
           <p class="mt-2 text-white font-concourset6 text-5xl font-normal tracking-normal leading-tight text-left capitalize">
-          We’re Ready When You Are 
+        Free Magic  
 </p>
       
       <p class="mt-3 text-xl font-normal tracking-normal text-left font-copy normal-case text-white">
-      Schedule a call with us to learn how you can accomplish more with managed virtual assistance. Help is a conversation away.
+      Reach out for a free 4-hour demonstration of our services.<br> You’ll be amazed at how we turn ToDo lists into TaDone lists.
       </p>
       <dl class="mt-8 space-y-6">
             <dt><span class="sr-only">Phone number</span></dt>
@@ -115,15 +115,15 @@
         <!-- Contact form -->
         <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
         <!-- <p class="mt-2 text-gray-900 font-concourset6 text-5xl font-normal tracking-normal leading-tight text-left capitalize">
-        We’re Ready When You Are
+        
 </p>
       
       <p class="mt-3 text-xl font-normal tracking-normal text-left font-copy normal-case text-gray-900">
       Schedule a call with us to learn how you can accomplish more with managed virtual assistance. Help is a conversation away. 
-      </p>
-     -->
+      </p> -->
+    
       
-          <form action="/reciept" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <form action="/cta" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
           {{ csrf_field()}}
             <div>
              
@@ -154,7 +154,7 @@
             <div class="sm:col-span-2">
              
               <div class="mt-1">
-                <input type="text"  name="subject" id="subject" placeholder = "Subject" value="{{$request->last_name}} / {{$request->first_name}}" class="py-3 px-4 block w-full shadow-sm font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" readonly>
+                <input type="text"  name="subject" id="subject" placeholder = "Subject" value="I want Free Magic" class="py-3 px-4 block w-full shadow-sm font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" readonly>
               </div>
             </div>
             <div class="sm:col-span-2">

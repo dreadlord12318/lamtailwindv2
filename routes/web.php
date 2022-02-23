@@ -38,6 +38,10 @@ Route::get('/GDPR', function () {
 Route::get('/privacy', function () {
     return view('privacy');
 });
+Route::get('/freemagic', function () {
+    return view('ctaform');
+});
+
 Route::get('/confirmation', function () {
     return view('confirmation');
 });
@@ -64,6 +68,8 @@ Route::post('/transaction', [\App\Http\Controllers\TransactionController::class,
 Route::get('/reciept',  [\App\Http\Controllers\TransContactController::class, 'show']);
 Route::post('/reciept', [\App\Http\Controllers\TransContactController::class, 'mail']);
 
+Route::get('/cta',  [\App\Http\Controllers\CtaContactController::class, 'show']);
+Route::post('/cta', [\App\Http\Controllers\CtaContactController::class, 'mail']);
 
 
 Route::get('/blog/blogs', [\App\Http\Controllers\PagesController::class, 'getIndex']);
