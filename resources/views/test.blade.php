@@ -154,7 +154,7 @@
             <div class="sm:col-span-2">
              
               <div class="mt-1">
-                <input type="text"  name="subject" id="subject" placeholder = "Subject" value="I want Free Magic class="py-3 px-4 block w-full shadow-sm font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" readonly>
+                <input type="text"  name="subject" id="subject" placeholder = "Subject" value="I want Free Magic" class="py-3 px-4 block w-full shadow-sm font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" readonly>
               </div>
             </div>
             <div class="sm:col-span-2">
