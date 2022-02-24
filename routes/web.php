@@ -42,6 +42,10 @@ Route::get('/freemagic', function () {
     return view('ctaform');
 });
 
+Route::get('/blog', function () {
+    return view('blog');
+});
+
 Route::get('/confirmation', function () {
     return view('confirmation');
 });
