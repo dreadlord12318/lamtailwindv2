@@ -51,6 +51,12 @@ Route::get('/confirmation', function () {
 });
 Auth::routes();
 
+// --*Static Blog Pages--*
+Route::get('/casestudy', function () {
+    return view('blogs/casestudy');
+});
+
+
 // ---**MAIL**---
 Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
 
