@@ -16,7 +16,8 @@ class ContactController2 extends Controller
     public function mail(ContactRequest2 $request)
     {
         
-        $request->validate([
+        $this->validate($request,
+        [
             'g-recaptcha-response' => function ($attribute, $value, $fail) {
                 $secret = config('services.recaptcha.secret_key');
                 $response = $request->get('g-recaptcha-response');
