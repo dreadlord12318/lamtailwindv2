@@ -18,19 +18,19 @@ class ContactController2 extends Controller
     public function mail(ContactRequest2 $request)
     {
       
-        // $request->validate([
-        //     'g-recaptcha-response' => 'required|string',
-        // ]);
+        $request->validate([
+            'g-recaptcha-response' => 'required|string',
+        ]);
         
-        // $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-        //     'secret' => config('services.recaptcha.secret_key'),
-        //     'response' => $request->get('g-recaptcha-response'),
-        //     'remoteip' => $request->getClientIp(),
-        // ]);
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => config('services.recaptcha.secret_key'),
+            'response' => $request->get('g-recaptcha-response'),
+            'remoteip' => $request->getClientIp(),
+        ]);
         
-        // if (! $response->json('success')) {
-        //     throw ValidationException::withMessages(['g-recaptcha-response' => 'Error verifying reCAPTCHA, please try again.']);
-        // }
+        if (! $response->json('success')) {
+            throw ValidationException::withMessages(['g-recaptcha-response' => 'Error verifying reCAPTCHA, please try again.']);
+        }
 
        
         
