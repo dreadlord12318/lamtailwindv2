@@ -141,9 +141,9 @@
             <textarea id="message" name="message" placeholder = "Message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md font-concourset3 text-lg font-normal-400 tracking-normal leading-none capitalize">{{old('message')}}</textarea>
           </div>
         </div>
-        
+
         <div class="form-group">
-				 <div class=" g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
+				 <div class=" g-recaptcha" data-sitekey="{{ env('RECAPTCHA_V2_SITE_KEY') }}"></div>
 				   @if ($errors->has('g-recaptcha-response'))
 					   <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
 				   @endif
