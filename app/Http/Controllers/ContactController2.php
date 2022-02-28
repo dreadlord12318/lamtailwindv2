@@ -15,22 +15,10 @@ class ContactController2 extends Controller
 
     public function mail(ContactRequest2 $request)
     {
-        
-        $this->validate($request,
-        [
-            'g-recaptcha-response' => function ($attribute, $request, $fail) {
-                $secret = config('services.recaptcha.secret_key');
-                $response = $request->get('g-recaptcha-response');
-                $remoteip = $request->getClientIp();
-                $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response&remoteip=$remoteip";
-                $response = \file_get_contents($url);
-                $response = json_decode($response);
-
-                if (!$response->success) {
-                    $fail($attribute.'google recaptcha failed');
-                }
-            }
-        ]);
+      
+        $this->validate($request, [
+            'g-recaptcha-response' => ['required', new GoogleRecaptcha]
+        ],[ 'g-recaptcha-response.required' => 'The recaptcha field is required.']);
 
        
         
