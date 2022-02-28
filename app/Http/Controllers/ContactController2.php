@@ -5,7 +5,7 @@ use App\Http\Requests\ContactRequest2;
 use Illuminate\Http\Request;
 use App\Mail\Contact2;
 Use Mail;
-use App\Rules\GoogleRecaptcha;
+
 
 class ContactController2 extends Controller
 {
@@ -17,9 +17,9 @@ class ContactController2 extends Controller
     public function mail(ContactRequest2 $request)
     {
       
-        $this->validate($request, [
-            'g-recaptcha-response' => ['required', new GoogleRecaptcha]
-        ],[ 'g-recaptcha-response.required' => 'The recaptcha field is required.']);
+        // $this->validate($request, [
+        //     'g-recaptcha-response' => ['required', new GoogleRecaptcha]
+        // ],[ 'g-recaptcha-response.required' => 'The recaptcha field is required.']);
 
        
         

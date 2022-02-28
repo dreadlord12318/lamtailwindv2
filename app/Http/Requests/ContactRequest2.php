@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Requests;
+use App\Rules\GoogleRecaptcha;
 
 use Illuminate\Foundation\Http\FormRequest;
 
@@ -30,6 +31,8 @@ class ContactRequest2 extends FormRequest
             'last_name' => 'required',
             'email' => 'required | email',
             'message' => 'max:255',
+            'g-recaptcha-response' => ['required', new GoogleRecaptcha],
+         'g-recaptcha-response.required' => 'The recaptcha field is required.',
             // 'terms' => 'accepted',
         ];
     }
