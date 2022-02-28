@@ -5,6 +5,7 @@ use App\Http\Requests\ContactRequest2;
 use Illuminate\Http\Request;
 use App\Mail\Contact2;
 Use Mail;
+use App\Rules\GoogleRecaptcha;
 
 class ContactController2 extends Controller
 {
