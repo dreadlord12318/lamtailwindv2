@@ -18,7 +18,7 @@ class ContactController2 extends Controller
         
         $this->validate($request,
         [
-            'g-recaptcha-response' => function ($attribute, $value, $fail) {
+            'g-recaptcha-response' => function ($attribute, $request, $fail) {
                 $secret = config('services.recaptcha.secret_key');
                 $response = $request->get('g-recaptcha-response');
                 $remoteip = $request->getClientIp();
