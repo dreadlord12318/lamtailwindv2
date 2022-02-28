@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ContactRequest2;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use App\Mail\Contact2;
 Use Mail;
 
@@ -17,9 +18,19 @@ class ContactController2 extends Controller
     public function mail(ContactRequest2 $request)
     {
       
-        // $this->validate($request, [
-        //     'g-recaptcha-response' => ['required', new GoogleRecaptcha]
-        // ],[ 'g-recaptcha-response.required' => 'The recaptcha field is required.']);
+        $request->validate([
+            'g-recaptcha-response' => 'required|string',
+        ]);
+        
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => config('services.recaptcha.secret_key'),
+            'response' => $request->get('g-recaptcha-response'),
+            'remoteip' => $request->getClientIp(),
+        ]);
+        
+        if (! $response->json('success')) {
+            throw ValidationException::withMessages(['g-recaptcha-response' => 'Error verifying reCAPTCHA, please try again.']);
+        }
 
        
         

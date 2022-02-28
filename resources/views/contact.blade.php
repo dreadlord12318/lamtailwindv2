@@ -142,12 +142,11 @@
           </div>
         </div>
 
-        <div class="form-group">
-				 <div class=" g-recaptcha" data-sitekey="{{ env('RECAPTCHA_V2_SITE_KEY') }}"></div>
-				   @if ($errors->has('g-recaptcha-response'))
-					   <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-				   @endif
-			 </div>
+        <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+
+@error('g-recaptcha-response')
+    <div class="text-red-500">{{ $message }}</div>
+@enderror
         
         <div class="sm:col-span-2">
           <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md  shadow-3xl bg-lime-500 font-concourset6 text-lg font-normal tracking-normal leading-none capitalize text-slate-50  hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
