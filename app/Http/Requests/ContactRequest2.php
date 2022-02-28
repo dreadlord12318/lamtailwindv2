@@ -30,7 +30,7 @@ class ContactRequest2 extends FormRequest
             'last_name' => 'required',
             'email' => 'required | email',
             'message' => 'max:255',
-            'g-recaptcha-response' => 'required|string',
+            // 'g-recaptcha-response' => 'required|string',
             
             // 'terms' => 'accepted',
         ];
