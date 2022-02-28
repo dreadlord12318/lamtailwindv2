@@ -75,5 +75,7 @@ Route::post('/reciept', [\App\Http\Controllers\TransContactController::class, 'm
 Route::get('/cta',  [\App\Http\Controllers\CtaContactController::class, 'show']);
 Route::post('/cta', [\App\Http\Controllers\CtaContactController::class, 'mail']);
 
-
+// --**BLOG POST**--
 Route::get('/blog/blogs', [\App\Http\Controllers\PagesController::class, 'getIndex']);
+
+Route::resource('posts',\App\Http\Controllers\PostController::class);
