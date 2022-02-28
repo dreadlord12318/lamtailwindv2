@@ -27,7 +27,7 @@ class GoogleRecaptcha implements Rule
     public function passes($attribute, $value)
     {
         $client = new Client();
-        $response = $client->post('https://www.google.com/recaptcha/api/siteverify METHOD: POST',
+        $response = $client->post('https://www.google.com/recaptcha/api/siteverify',
             [
                 'form_params' => [
                     'secret' => env('RECAPTCHA_SECRET_KEY', false),
