@@ -115,8 +115,8 @@
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative py-24 bg-slate-100">
-<div class="relative rounded-lg my-9  max-w-7xl mx-auto pt-6 px-12 sm:px-6 lg:px-14 bg-newcolor-300">
-  <div class="h-80 bg-newcolor-300 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-5/6 md:w-1/2">
+<div class="relative rounded-lg my-9  max-w-7xl mx-auto pt-6 px-12 sm:px-6 lg:px-14 bg-lime-600">
+  <div class="h-80 bg-lime-600 mix-blend-darken rounded-lg sm:h-72 md:absolute md:right-0 md:h-5/6 md:w-1/2">
     <img class="w-72 ml-72 mt-4 h-80 object-fit" src="images/Lambent-Works-Magic-on-Tasks.svg" alt="One free task to demonstrate Lambent’s managed virtual assistant approach.">
   </div>
   <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-12 lg:py-16">

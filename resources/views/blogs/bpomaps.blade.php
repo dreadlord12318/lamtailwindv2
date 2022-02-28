@@ -9,7 +9,7 @@
 
 @include('header')
 
-
+@include('blogs/blogheader')
 
 <!--
   This example requires Tailwind CSS v2.0+ 

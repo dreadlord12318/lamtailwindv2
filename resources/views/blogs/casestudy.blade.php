@@ -9,6 +9,8 @@
 
 @include('header')
 
+@include('blogs/blogheader')
+
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white py-16 sm:py-24">

@@ -10,7 +10,7 @@
 @include('header')
 
 
-
+@include('blogs/blogheader')
 
 <div class="bg-white overflow-hidden top-20">
   <div class="relative max-w-7xl mx-auto mt-6 py-16 px-4 sm:px-6 lg:px-8">
