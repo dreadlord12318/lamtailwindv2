@@ -23,10 +23,10 @@
     <div class="mt-10 w-full max-w-xs">
       <div class="mt-1.5 relative">
         <select id="currency" name="currency" class="appearance-none block w-full bg-none bg-blue-700 border border-transparent rounded-md pl-3 pr-10 py-2 text-base text-white focus:outline-none focus:ring-1 focus:ring-white focus:border-white sm:text-sm">
-          <option>List Here</option>
-          <option>List Here)</option>
-          <option selected>Outsourcing 101</option>
-          <option>List Here</option>
+          <option>BPO MAP PROJECT</option>
+          <option>WORLD OF WORK</option>
+          <option selected>OUTSOURCING 101</option>
+          <option>THE PHILIPPINES</option>
         </select>
         <div class="pointer-events-none absolute inset-y-0 right-0 px-2 flex items-center">
           <!-- Heroicon name: solid/chevron-down -->
