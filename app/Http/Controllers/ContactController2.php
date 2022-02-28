@@ -19,7 +19,7 @@ class ContactController2 extends Controller
             'g-recaptcha-response' => 'required|string',
         ]);
         
-        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+        $response = ContactController2::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
             'secret' => config('services.recaptcha.secret_key'),
             'response' => $request->get('g-recaptcha-response'),
             'remoteip' => $request->getClientIp(),
