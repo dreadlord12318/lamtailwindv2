@@ -2,6 +2,7 @@ module.exports = {
   content: [
     // Example content paths...
     './resources/views/**/*.blade.php',
+    './resources/views/blogs/*.blade.php',
     './resources/css/**/*.css',
     './resources/js/**/*.vue',
     

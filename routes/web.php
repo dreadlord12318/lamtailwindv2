@@ -56,6 +56,17 @@ Route::get('/casestudy', function () {
     return view('blogs/casestudy');
 });
 
+Route::get('/bpomaps', function () {
+    return view('blogs/bpomaps');
+});
+
+Route::get('/theph', function () {
+    return view('blogs/theph');
+});
+
+Route::get('/blog', function () {
+    return view('blogs/blogsimple');
+});
 
 // ---**MAIL**---
 Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
