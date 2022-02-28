@@ -23,7 +23,7 @@ class ContactController extends Controller
         // ->cc('info@lambent.co')->send(new Contact( $request));
         
         
-        Mail::to('dreadlord12318@gmail.com')->send(new Contact( $request));
+        Mail::to('janly@lumikha.co')->send(new Contact( $request));
 
       
 
