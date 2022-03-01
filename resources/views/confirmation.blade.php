@@ -90,6 +90,6 @@
   </main>
 
 </div>
-
+@include('footer')
 
 @endsection

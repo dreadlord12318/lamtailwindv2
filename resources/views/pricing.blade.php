@@ -35,4 +35,6 @@
 <faq></faq>
 </div>
 
+@include('footer')
+
 @endsection
