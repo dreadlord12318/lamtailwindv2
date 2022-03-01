@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\CtaRequest;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use App\Mail\CtaReciept;
 Use Mail;
 

@@ -155,6 +155,9 @@
         </div>
       </form>
     </div>
+    
+</div>
+
 </div>
 
 @include('footer')

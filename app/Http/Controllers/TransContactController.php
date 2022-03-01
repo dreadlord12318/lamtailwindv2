@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\TransContactRequest;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use App\Mail\TransReciept;
 Use Mail;
 
