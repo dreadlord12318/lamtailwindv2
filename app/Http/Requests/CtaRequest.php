@@ -30,6 +30,7 @@ class CtaRequest extends FormRequest
             'phone' => 'required | max:11',
             'subject' => 'max:255',
             'message' => 'max:255',
+            'g-recaptcha-response' => 'required|string',
         ];
     }
 }

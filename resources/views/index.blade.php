@@ -83,6 +83,12 @@
           </div>
           @endif
               </div>
+
+              <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+              @error('g-recaptcha-response')
+          <div class="text-red-500">{{ $message }}</div>
+             @enderror
+
               <div class="sm:col-span-2">
                     <div class="mt-1">
                       <button type="submit" class="block w-full py-3  font-concourset6 text-base normal-case  font-normal tracking-normal leading-relaxed align-middle px-5 rounded-md shadow bg-lime-500 text-white hover:bg-lime-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>

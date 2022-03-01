@@ -165,6 +165,13 @@
                 <textarea id="message" name="message" placeholder = "Message" rows="4" class="py-3 px-4 block w-full shadow-sm font-concourset3 text-base font-normal text-newcolor-200 tracking-normal leading-relaxed normal-case focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" aria-describedby="message-max"></textarea>
               </div>
             </div>
+
+            <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+              @error('g-recaptcha-response')
+          <div class="text-red-500">{{ $message }}</div>
+             @enderror
+
+
             <div class="sm:col-span-2 sm:flex sm:justify-end">
               <button type="submit" class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm font-concourset6 text-lg font-normal tracking-normal leading-none text-center text-slate-50 bg-lime-500 hover:bg-lime-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto">
                 Submit
