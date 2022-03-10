@@ -89,9 +89,9 @@
           <div class="text-red-500">{{ $message }}</div>
              @enderror
 
-              <div class="sm:col-span-2">
+              <div class="sm:col-span-2 bg-lime-500 rounded-md shadow ">
                     <div class="mt-1">
-                      <button type="submit" class="block w-full py-3  font-concourset6 text-base normal-case  font-normal tracking-normal leading-relaxed align-middle px-5 rounded-md shadow bg-lime-500 text-white hover:bg-lime-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
+                      <button type="submit" class="block w-full py-3  font-concourset6 text-base normal-case  font-normal tracking-normal leading-relaxed align-middle px-5 rounded-md shadow  text-white hover:bg-lime-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's Talk</button>
                     </div>
                 </div>
                   </div>
