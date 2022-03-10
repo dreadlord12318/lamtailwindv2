@@ -38,6 +38,17 @@
 
     <!-- Google recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <!-- Tiny MCE -->
+
+    <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
+ <script>
+   tinymce.init({
+     selector: 'textarea', // Replace this CSS selector to match the placeholder element for TinyMCE
+     plugins: 'code table lists link',
+     toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table | link'
+   });
+ </script>
     
 
     <style>
@@ -49,6 +60,7 @@ input:checked ~ .dot {
   transform: translateX(100%);
   background-color: #FFFF;
 }
+
 </style>
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">

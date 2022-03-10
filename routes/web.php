@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//  **--Start of Main pages--**
 Route::get('/', function () {
     return view('index');
 });
@@ -42,14 +43,24 @@ Route::get('/freemagic', function () {
     return view('ctaform');
 });
 
-Route::get('/blog', function () {
+Route::get('posts' , function () {
     return view('blog');
 });
 
 Route::get('/confirmation', function () {
     return view('confirmation');
 });
-Auth::routes();
+
+//  **--End of Main pages--**
+
+// **--Start of Routes--**
+
+Auth::routes(['verify' => true]);
+
+
+
+// **--End of Routes--**
+
 
 // --*Static Blog Pages--*
 Route::get('/casestudy', function () {
@@ -67,6 +78,18 @@ Route::get('/theph', function () {
 Route::get('/blog', function () {
     return view('blogs/blogsimple');
 });
+
+// Testing routes
+
+Route::get('/lambentblog',  [\App\Http\Controllers\PagesController::class, 'getIndex']);
+// Route::get('blog/{slug}', [ 'blogs.simple', \App\Http\Controllers\BlogController::class, 'getSingle']);
+
+
+
+Route::get(
+    'blog/{slug}',
+    [\App\Http\Controllers\BlogController::class, 'getSingle']
+)->name('blogs.blogsimple')->where('slug', '[\w\d\-\_]+');
 
 // ---**MAIL**---
 Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
@@ -96,3 +119,7 @@ Route::post('/cta', [\App\Http\Controllers\CtaContactController::class, 'mail'])
 Route::get('/blog/blogs', [\App\Http\Controllers\PagesController::class, 'getIndex']);
 
 Route::resource('posts',\App\Http\Controllers\PostController::class);
+
+// Category Route
+Route::resource('categories',\App\Http\Controllers\CategoryController::class, ['except' => ['create']]);
+Route::resource('search',\App\Http\Controllers\SearchController::class, ['except' => ['create', 'delete']]);

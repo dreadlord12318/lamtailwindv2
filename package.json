@@ -20,6 +20,7 @@
         "postcss-import": "^12.0",
         "postcss-nested": "^4.2",
         "tailwindcss": "^3.0.23",
+        "tailwindcss-plugins": "^0.3.0",
         "vue-loader": "^16.8.2",
         "vue-template-compiler": "^2.6.11"
     },
@@ -32,6 +33,7 @@
         "acorn": "^8.7.0",
         "alpinejs": "^3.4.2",
         "bootstrap": "^5.1.3",
+        "flowbite": "^1.3.4",
         "vue": "^3.2.20",
         "vueperslides": "^3.3.2"
     }

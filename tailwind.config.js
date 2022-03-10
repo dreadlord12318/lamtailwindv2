@@ -3,8 +3,10 @@ module.exports = {
     // Example content paths...
     './resources/views/**/*.blade.php',
     './resources/views/blogs/*.blade.php',
+    './resources/views/posts/*.blade.php',
     './resources/css/**/*.css',
     './resources/js/**/*.vue',
+    "./node_modules/flowbite/**/*.js",
     
   ],
   theme: {
@@ -73,12 +75,15 @@ module.exports = {
         '700' : '#FCFDFF',
         '800' : '#374151',
       }
-      }
-    }
+      },
+    },
+   
   },
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
+    require('tailwindcss-plugins/pagination'),
+    require('flowbite/plugin'),
   ]
 }
