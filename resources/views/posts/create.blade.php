@@ -54,9 +54,10 @@
                     <div class="max-w-lg mx-auto">
                         <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">Create Something
                         </h2>
-                        <p class="mt-3 text-lg leading-6 text-gray-500">Nullam risus blandit ac aliquam justo ipsum.
-                            Quam mauris
-                            volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+                        <p class="mt-3 text-lg leading-6 text-left text-gray-500">"When you know this, then you have identified with the creative principle, 
+                            which is the God power in the world, which means in you."
+                        <p class = "text-lg leading-6 text-left text-gray-500 mt-2">
+                        The Power of Myth, Joseph Campbell and Bill Moyers</p></p>
                         <dl class="mt-8 text-base text-gray-500">
                             <div class="mt-6">
                                 <dt class="sr-only">Phone number</dt>
