@@ -79,6 +79,11 @@ Route::get('/blog', function () {
     return view('blogs/blogsimple');
 });
 
+Route::get('/contactb', function () {
+    return view('contactb');
+});
+
+
 // Testing routes
 
 Route::get('/lambentblog',  [\App\Http\Controllers\PagesController::class, 'getIndex']);

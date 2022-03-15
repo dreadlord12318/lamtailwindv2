@@ -39,6 +39,8 @@
     <!-- Google recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
+    <script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script>
+
     <!-- Tiny MCE -->
 
     <!-- <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
