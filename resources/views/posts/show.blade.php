@@ -51,7 +51,7 @@
             <div class="col-span-2">
                 <a href="#" class="mt-2 block ">
                     <p class="text-xl font-semibold text-gray-900">{{ $post->title }}</p>
-                    <p class="mt-3 text-base text-gray-500">{!! $post->description !!}</p>
+                    <div class="mt-3 prose">{!! $post->description !!}</div>
                 </a>
             </div>
             <div class="col-span-1">

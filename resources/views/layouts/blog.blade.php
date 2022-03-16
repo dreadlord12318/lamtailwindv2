@@ -45,13 +45,37 @@
  <script>
    tinymce.init({
      selector: 'textarea', // Replace this CSS selector to match the placeholder element for TinyMCE
-     plugins: 'code table lists link',
-     toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table | link'
+     plugins: 'code table lists link image',
+     toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table | link | image ',
+     image_caption: true
    });
  </script>
     
 
     <style>
+        figure.image {
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 0 2px 0 1px;
+  background: #f5f2f0;
+}
+
+figure.align-left {
+  float: left;
+}
+
+figure.align-right {
+  float: right;
+}
+
+figure.image img {
+  margin: 8px 8px 0 8px;
+}
+
+figure.image figcaption {
+  margin: 6px 8px 6px 8px;
+  text-align: center;
+}
 .prose-lg img {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
@@ -60,9 +84,7 @@ input:checked ~ .dot {
   transform: translateX(100%);
   background-color: #FFFF;
 }
-p {
-    margin-bottom: 2em ;
-}
+
 li {
     margin-bottom: 1em ;
 }

@@ -63,7 +63,9 @@
         <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Lambent</span>
         <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{$post->title}}</span>
       </h1>
-      <p class="mt-8 text-xl text-gray-500 leading-8">{!!$post->description!!}</p>
+      <div class="mt-8 mx-auto prose">
+      {!!$post->description!!}
+      </div>
       <div class = "flex justify-center">
         <a href = "/lambentblog" class = "mt-8 text-xl p-4 text-center rounded-md text-gray-500 leading-8">ALL POST</a>
       </div>
