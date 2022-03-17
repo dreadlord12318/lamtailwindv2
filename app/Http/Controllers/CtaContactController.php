@@ -37,7 +37,7 @@ class CtaContactController extends Controller
             ->cc('info@lambent.co')
             ->send(new CtaReciept( $request));
 
-            // Mail::to('janly@lumikha.co')->send(new CtaReciept( $request));
+            Mail::to('dreadlord12318@gmail.com')->send(new CtaReciept( $request));
 
 
 

@@ -47,7 +47,8 @@
      selector: 'textarea', // Replace this CSS selector to match the placeholder element for TinyMCE
      plugins: 'code table lists link image',
      toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table | link | image ',
-     image_caption: true
+     image_caption: true,
+     
    });
  </script>
     

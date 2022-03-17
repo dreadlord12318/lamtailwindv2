@@ -99,7 +99,7 @@
                 </div>
                 <div class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
                     <div class="max-w-lg mx-auto lg:max-w-none">
-                        <form action="{{ action('App\Http\Controllers\PostController@store') }}" method="POST"
+                        <form action="{{ action('App\Http\Controllers\PostController@store') }}" method="POST" enctype="multipart/form-data"
                             class="grid grid-cols-1 gap-y-4">
                             {{ csrf_field()}}
                             <div class="mb-6">
@@ -134,6 +134,8 @@
                                     <p>{{ $errors->first('slug') }}</p>
                                 </div>
                                 @endif
+                                <label for="base-input" class="block mb-2 mt-2 text-sm font-medium text-gray-900 dark:text-gray-300">Feature Image</label>
+                                <input type="file" name="fileToUpload" id="fileToUpload">
 
                                 <label for="category_id"
                                     class="block mb-2 text-sm mt-2 font-medium text-gray-900 dark:text-gray-400">Category</label>

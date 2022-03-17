@@ -62,6 +62,13 @@ class PostController extends Controller
          $post->slug = $request->slug;
          $post->category_id = $request->category_id;
 
+         if($request->hasFile('featured_image')) {
+             $image = $request->file('featured_image');
+             $filename = time() . '.' . $image->encode('webp');
+             $location = public_path('images/' . $filename);
+             Image::make($image)->resize(800, 400)->save($location);
+         }
+
          $post->save();
 
          return redirect()->route('posts.show', $post->id);
