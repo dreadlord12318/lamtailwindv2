@@ -57,6 +57,9 @@
             <div class="col-span-1">
                 <div class="grid grid-cols-1 gap-x-1">
                     <div class="rounded-lg bg-gray-200">
+                    <div class="text-center">
+                                    <img class="h-48 w-full object-cover" src="{{ asset('images/' . $post->image) }}" alt="">
+                                    </div>
                         <div class="block mt-4">
                             <p class="text-base text-center mb-0 text-gray-500">Url Slug:</p>
                             <p class="text-md text-center mb-0 text-gray-500">

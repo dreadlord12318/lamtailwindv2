@@ -10,25 +10,21 @@
 @include('header')
 
 
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ],
-  }
-  ```
--->
+
+<div class="relative top-16 pb-20 pt-20 bg-blue-700">
+  <div class="absolute inset-0">
+    <img class="w-full h-full object-cover" src="{{ asset('images/' . $post->image) }}" alt="Lambent’s values inform our work.">
+    <div class="absolute inset-0 h-full bg-blue-700 mix-blend-multiply" aria-hidden="true"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+    <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">{{$post->title}}</h1>
+    <!-- <p class="mt-6 font-copy text-2xl font-normal tracking-normal leading-normal text-left text-newcolor-700 max-w-3xl">If you’re an entrepreneur, a creator, a leader: you have a dream, a goal. Whatever you’re building, we’re here, ready and waiting to stand shoulder-to-shoulder with you. You bring the inspiration to do something unique, relevant, new, special. We’ll bring the process chops and the team.</p> -->
+  </div>
+</div>
 
 
-<div class="relative py-24 bg-white overflow-hidden">
+
+<div class="relative py-16 bg-white overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 mt-6 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
       <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
@@ -61,14 +57,11 @@
     <div class="text-lg max-w-prose mx-auto">
       <h1>
         <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Lambent</span>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{$post->title}}</span>
       </h1>
       <div class="mt-8 mx-auto prose">
       {!!$post->description!!}
       </div>
-      <div class = "flex justify-center">
-        <a href = "/lambentblog" class = "mt-8 text-xl p-4 text-center rounded-md text-gray-500 leading-8">ALL POST</a>
-      </div>
+     
     </div>
     <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
 <!--      
@@ -80,7 +73,9 @@
     </div>
   </div>
 </div>
-
+<div class = "flex justify-center bg-white">
+        <a href = "/lambentblog" class = "mt-8 text-xl p-4 text-center rounded-md text-gray-500 leading-8">ALL POST</a>
+      </div>
 @include('footer')
 
 @endsection

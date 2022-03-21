@@ -5,6 +5,8 @@ use App\Models\Post;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Category;
+use Image;
+use Storage;
 
 
 use Illuminate\Http\Request;
@@ -53,6 +55,7 @@ class PostController extends Controller
                 'slug' => 'required|alpha_dash|min:5|max:255',
                 'category_id' => 'required|numeric',
                 'body'  => 'required',
+                'featured_image' => 'sometimes|image'
          ));
 
          $post = new Post;
@@ -64,9 +67,11 @@ class PostController extends Controller
 
          if($request->hasFile('featured_image')) {
              $image = $request->file('featured_image');
-             $filename = time() . '.' . $image->encode('webp');
+             $filename = time() . '.' . $image->getClientOriginalExtension();
              $location = public_path('images/' . $filename);
-             Image::make($image)->resize(800, 400)->save($location);
+             Image::make($image)->resize(800, 400)->encode('webp')->save($location);
+
+             $post->image = $filename;
          }
 
          $post->save();
@@ -113,24 +118,16 @@ class PostController extends Controller
     {
         
         $post = Post::find($id);
-
-        if ($request->input('slug') == $post->slug) {
-            $this->validate($request, array(
-                'title' => 'required|max:255',
-                'category_id' => 'required | integer',
-                'description'  => 'required'
-            ));
-    
-        } else {
         
             $this->validate($request, array(
             'title' => 'required|max:255',
-            'slug' => 'required|alpha_dash|min:5|max:255|unique:posts,slug',
+            'slug' => "required|alpha_dash|min:5|max:255|unique:posts,slug,$id",
             'category_id' => 'required | integer',
-            'description'  => 'required'
+            'description'  => 'required',
+            'featured_image' => 'image'
         ));
 
-    }
+    
 
      $post = Post::find($id);
 
@@ -138,6 +135,20 @@ class PostController extends Controller
      $post->slug = $request->input('slug');
      $post->category_id = $request->input('category_id');
      $post->description = $request->input('description');
+
+        
+     if($request->hasFile('featured_image')) {
+
+        $image = $request->file('featured_image');
+        $filename = time() . '.' . $image->getClientOriginalExtension();
+        $location = public_path('images/' . $filename);
+        Image::make($image)->resize(800, 400)->save($location);
+        $oldFilename = $post->image;
+
+        $post->image = $filename;
+
+        Storage::delete($oldFilename);
+    }
 
 
      $post->save();
@@ -154,6 +165,7 @@ class PostController extends Controller
     public function destroy($id)
     {
         $post = Post::find($id);
+        Storage::delete($post->image);
 
         $post->delete();
 

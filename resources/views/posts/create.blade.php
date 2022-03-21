@@ -135,7 +135,7 @@
                                 </div>
                                 @endif
                                 <label for="base-input" class="block mb-2 mt-2 text-sm font-medium text-gray-900 dark:text-gray-300">Feature Image</label>
-                                <input type="file" name="fileToUpload" id="fileToUpload">
+                                <input type="file" name="featured_image" id="fileToUpload">
 
                                 <label for="category_id"
                                     class="block mb-2 text-sm mt-2 font-medium text-gray-900 dark:text-gray-400">Category</label>

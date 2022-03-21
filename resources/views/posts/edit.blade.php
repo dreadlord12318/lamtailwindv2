@@ -35,7 +35,7 @@
                         </form>
                     </div>
                 </div>
-                <form action="{{ action('App\Http\Controllers\PostController@update', [$post->id]) }}" method="POST">
+                <form action="{{ action('App\Http\Controllers\PostController@update', [$post->id]) }}" method="POST" enctype="multipart/form-data">
                     {{ csrf_field() }}
                     {{ method_field("PUT") }}
                     <div class="mt-6 pt-10 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
@@ -59,6 +59,9 @@
                                     <p>{{ $errors->first('slug') }}</p>
                                 </div>
                                 @endif
+
+                                <label for="base-input" class="block mb-2 mt-2 text-sm font-medium text-gray-900 dark:text-gray-300">Feature Image</label>
+                                <input type="file" name="featured_image" id="fileToUpload">
 
                                 <label for="category_id"
                                     class="block mb-2 text-sm mt-2 font-medium text-gray-900 dark:text-gray-400">Category</label>
@@ -90,7 +93,11 @@
                         </div>
                         <div class="col-span-1">
                             <div class="grid h-full pt-8 grid-cols-1">
-                                <div class="rounded-lg bg-gray-200 px-10">
+                                
+                                <div class="rounded-lg bg-gray-200 px-10 py-4">
+                                <div class="text-center">
+                                    <img class="h-48 w-full object-cover" src="{{ asset('images/' . $post->image) }}" alt="">
+                                    </div>
                                     <a href="#" class="mt-2 pt-8 block">
                                         <p class="text-base text-center text-gray-5 00">Created at
                                             {{date('F j, Y, g:i a',strtotime($post->created_at))}}</p>
@@ -104,6 +111,7 @@
                                             type="button"
                                             class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Cancel</a>
                                     </div>
+                                   
                                 </div>
                             </div>
                         </div>
