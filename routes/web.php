@@ -87,6 +87,7 @@ Route::get('/contactb', function () {
 // Testing routes
 
 Route::get('/lambentblog',  [\App\Http\Controllers\PagesController::class, 'getIndex']);
+Route::post('/upload', 'ImageUpload@upload');
 // Route::get('blog/{slug}', [ 'blogs.simple', \App\Http\Controllers\BlogController::class, 'getSingle']);
 
 

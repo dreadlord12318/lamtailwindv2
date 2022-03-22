@@ -39,9 +39,9 @@
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <p class="text-sm font-medium text-indigo-600">
-              <span href="" class="hover:underline">    {{$post->category->name}}  </span>
+              <span  class="">    {{$post->category->name}}  </span>
             </p>
-            <a href="#" class="block mt-2">
+            <a  href="{{route('blogs.blogsimple', $post->slug)}}" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">{{$post->title}}</p>
               <p class="mt-3 text-base text-gray-500">{{substr(strip_tags($post->description), 0, 60)}}</p>
             </a>
