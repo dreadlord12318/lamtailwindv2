@@ -52,6 +52,7 @@
 
      image_title: true,
             automatic_uploads: true,
+            images_reuse_filename: true,
             // images_upload_url: '/upload',
             file_picker_types: 'image',
             file_picker_callback: function(cb, value, meta) {
