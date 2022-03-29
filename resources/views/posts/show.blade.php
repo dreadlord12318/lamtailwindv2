@@ -63,8 +63,7 @@
                         <div class="block mt-4">
                             <p class="text-base text-center mb-0 text-gray-500">Url Slug:</p>
                             <p class="text-md text-center mb-0 text-gray-500">
-                                <a
-                                    href="{{route('blogs.blogsimple', $post->slug)}}">{{route('blogs.blogsimple', $post->slug)}}</a>
+                                <a target = "_blank" href="{{route('blogs.blogsimple', $post->slug)}}">{{route('blogs.blogsimple', $post->slug)}}</a>
                             </p>
                         </div>
                         <div class="block mt-4">

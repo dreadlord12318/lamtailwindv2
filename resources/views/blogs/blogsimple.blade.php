@@ -23,9 +23,31 @@
 </div>
 
 
+<nav class="flex mt-20 ml-4" aria-label="Breadcrumb">
+  <ol class="inline-flex items-center space-x-1 md:space-x-3">
+    <li class="inline-flex items-center">
+      <a href="/" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
+        <svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+        Home
+      </a>
+    </li>
+    <li>
+      <div class="flex items-center">
+        <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+        <a href="/lambentblog" class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Blog</a>
+      </div>
+    </li>
+    <li aria-current="page">
+      <!-- <div class="flex items-center">
+        <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+        <span class="ml-1 text-sm font-medium text-gray-400 md:ml-2 dark:text-gray-500">Flowbite</span>
+      </div> -->
+    </li>
+  </ol>
+</nav>
 
 <div class="relative py-16 bg-white overflow-hidden">
-  <div class="hidden lg:block lg:absolute lg:inset-y-0 mt-6 lg:h-full lg:w-full">
+  <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
       <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
         <defs>
@@ -56,7 +78,7 @@
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-lg max-w-prose mx-auto">
       <h1>
-        <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Lambent</span>
+        <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">{{$post->category->name ?? 'None'}}</span>
       </h1>
       <div class="mt-8 mx-auto prose">
       {!!$post->description!!}
@@ -74,7 +96,7 @@
   </div>
 </div>
 <div class = "flex justify-center bg-white">
-        <a href = "/lambentblog" class = "mt-8 text-xl p-4 text-center rounded-md text-gray-500 leading-8">ALL POST</a>
+       
       </div>
 @include('footer')
 
