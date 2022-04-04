@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('title', 'Lambent: You found nothing')
-
+@section('title', 'Lambent, supercharging workflows for small businesses everywhere.')
+@section('description', '404 Error, all who wander are not lost. You just get a short minute to check out a fantastic, made-in-a-tropical-paradise sunset.')
 
 @section('content')
 
