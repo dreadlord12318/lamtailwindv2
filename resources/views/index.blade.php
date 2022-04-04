@@ -103,10 +103,10 @@
           
          
           </div>
-          <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 sm:static lg:relative">
+          <div class=" bg-blend-overlay -mb-16 -top-40 sm:-mb-48 lg:m-0 sm:static w-full lg:relative">
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-              <img class="w-60 mb-28 ml-14 mt-8 top-48 sm:mb-60 sm:ml-40 lg:ml-16  lg:w-8/12  md:left-16 sm:left-0 lg:absolute lg:left "  src="images/Enlighted-Virtual-Assistance.svg" alt="Supercharge your productivity with offshore virtual assistants.">
+              <img class="w-60 mb-28 ml-14 mt-32 top-48 sm:mb-28 sm:ml-40 lg:ml-0  lg:w-full  md:left-16 sm:left-0 lg:absolute lg:left "  src="images/LAMB-Si_te-Image-Home-Header.svg" alt="Supercharge your productivity with offshore virtual assistants.">
               <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
             </div>
           </div>

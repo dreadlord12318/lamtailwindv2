@@ -10,7 +10,7 @@ class PagesController extends Controller
 {
     public function getIndex() {
 
-        $posts = Post::orderBy('created_at', 'desc')->paginate(4);
+        $posts = Post::orderBy('created_at', 'desc')->paginate(6);
         $categories = Category::all();
         
         return view('blog')->withPosts($posts)->withCategories($categories);
