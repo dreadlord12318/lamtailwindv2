@@ -127,7 +127,7 @@ class PostController extends Controller
             'title' => 'required|max:255',
             'slug' => "required|alpha_dash|min:5|max:255|unique:posts,slug,$id",
             'metatitle' => "required|max:255 | unique:posts,metatitle,$id",
-            'metadesc' => 'required|max:255 | unique:posts,metadesc,$id",',
+            'metadesc' => "required|max:255 | unique:posts,metadesc,$id",
             'category_id' => 'required | integer',
             'description'  => 'required',
             'featured_image' => 'image'
