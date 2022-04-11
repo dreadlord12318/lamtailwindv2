@@ -12,6 +12,7 @@
                     <span class="ml-3">Dashboard</span>
                 </a>
             </li>
+            @if (request()->is('posts'))
             <li>
                 <a href="posts/create"
                     class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
@@ -26,6 +27,7 @@
                         class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
                 </a>
             </li>
+            @endif
             <li>
                 <a target="_blank" href="/lambentblog"
                     class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
