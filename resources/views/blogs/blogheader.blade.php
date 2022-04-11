@@ -17,9 +17,8 @@
 <div class="bg-lime-600">
     <div class="max-w-7xl mx-auto pb-24 pt-36 px-4 sm:pb-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
         <div class="max-w-xl">
-            <h2 class="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">Blog Post</h2>
-            <p class="mt-5 text-xl text-white">Blog Summary for full effect and kerfuffle. No doubt a fun word game
-                ensures with no limits</p>
+            <h2 class="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">Lambent Blog</h2>
+            <p class="mt-5 text-xl text-white">Regular updates on outsourcing life (La Vida BPO), work we've done along with documented processes (The Work), the Philippines outsourcing scene and culture (The Philippines), and our project to map BPOs in the Philippines for locators and job seekers (BPO Maps).</p>
         </div>
         <div class="mt-10 w-full max-w-xs">
             <form action="{{ action('App\Http\Controllers\SearchController@index')}}" method="GET">

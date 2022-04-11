@@ -53,6 +53,8 @@ class PostController extends Controller
         $this->validate($request, array(
                 'title' => 'required|max:255',
                 'slug' => 'required|alpha_dash|min:5|max:255',
+                'metatitle' => 'required|max:255',
+                'metadesc' => 'required|max:255',
                 'category_id' => 'required|numeric',
                 'body'  => 'required',
                 'featured_image' => 'sometimes|image'
@@ -63,6 +65,8 @@ class PostController extends Controller
          $post->title = $request->title;
          $post->description = $request->body;
          $post->slug = $request->slug;
+         $post->metatitle = $request->input('metatitle');
+         $post->metadesc = $request->input('metadesc');
          $post->category_id = $request->category_id;
 
          if($request->hasFile('featured_image')) {
@@ -122,6 +126,8 @@ class PostController extends Controller
             $this->validate($request, array(
             'title' => 'required|max:255',
             'slug' => "required|alpha_dash|min:5|max:255|unique:posts,slug,$id",
+            'metatitle' => "required|max:255 | unique:posts,metatitle,$id",
+            'metadesc' => 'required|max:255 | unique:posts,metadesc,$id",',
             'category_id' => 'required | integer',
             'description'  => 'required',
             'featured_image' => 'image'
@@ -133,6 +139,8 @@ class PostController extends Controller
 
      $post->title = $request->input('title');
      $post->slug = $request->input('slug');
+     $post->metatitle = $request->input('metatitle');
+     $post->metadesc = $request->input('metadesc');
      $post->category_id = $request->input('category_id');
      $post->description = $request->input('description');
 

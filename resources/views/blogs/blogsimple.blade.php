@@ -1,8 +1,8 @@
 @extends('layouts.blog')
 
-@section('title', 'Lambent: The story we have')
+@section('title', $post->metatitle)
 
-@section('description', 'Lambent’s values:')
+@section('description', $post->metadesc)
 
 @section('content')
 
