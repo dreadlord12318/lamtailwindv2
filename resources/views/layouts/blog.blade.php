@@ -34,7 +34,7 @@
     
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet" defer>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/LAMB-Site-Image-Favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/LAMB-Site-Image-Favicon.png">
 
     <!-- Google recaptcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
