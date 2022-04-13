@@ -45,8 +45,8 @@
  <script>
    tinymce.init({
      selector: 'textarea', // Replace this CSS selector to match the placeholder element for TinyMCE
-     plugins: 'lists link image',
-     toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | link | image ',
+     plugins: 'lists link image pageembed',
+     toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | link | image | pageembed | ',
      image_caption: true,
   
 

@@ -13,7 +13,7 @@
 
 <div class="relative top-16 pb-20 pt-20 bg-blue-700">
   <div class="absolute inset-0">
-    <img class="w-full h-full object-cover" src="{{ asset('images/' . $post->image) }}" alt="Lambent’s values inform our work.">
+    <img class="w-full h-full object-fill" src="{{ asset('images/' . $post->image) }}" alt="Lambent’s values inform our work.">
     <div class="absolute inset-0 h-full bg-blue-700 mix-blend-multiply" aria-hidden="true"></div>
   </div>
   <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
