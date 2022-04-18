@@ -149,9 +149,11 @@
 @enderror
         
         <div class="sm:col-span-2">
+        <div class="bg-lime-500 rounded-md shadow-sm">
           <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md  shadow-3xl bg-lime-500 font-concourset6 text-lg font-normal tracking-normal leading-none capitalize text-slate-50  hover:bg-newgrowth-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Let's talk
           </button>
+</div> 
         </div>
       </form>
     </div>

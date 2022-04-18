@@ -28356,10 +28356,12 @@ var _hoisted_15 = ["value"];
 var _hoisted_16 = ["value"];
 var _hoisted_17 = ["value"];
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "bg-lime-500 rounded-md shadow-sm"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   type: "submit",
   "class": "mt-8 block w-full bg-lime-500 border border-lime-500 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600"
-}, "Let's talk", -1
+}, "Let's talk")], -1
 /* HOISTED */
 );
 

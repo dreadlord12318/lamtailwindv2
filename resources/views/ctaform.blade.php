@@ -172,10 +172,12 @@
              @enderror
 
 
-            <div class="sm:col-span-2 sm:flex sm:justify-end">
+            <div class="sm:col-span-2 sm:flex  sm:justify-end">
+              <div class="bg-lime-500 rounded-md shadow-sm">
               <button type="submit" class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm font-concourset6 text-lg font-normal tracking-normal leading-none text-center text-slate-50 bg-lime-500 hover:bg-lime-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto">
                 Submit
               </button>
+              </div>
             </div>
           </form>
         </div>
