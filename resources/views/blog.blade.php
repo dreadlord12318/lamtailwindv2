@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Lambent: The story we have')
+@section('title', 'Lambent's Blog - All about our work and the outsourcing world of the Philippines. ')
 
-@section('description', 'Lambent’s values:')
+@section('description', 'Regular updates on outsourcing life, work we do, the Philippines outsourcing scene and culture, and our project to map BPOs in the Philippines. ')
 
 @section('content')
 
