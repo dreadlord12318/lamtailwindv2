@@ -53,6 +53,7 @@ class PostController extends Controller
         $this->validate($request, array(
                 'title' => 'required|max:255',
                 'slug' => 'required|alpha_dash|min:5|max:255',
+                'caption' => 'required|max:255',
                 'metatitle' => 'required|max:255',
                 'metadesc' => 'required|max:255',
                 'category_id' => 'required|numeric',
@@ -65,6 +66,7 @@ class PostController extends Controller
          $post->title = $request->title;
          $post->description = $request->body;
          $post->slug = $request->slug;
+         $post->caption = $request->caption;
          $post->metatitle = $request->input('metatitle');
          $post->metadesc = $request->input('metadesc');
          $post->category_id = $request->category_id;
@@ -126,6 +128,7 @@ class PostController extends Controller
             $this->validate($request, array(
             'title' => 'required|max:255',
             'slug' => "required|alpha_dash|min:5|max:255|unique:posts,slug,$id",
+            'caption' => "required|max:255 | unique:posts,metatitle,$id",
             'metatitle' => "required|max:255 | unique:posts,metatitle,$id",
             'metadesc' => "required|max:255 | unique:posts,metadesc,$id",
             'category_id' => 'required | integer',
@@ -139,6 +142,7 @@ class PostController extends Controller
 
      $post->title = $request->input('title');
      $post->slug = $request->input('slug');
+     $post->caption = $request->input('caption');
      $post->metatitle = $request->input('metatitle');
      $post->metadesc = $request->input('metadesc');
      $post->category_id = $request->input('category_id');

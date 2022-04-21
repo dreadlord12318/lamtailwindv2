@@ -50,7 +50,7 @@
             </p>
             <a href="{{route('blogs.blogsimple', $post->slug)}}" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">{{$post->title}}</p>
-              <p class="mt-3 text-base text-gray-500">{{substr(strip_tags($post->description), 0, 125)}}....</p>
+              <p class="mt-3 text-base text-gray-500">{{substr(strip_tags($post->caption), 0, 125)}}....</p>
             </a>
           </div>
           <div class="mt-6 flex items-center">
