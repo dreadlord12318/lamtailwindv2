@@ -60,7 +60,7 @@ export default {
     alt: 'Above all, Lambent’s ability to think outside the box was exceptional.',
   },
   {
-    title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider. The team is communicative and manages the project effectively. Overall, they align themselves well with the client’s goals.',
+    title: 'Their website has generated more traffic than before, and they’ve experienced no issues or problems with the provider.',
     content: 'Online Marketing Management for Business Process Outsourcing ',
     content2: 'Read the Complete Clutch Review',
     link: 'https://clutch.co/profile/lambent-consulting#review-1795022',
