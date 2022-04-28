@@ -21,7 +21,7 @@
         </a>
       </div> -->
       <div class="px-5 py-2">
-        <a href="/lambentblog" class="text-base text-slate-50 uppercase font-concoursec6 text-center font-normal leading-normal tracking-wide">
+        <a href="https://blog.lambent.co/" class="text-base text-slate-50 uppercase font-concoursec6 text-center font-normal leading-normal tracking-wide">
      BLOG
         </a>
       </div>
