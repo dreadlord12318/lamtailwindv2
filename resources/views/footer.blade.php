@@ -88,5 +88,6 @@
     </p>
   </div>
 </div>
+</div>
   @include('cookie-consent::index')  
 </footer>
