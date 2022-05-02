@@ -5,36 +5,30 @@
     <div class="flex">
         <div class="w-full">
 
-            @if (session('resent'))
-            <div class="text-sm border border-t-8 rounded text-green-700 border-green-600 bg-green-100  px-3 py-4 mb-4"
-                role="alert">
-                {{ __('A fresh verification link has been sent to your email address.') }}
+        <main class="sm:container sm:mx-auto sm:max-w-lg sm:mt-10">
+    <div class="flex">
+    <div class="min-w-0 flex-1">
+              <h3 class="text-base font-medium text-gray-900">
+                <span class="rounded-sm focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                <p>You will be redirected back to homepage in <span id="counter">10</span> second(s).</p>
+                        <script type="text/javascript">
+                        function countdown() {
+                            var i = document.getElementById('counter');
+                            if (parseInt(i.innerHTML)<=0) {
+                                location.href = '/';
+                            }
+                        if (parseInt(i.innerHTML)!=0) {
+                            i.innerHTML = parseInt(i.innerHTML)-1;
+                        }
+                        }
+                        setInterval(function(){ countdown(); },1000);
+                        </script>
+                </span>
+              </h3>
+              <p class="text-base text-gray-500">Thank you for your time just nothing to see here</p>
             </div>
-            @endif
-
-            <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm">
-                <header class="font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
-                    {{ __('Verify Your Email Address') }}
-                </header>
-
-                <div class="w-full flex flex-wrap text-gray-700 leading-normal text-sm p-6 space-y-4 sm:text-base sm:space-y-6">
-                    <p>
-                        {{ __('Before proceeding, please check your email for a verification link.') }}
-                    </p>
-
-                    <p>
-                        {{ __('If you did not receive the email') }}, <a
-                            class="text-blue-500 hover:text-blue-700 no-underline hover:underline cursor-pointer"
-                            onclick="event.preventDefault(); document.getElementById('resend-verification-form').submit();">{{ __('click here to request another') }}</a>.
-                    </p>
-
-                    <form id="resend-verification-form" method="POST" action="{{ route('verification.resend') }}"
-                        class="hidden">
-                        @csrf
-                    </form>
-                </div>
-
-            </section>
+    </div>
+</main>
         </div>
     </div>
 </main>

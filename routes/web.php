@@ -58,6 +58,14 @@ Route::get('/confirmation', function () {
 Auth::routes(['verify' => true]);
 
 
+Route::get('/posts', function () {
+    return abort(404);
+});
+
+
+
+
+
 
 // **--End of Routes--**
 
@@ -86,46 +94,3 @@ Route::get('/contactb', function () {
 
 // Testing routes
 
-Route::get('/lambentblog',  [\App\Http\Controllers\PagesController::class, 'getIndex']);
-Route::post('/upload', 'ImageUpload@upload');
-// Route::get('blog/{slug}', [ 'blogs.simple', \App\Http\Controllers\BlogController::class, 'getSingle']);
-
-
-
-Route::get(
-    'blog/{slug}',
-    [\App\Http\Controllers\BlogController::class, 'getSingle']
-)->name('blogs.blogsimple')->where('slug', '[\w\d\-\_]+');
-
-// ---**MAIL**---
-Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
-
-Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'mail']);
-
-// ---**MAIL CONTACT PAGE**---
-Route::get('/contact2',  [\App\Http\Controllers\ContactController2::class, 'show']);
-
-Route::post('/contact2', [\App\Http\Controllers\ContactController2::class, 'mail']);
-
-Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-// --**Transaction Page Route**---
-Route::get('/transaction',  [\App\Http\Controllers\TransactionController::class, 'show']);
-
-Route::post('/transaction', [\App\Http\Controllers\TransactionController::class, 'getData']);
-
-// --**Transaction Contact Page Route**---
-Route::get('/reciept',  [\App\Http\Controllers\TransContactController::class, 'show']);
-Route::post('/reciept', [\App\Http\Controllers\TransContactController::class, 'mail']);
-
-Route::get('/cta',  [\App\Http\Controllers\CtaContactController::class, 'show']);
-Route::post('/cta', [\App\Http\Controllers\CtaContactController::class, 'mail']);
-
-// --**BLOG POST**--
-Route::get('/blog/blogs', [\App\Http\Controllers\PagesController::class, 'getIndex']);
-
-Route::resource('posts',\App\Http\Controllers\PostController::class);
-
-// Category Route
-Route::resource('categories',\App\Http\Controllers\CategoryController::class, ['except' => ['create']]);
-Route::resource('search',\App\Http\Controllers\SearchController::class, ['except' => ['create', 'delete']]);
