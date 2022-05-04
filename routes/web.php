@@ -68,7 +68,7 @@ Route::get('/posts', function () {
 
 
 Route::get('/sitemap', function () {
-    SitemapGenerator::create('https://lamb2022v2.lumikha.dev/')->writeToFile('sitemap.xml');
+    SitemapGenerator::create('https://lambent.co')->writeToFile('sitemap.xml');
     return 'sitemap created';
 
 });
