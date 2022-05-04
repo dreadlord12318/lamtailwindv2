@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://lambent.co/</loc>
-  <lastmod>2022-02-21T06:02:01+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://lambent.co/about</loc>
-  <lastmod>2022-02-21T06:02:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lambent.co/pricing</loc>
-  <lastmod>2022-02-21T06:02:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lambent.co/contact</loc>
-  <lastmod>2022-02-21T06:02:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://lamb2022v2.lumikha.dev/</loc>
+        <lastmod>2022-05-04T08:56:11+08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://lamb2022v2.lumikha.dev/about</loc>
+        <lastmod>2022-05-04T08:56:11+08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://lamb2022v2.lumikha.dev/freemagic</loc>
+        <lastmod>2022-05-04T08:56:11+08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://lamb2022v2.lumikha.dev/pricing</loc>
+        <lastmod>2022-05-04T08:56:11+08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://lamb2022v2.lumikha.dev/contact</loc>
+        <lastmod>2022-05-04T08:56:11+08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

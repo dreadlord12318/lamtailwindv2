@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-
+use Spatie\Sitemap\SitemapGenerator;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -63,7 +63,15 @@ Route::get('/posts', function () {
 });
 
 
+// sitemap
 
+
+
+Route::get('/sitemap', function () {
+    SitemapGenerator::create('https://lamb2022v2.lumikha.dev/')->writeToFile('sitemap.xml');
+    return 'sitemap created';
+
+});
 
 
 
