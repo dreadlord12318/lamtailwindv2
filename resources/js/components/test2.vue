@@ -50,14 +50,7 @@
               <span class="font-concoursec3 text-lg font-normal tracking-normal leading-none uppercase text-lambright-500">{{ pricing.month}}</span>
               
             </p>
-             <form  action="/transaction" class="sm:max-w-xl sm:mx-auto lg:mx-0" method="POST">
-                  <input type="hidden" name="_token" v-bind:value="csrf">
-                  <input type="hidden" placeholder="Last Name" name="last_name" id="last_name" autocomplete="family-name" v-bind:value="pricing.price">
-                  <input type="hidden" placeholder="First Name" name="first_name" id="first_name" autocomplete="given-name"  v-bind:value="pricing.title">
-                     <div class="bg-lime-500 rounded-md shadow-sm">
-              <button type="submit"  class="mt-8 block w-full bg-lime-500 border border-lime-500 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Let's talk</button>
-                    </div>
-             </form>
+   <a href = "/contact" class="mt-8 block w-full bg-lime-500 border border-lime-500 rounded-md py-2 font-concourset6 text-lg capitalize font-normal tracking-normal leading-normal text-center text-white hover:bg-lambright-600">Let's talk</a>
           </div>
           <div class="pt-6 pb-8 px-6">
             <ul v-for="feature in pricing.includedFeatures" :key="feature" role="list" class="mt-6 space-y-4">

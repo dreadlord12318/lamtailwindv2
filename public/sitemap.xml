@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://lambent.co/</loc>
-        <lastmod>2022-05-04T09:49:29+08:00</lastmod>
+        <lastmod>2022-05-04T10:04:23+08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://lambent.co/about</loc>
-        <lastmod>2022-05-04T09:49:29+08:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://lambent.co/pricing</loc>
-        <lastmod>2022-05-04T09:49:29+08:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://lambent.co/freemagic</loc>
-        <lastmod>2022-05-04T09:49:29+08:00</lastmod>
+        <lastmod>2022-05-04T10:04:23+08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://lambent.co/contact</loc>
-        <lastmod>2022-05-04T09:49:29+08:00</lastmod>
+        <lastmod>2022-05-04T10:04:23+08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://lambent.co/pricing</loc>
+        <lastmod>2022-05-04T10:04:23+08:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://lambent.co/freemagic</loc>
+        <lastmod>2022-05-04T10:04:23+08:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
