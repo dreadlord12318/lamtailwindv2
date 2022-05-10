@@ -26,7 +26,7 @@ class ContactRequest2 extends FormRequest
         return [
             //
             'first_name' => 'required',
-            'phone' => 'numeric',
+            'phone' => 'max:21',
             'last_name' => 'required',
             'email' => 'required | email',
             'message' => 'max:255',

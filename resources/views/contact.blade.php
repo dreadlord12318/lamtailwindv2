@@ -92,7 +92,7 @@
 @endif
 
     <div class="mt-12">
-      <form action="/contact2" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+      <form action="/contact" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
       
         {{ csrf_field()}}
         <div>

@@ -73,14 +73,15 @@ Route::get('/sitemap', function () {
 
 });
 // **--Contact Routes Here ma man--**
-Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
+// Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
 
-Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'mail']);
+// Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'mail']);
 
 // ---**MAIL CONTACT PAGE**---
-Route::get('/contact2',  [\App\Http\Controllers\ContactController2::class, 'show']);
+Route::get('/contact',  [\App\Http\Controllers\ContactController2::class, 'show']);
 
-Route::post('/contact2', [\App\Http\Controllers\ContactController2::class, 'mail']);
+Route::post('/contact', [\App\Http\Controllers\ContactController2::class, 'mail']);
+
 
 
 // **--End of Routes--**
