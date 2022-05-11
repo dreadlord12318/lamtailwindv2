@@ -27,6 +27,8 @@
 
                 <a href="/pricing" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">Pricing</a>
 
+                <a href="/services" class="text-lg text-slate-50 uppercase font-concoursec6 text-center font-normal leading-tight tracking-wide hover:text-lime-500">Services</a>
+
                 <!-- <a href="/illuminations" class="text-lg uppercase text-newcolor-700 font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Illuminations</a> -->
                 <a href="https://blog.lambent.co/" class="text-lg text-slate-50 uppercase font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-lime-500">Blog</a>
 
@@ -39,6 +41,8 @@
                 <a href="/about" class="text-lg text-slate-50 uppercase font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-lime-500">About</a>
 
                 <a href="/pricing" class="text-lg text-slate-50 uppercase font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-lime-500">Pricing</a>
+
+                <a href="/services" class="text-lg text-slate-50 uppercase font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-lime-500">Services</a>
 
                 <!-- <a href="/illuminations" class="text-lg uppercase text-white font-concourset6 font-normal leading-tight tracking-wide text-center hover:text-newgrowth-100">Illuminations</a> -->
                 <a href="https://blog.lambent.co/" class="text-lg text-slate-50 uppercase font-concoursec6 font-normal leading-tight tracking-wide text-center hover:text-lime-500">Blog</a>

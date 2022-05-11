@@ -24,6 +24,9 @@ Route::get('/about', function () {
 Route::get('/pricing', function () {
     return view('pricing');
 });
+Route::get('/services', function () {
+    return view('services');
+});
 Route::get('/illuminations', function () {
     return view('illuminations');
 });
