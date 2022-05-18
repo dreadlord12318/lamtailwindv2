@@ -519,19 +519,19 @@ important things.')
   <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Laravel.svg" alt="Laravel">
+        <img class="h-8" src="/images/test/ahrefs.svg" alt="Ahrefs">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Loom.svg" alt="Loom">
+        <img class="h-12" src="/images/test/canva.svg" alt="Canva">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Microsoft 365.svg" alt="Microsoft 365">
+        <img class="h-12" src="/images/test/clickup.svg" alt="Click Up">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Social Pilot.svg" alt="Social Pilot">
+        <img class="h-12" src="/images/test/figma.svg" alt="Figma">
       </div>
       <div class="col-span-2 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-8" src="/images/Snovio.svg" alt="Snovio">
+        <img class="h-12" src="/images/test/ghost.svg" alt="Ghost">
       </div>
     </div>
   </div>
@@ -540,19 +540,19 @@ important things.')
   <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Toky.svg" alt="Toky">
+        <img class="h-12" src="/images/test/googleapps.svg" alt="Google Apps">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Tailwind CSS.svg" alt="Tailwind CSS">
+        <img class="h-12" src="/images/test/grammarly.svg" alt="Grammarly">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-20" src="/images/LinkedIn Sales Navigator.svg" alt="LinkedIn Sales Navigator">
+        <img class="h-12" src="/images/test/jasper.svg" alt="Jasper">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Ghost Org.svg" alt="Ghost Org">
+        <img class="h-12" src="/images/test/laravel.svg" alt="Laravel">
       </div>
       <div class="col-span-2 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Figma.svg" alt="Figma">
+        <img class="h-12" src="/images/test/linkedin.svg" alt="Linkedin">
       </div>
     </div>
   </div>
@@ -561,19 +561,19 @@ important things.')
   <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Miro.svg" alt="Miro">
+        <img class="h-12" src="/images/test/loom.svg" alt="Loom">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/ahrefs.svg" alt="Ahrefs">
+        <img class="h-12" src="/images/test/microsoft365.svg" alt="Microsoft 365">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Grammarly.svg" alt="Grammarly">
+        <img class="h-12" src="/images/test/miro.svg" alt="Miro">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Canva.svg" alt="Canva">
+        <img class="h-12" src="/images/test/plausible.svg" alt="Plausible">
       </div>
       <div class="col-span-2 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Clickup.svg" alt="Clickup">
+        <img class="h-12" src="/images/test/snovia.svg" alt="Snovia">
       </div>
     </div>
   </div>
@@ -582,13 +582,13 @@ important things.')
   <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Plausible.svg" alt="Plausible">
+        <img class="h-12" src="/images/test/socialpilot.svg" alt="Social Pilot">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Jasper.svg" alt="Jasper">
+        <img class="h-12" src="/images/test/tailwind.svg" alt="Tailwind">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/Google Apps.svg" alt="Google Apps">
+        <img class="h-12" src="/images/test/toky.svg" alt="Toky">
       </div>
       
   </div>
