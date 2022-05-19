@@ -13,7 +13,7 @@
   <body class="h-full">
   ```
 -->
-<main class="min-h-full bg-cover bg-top sm:bg-top" style="background-image: url('images/LAMB-Site-Image-Error.jpg')">
+<main class="min-h-full bg-cover bg-top sm:bg-top" style="background-image: url('../images/LAMB-Site-Image-Error.jpg')">
   <div class="max-w-7xl mx-auto px-4 py-96 text-center sm:px-6 sm:py-24 lg:px-8 lg:py-96">
     <p class="text-sm font-semibold text-white uppercase tracking-wide">404 error</p>
     <h1 class="mt-2 text-4xl font-extrabold text-white tracking-tight sm:text-5xl">Uh oh! I think you’re lost.</h1>
