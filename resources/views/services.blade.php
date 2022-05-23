@@ -52,19 +52,19 @@
     </div>
   </div>
   <div class="relative px-4 sm:px-6 lg:px-8">
-    <div class="text-lg max-w-prose mx-auto">
+    <div class="font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case max-w-prose mx-auto">
       <h1>
         <!-- <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Our Service Model</span> -->
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Service Model</span>
+        <span class="mt-2 block font-concourset6 text-5xl text-center font-normal tracking-normal leading-tight text-newcolor-50 capitalize">Our Service Model</span>
       </h1>
-      <p class="mt-8 text-xl text-gray-500 leading-8">We deliver offshore high-value outsourcing solutions from the Philippines. We understand that your business success lies in how well you execute, and our job is to give you staffing options at reasonable prices and manage with your business goals in mind. </p>
-      <p class="mt-8 text-xl text-gray-500 leading-8">At Lambent Outsourcing, we know that finding the right talent for your business can be difficult. We solve staffing challenges with solid answers to grow your business with dependable, quality offshore individuals, teams, and direct hires. </p>
+      <p class="mt-8">We deliver offshore high-value outsourcing solutions from the Philippines. We understand that your business success lies in how well you execute, and our job is to give you staffing options at reasonable prices and manage with your business goals in mind. </p>
+      <p class="mt-8">At Lambent Outsourcing, we know that finding the right talent for your business can be difficult. We solve staffing challenges with solid answers to grow your business with dependable, quality offshore individuals, teams, and direct hires. </p>
     </div>
-    <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-      <p class = "mt-8 text-xl text-gray-500 leading-8">We offer three options:</p>
-      <p class = "mt-8 text-xl text-gray-500 leading-8"><strong>Managed Virtual Assistants</strong> for creators, drop shippers, solopreneurs, and micro-businesses.</p>
-      <p class = "mt-8 text-xl text-gray-500 leading-8"><strong>Remote Teams</strong> for entrepreneurs and small businesses that require managed, dedicated teams for customer support, marketing, or back-office services.</p>
-      <p  class = "mt-8 text-xl text-gray-500 leading-8"><strong>Offshore Staffing</strong> for businesses that want to hire and manage their team directly.</p>
+    <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+      <p class = "mt-8">We offer three options:</p>
+      <p class = "mt-8"><strong>Managed Virtual Assistants</strong> for creators, drop shippers, solopreneurs, and micro-businesses.</p>
+      <p class = "mt-8"><strong>Remote Teams</strong> for entrepreneurs and small businesses that require managed, dedicated teams for customer support, marketing, or back-office services.</p>
+      <p  class = "mt-8"><strong>Offshore Staffing</strong> for businesses that want to hire and manage their team directly.</p>
       
     </div>
   </div>
@@ -80,19 +80,19 @@
   </div>
   <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
     <div class="lg:col-start-2 lg:pl-8">
-      <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
+      <div class="font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
         <!-- <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2> -->
-        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Managed Virtual Assistants</h3>
-        <p class="mt-4 text-lg text-gray-500">Lambent's Managed Virtual Assistants work as a pool managed by your personal concierge, who handles weekly calibration calls with you to coordinate tasks and assess the quality of your deliverables.</p>
-        <p class="mt-8 text-lg text-gray-500">This approach means you work with an experienced offshoring leader who will ensure your work is delivered correctly so you can focus on your work and not the delegation and management process. </p>
+        <h3 class="mt-2 font-concourset6 text-5xl  font-normal tracking-normal leading-tight text-newcolor-50 capitalize">Managed Virtual Assistants</h3>
+        <p class="mt-4">Lambent's Managed Virtual Assistants work as a pool managed by your personal concierge, who handles weekly calibration calls with you to coordinate tasks and assess the quality of your deliverables.</p>
+        <p class="mt-8">This approach means you work with an experienced offshoring leader who will ensure your work is delivered correctly so you can focus on your work and not the delegation and management process. </p>
         
-        <h3 class="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Remote Teams</h3>
-        <p class="mt-4 text-lg text-gray-500">If you require more than one person to focus on a single process or a set of related functions, like help desk and inbound customer support, Lambent staffs, trains, and manages your offshore team for long-term success and high performance.</p>
-        <p class="mt-8 text-lg text-gray-500">Program teams handle a range of services, from data entry to graphic design to content moderation. Remote Teams are an ideal solution for teams of 2-20 personnel. </p>
+        <h3 class="mt-4 font-concourset6 text-5xl  font-normal tracking-normal leading-tight text-newcolor-50 capitalize">Remote Teams</h3>
+        <p class="mt-4">If you require more than one person to focus on a single process or a set of related functions, like help desk and inbound customer support, Lambent staffs, trains, and manages your offshore team for long-term success and high performance.</p>
+        <p class="mt-8">Program teams handle a range of services, from data entry to graphic design to content moderation. Remote Teams are an ideal solution for teams of 2-20 personnel. </p>
 
-        <h3 class="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Staffing Solutions</h3>
-        <p class="mt-4 text-lg text-gray-500">Lambent's time-tested techniques for staffing deliver quality professionals for businesses that want qualified direct hires at a 70% savings over their counterparts in Australia, Singapore, the United Kingdom, or the United States. </p>
-        <p class="mt-8 text-lg text-gray-500">Our team has an extensive, current database of active professionals who focus on marketing, business development, and customer support. Depending on your requirement, our local network can help you locate and assess local candidates using insights into Filipino culture and the local labor market. </p>
+        <h3 class="mt-4 font-concourset6 text-5xl  font-normal tracking-normal leading-tight text-newcolor-50 capitalize">Staffing Solutions</h3>
+        <p class="mt-4">Lambent's time-tested techniques for staffing deliver quality professionals for businesses that want qualified direct hires at a 70% savings over their counterparts in Australia, Singapore, the United Kingdom, or the United States. </p>
+        <p class="mt-8">Our team has an extensive, current database of active professionals who focus on marketing, business development, and customer support. Depending on your requirement, our local network can help you locate and assess local candidates using insights into Filipino culture and the local labor market. </p>
       </div>
     </div>
   </div>
