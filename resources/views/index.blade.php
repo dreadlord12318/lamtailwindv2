@@ -513,84 +513,78 @@ important things.')
 
 
 
-
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
   <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
+    <div class="grid grid-cols-2 lg:grid-cols-6 gap-4 md:grid-cols-3 xl:grid-cols-6">
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-8" src="/images/test/ahrefs.svg" alt="Ahrefs">
+        <img class="h-8 w-1/2" src="/images/test/ahrefs.svg" alt="Ahrefs">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/canva.svg" alt="Canva">
+        <img class="h-12 w-1/2" src="/images/test/canva.svg" alt="Canva">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/clickup.svg" alt="Click Up">
+        <img class="h-12 w-1/2" src="/images/test/clickup.svg" alt="Click Up">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/figma.svg" alt="Figma">
+        <img class="h-12 w-1/2" src="/images/test/figma.svg" alt="Figma">
       </div>
-      <div class="col-span-2 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/ghost.svg" alt="Ghost">
+      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+        <img class="h-12 w-1/2" src="/images/test/ghost.svg" alt="Ghost">
+      </div>
+      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+        <img class="h-12 w-1/2" src="/images/test/googleapps.svg" alt="Google Apps">
       </div>
     </div>
   </div>
 </div>
 <div class="bg-white">
   <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
+    <div class="grid grid-cols-2 lg:grid-cols-6 gap-4 md:grid-cols-3 xl:grid-cols-6">
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/googleapps.svg" alt="Google Apps">
+        <img class="h-12 w-1/2" src="/images/test/grammarly.svg" alt="Grammarly">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/grammarly.svg" alt="Grammarly">
+        <img class="h-12 w-1/2" src="/images/test/jasper.svg" alt="Jasper">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/jasper.svg" alt="Jasper">
+        <img class="h-12 w-1/2" src="/images/test/laravel.svg" alt="Laravel">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/laravel.svg" alt="Laravel">
+        <img class="h-12 w-1/2" src="/images/test/linkedin.svg" alt="Linkedin">
       </div>
-      <div class="col-span-2 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/linkedin.svg" alt="Linkedin">
+      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+        <img class="h-12 w-1/2" src="/images/test/loom.svg" alt="Loom">
+      </div>
+      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+        <img class="h-12 w-1/2" src="/images/test/microsoft365.svg" alt="Microsoft 365">
       </div>
     </div>
   </div>
 </div>
 <div class="bg-white">
   <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
+    <div class="grid grid-cols-2 lg:grid-cols-6 gap-4 md:grid-cols-3 xl:grid-cols-6">
+     
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/loom.svg" alt="Loom">
+        <img class="h-12 w-1/2" src="/images/test/miro.svg" alt="Miro">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/microsoft365.svg" alt="Microsoft 365">
+        <img class="h-12 w-1/2" src="/images/test/plausible.svg" alt="Plausible">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/miro.svg" alt="Miro">
+        <img class="h-12 w-1/2" src="/images/test/snovia.svg" alt="Snovia">
       </div>
       <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/plausible.svg" alt="Plausible">
+        <img class="h-12 w-1/2" src="/images/test/socialpilot.svg" alt="Social Pilot">
       </div>
-      <div class="col-span-2 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/snovia.svg" alt="Snovia">
+      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+        <img class="h-12 w-1/2" src="/images/test/tailwind.svg" alt="Tailwind">
+      </div>
+      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+        <img class="h-12 w-1/2" src="/images/test/toky.svg" alt="Toky">
       </div>
     </div>
-  </div>
-</div>
-<div class="bg-white">
-  <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-5 gap-4 md:grid-cols-6 lg:grid-cols-5">
-      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/socialpilot.svg" alt="Social Pilot">
-      </div>
-      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/tailwind.svg" alt="Tailwind">
-      </div>
-      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-        <img class="h-12" src="/images/test/toky.svg" alt="Toky">
-      </div>
-      
   </div>
 </div>
 
