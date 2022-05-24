@@ -43,87 +43,31 @@
     <div class="lg:col-start-2 lg:pl-8">
       <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
         <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
-        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Process</h3>
-        <p class="mt-8 text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Privacy</h3>
         <div class="mt-5 prose prose-indigo text-gray-500">
-          <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-          <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
-          <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
+          <p>Our server automatically recognizes and collects the following information:</p>
           <ul role="list">
-            <li>Quis elit egestas venenatis mattis dignissim.</li>
-            <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+          <li>The domain name of pages referring visitors </li>
+            <li>Email addresses of those who communicate with us via email</li>
+            <li>Email addresses of those who make postings to our blogs</li>
+            <li>Aggregate information on what pages consumers access or visit</li>
+            <li>Information volunteered by the user, such as survey information and/or site registrations, name and address, telephone number, fax number, payment information (e.g., credit card number and billing address)</li>
           </ul>
-          <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
-          <h3>How we’re different</h3>
-          <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
-          <p>Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus, eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.</p>
+          <h3>Email Communication</h3>
+          <p>Lambent Consulting/Lambent Outsourcing (Lambent) may send you commercial email messages unless you choose to receive them, with some exceptions. We may send non-commercial email messages, which are not subject to opt-out.</p>
+          <p>Lambent may send you emails to (a) conduct online surveys, (b) provide information regarding our company, information regarding our Website (s), marketing information about products and services, and newsletters, confirm orders placed online, and otherwise communicate with you as a customer. </p>
+          <h3>Telephone Communication</h3>
+          <p>Persons who supply us with their telephone number will only receive telephone contact from us with information regarding queries they have placed online. Please provide us with your name and phone number when requesting information or support. </p>
+          <h3>Future Information Use</h3>
+          <p>From time to time, we may use customer information for new, unanticipated uses not previously disclosed in our privacy notice. If our information practices change in the future, we will post the policy changes on our Web site to notify you of these changes. We will use only data collected from the time of the policy change forward for these new purposes. If you are concerned about how we use your information, you should periodically check back at our Web site. Customers may prevent their information from being used for purposes other than those for which it was initially collected by emailing us from our “Contact Us” page. </p>
+          <h3>Security Measures</h3>
+          <p>Lambent Consulting is committed to protecting the information you provide through this Website. This Website is protected with various security measures such as change control procedures and physical access controls (and passwords, as applicable). We also implement other control mechanisms to help protect personally identifiable information you provide through this Website from being lost, misused, or altered inappropriately.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="relative bg-white">
-  <div class="lg:absolute lg:inset-0">
-    <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80" alt="">
-    </div>
-  </div>
-  <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
-    <div class="lg:col-start-2 lg:pl-8">
-      <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-        <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
-        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Process</h3>
-        <p class="mt-8 text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
-        <div class="mt-5 prose prose-indigo text-gray-500">
-          <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-          <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
-          <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
-          <ul role="list">
-            <li>Quis elit egestas venenatis mattis dignissim.</li>
-            <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-          </ul>
-          <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
-          <h3>How we’re different</h3>
-          <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
-          <p>Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus, eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="relative bg-white">
-  <div class="lg:absolute lg:inset-0">
-    <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80" alt="">
-    </div>
-  </div>
-  <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
-    <div class="lg:col-start-2 lg:pl-8">
-      <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-        <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
-        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Process</h3>
-        <p class="mt-8 text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
-        <div class="mt-5 prose prose-indigo text-gray-500">
-          <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-          <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
-          <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
-          <ul role="list">
-            <li>Quis elit egestas venenatis mattis dignissim.</li>
-            <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-          </ul>
-          <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
-          <h3>How we’re different</h3>
-          <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
-          <p>Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus, eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 @endsection
