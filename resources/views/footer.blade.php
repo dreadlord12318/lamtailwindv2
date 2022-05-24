@@ -38,19 +38,19 @@
         </a>
       </div>
 
-      <!-- <div class="px-5 py-2">
-        <a href="/termsandcondition" class="text-base leading-normal font-normal text-center tracking-wide uppercase font-concoursec6 text-newcolor-700 hover:text-white">
-          TERMS AND CONDITION
+      <div class="px-5 py-2">
+        <a href="/termsofservice" class="text-base leading-normal font-normal text-center tracking-wide uppercase font-concoursec6 text-newcolor-700 hover:text-white">
+          TERMS OF SERVICE
         </a>
       </div>
 
       <div class="px-5 py-2">
         <a href="/privacy" class="text-base tracking-wide uppercase font-normal text-center leading-normal  font-concoursec6 text-newcolor-700 hover:text-white">
-       DATA POLICY
+      PRIVACY
         </a>
       </div>
 
-      <div class="px-5 py-2">
+      <!-- <div class="px-5 py-2">
         <a href="/GDPR" class="text-base tracking-wide uppercase font-normal text-center leading-normal font-concoursec6 text-newcolor-700 hover:text-white">
          GPDR POLICY
         </a>

@@ -511,6 +511,15 @@ important things.')
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-8 px-4 sm:py-8 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <p class="mt-1 font-concourset6 lg:text-5xl font-normal tracking-normal leading-snug text-newcolor-50 sm:text-4xl">Logo Cloud</p>
+      <p class="max-w-xl mt-5 mx-auto font-copy text-xl font-normal tracking-normal leading-relaxed text-lambright-50 normal-case">Every Virtual Assistant and Remote team comes fully equipped with software to get the job done. </p>
+    </div>
+  </div>
+</div>
 
 
 <!-- This example requires Tailwind CSS v2.0+ -->
