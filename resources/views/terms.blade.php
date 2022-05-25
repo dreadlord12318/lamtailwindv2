@@ -1,4 +1,9 @@
 @extends('layouts.app')
+@section('title', "Lambent's Terms of Service")
+
+@section('description', 'Lambent Consulting/Lambent Outsourcing (Lambent) provides services subject to the following
+notices and terms. When you use Lambent’s site services, you are subject to all applicable rules, guidelines, policies,
+and terms.')
 
 @section('content')
 
@@ -10,10 +15,10 @@
         <div class="absolute inset-0 bg-lambright-500 mix-blend-multiply" aria-hidden="true"></div>
     </div>
     <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-        <h1 class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">Terms of Service</h1>
-        <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Mattis amet hendrerit dolor, quisque lorem pharetra.
-            Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo
-            viverra non adipisicing elit distinctio.</p>
+        <h1
+            class="text-6xl text-left  font-concourset6  leading-tight font-normal tracking-normal text-newcolor-700 capitalize">
+            Terms of Service</h1>
+        <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Hello and thank you for visiting our website. We sincerely appreciate your interest. These are the Terms of Service for our site and our services.</p>
     </div>
 </div>
 
@@ -77,7 +82,8 @@
                     Site Terms</span>
             </h1>
         </div>
-        <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+        <div
+            class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
             <h3>Legal Information</h3>
             <p>Lambent Consulting/Lambent Outsourcing (Lambent) provides services subject to the following notices and
                 terms. When you use Lambent’s site services, you are subject to all applicable rules, guidelines,
@@ -124,7 +130,8 @@
                     Process Outsourcing Services Terms</span>
             </h1>
         </div>
-        <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+        <div
+            class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
             <h3>Program Term </h3>
             <p>This Service Agreement is effective from the date listed on the Statement of Work (SoW) as the start date
                 and continues for one year from that date. This period is the initial term. </p>
@@ -143,7 +150,8 @@
                     class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Compensation</span>
             </h1>
         </div>
-        <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+        <div
+            class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
             <h3>How We Calculate Payment </h3>
             <p>Each resource is billed for 32 hours/week multiplied by their hourly rate unless otherwise noted.
                 Invoices are submitted monthly and denominated in USD.  </p>
@@ -288,66 +296,82 @@
                     </tbody>
                 </table>
             </div>
-                <p>We apply the annual increase to the hourly rate on the anniversary of your assigned resource’s
-                    certification to the program.</p>
-                <h3>Program Incentives </h3>
-                <p>Because back-office processes are more successful when we motivate your team with graduated
-                    incentives for the programs we manage. </p>
-                <p>We develop these incentives during the first 30-60 after your program launches. The incentives vary
-                    so we like to understand your program thoroughly before we propose an incentive plan.  </p>
-                <p>Together, we devise incentive plans to reach your objectives and to maximize the program’s value. The
-                    incentives are included in the monthly invoice, subject to approval.  </p>
-                <h3>Additional Fees</h3>
-                <p>You agree to pay for any reasonable and actual business expenditure incurred by us at your direction.
-                    These might include, for example, third party, licensed software, telecommunications charges, web
-                    hosting, domains and privacy, or specialized computer hardware. </p>
+            <p>We apply the annual increase to the hourly rate on the anniversary of your assigned resource’s
+                certification to the program.</p>
+            <h3>Program Incentives </h3>
+            <p>Because back-office processes are more successful when we motivate your team with graduated
+                incentives for the programs we manage. </p>
+            <p>We develop these incentives during the first 30-60 after your program launches. The incentives vary
+                so we like to understand your program thoroughly before we propose an incentive plan.  </p>
+            <p>Together, we devise incentive plans to reach your objectives and to maximize the program’s value. The
+                incentives are included in the monthly invoice, subject to approval.  </p>
+            <h3>Additional Fees</h3>
+            <p>You agree to pay for any reasonable and actual business expenditure incurred by us at your direction.
+                These might include, for example, third party, licensed software, telecommunications charges, web
+                hosting, domains and privacy, or specialized computer hardware. </p>
         </div>
 
-  
+
         <div class="text-lg max-w-prose mx-auto">
             <h1>
                 <span
                     class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Termination</span>
             </h1>
         </div>
-        <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+        <div
+            class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
             <h3>Pre-termination</h3>
             <p>Either party may terminate this Agreement by giving at least thirty (30) days’ written notification.</p>
             <h3>Non-payment</h3>
-            <p>Should you fail to pay the compensation defined in the accompanying SoW that is not the subject of a good faith dispute within thirty (30) days of the date due, we may terminate this agreement and the associated SoW.</p>
+            <p>Should you fail to pay the compensation defined in the accompanying SoW that is not the subject of a good
+                faith dispute within thirty (30) days of the date due, we may terminate this agreement and the
+                associated SoW.</p>
         </div>
         <div class="text-lg max-w-prose mx-auto">
             <h1>
                 <span
-                    class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">General Terms</span>
+                    class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">General
+                    Terms</span>
             </h1>
         </div>
-        <div class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
+        <div
+            class="mt-6 prose prose-indigo prose-lg font-copy font-normal text-xl tracking-normal leading-relaxed text-lambright-50 normal-case mx-auto">
             <h3>Business Conduct</h3>
-            <p>We both agree to conduct our businesses and operations to maintain and increase the goodwill and reputation of all. Any violation of this may constitute a ground for termination of this agreement.</p>
+            <p>We both agree to conduct our businesses and operations to maintain and increase the goodwill and
+                reputation of all. Any violation of this may constitute a ground for termination of this agreement.</p>
             <h3>Confidentiality</h3>
-            <p>Both organizations, their employees, or any person acting for either organization will not disclose any information obtained in the course of our business relationship unless specifically authorized by the relevant parties. </p>
+            <p>Both organizations, their employees, or any person acting for either organization will not disclose any
+                information obtained in the course of our business relationship unless specifically authorized by the
+                relevant parties. </p>
             <p>This obligation of confidentiality shall survive the termination of this agreement.  </p>
             <h3>Non-competition</h3>
-            <p>We both agree not to contract with the clients or direct competitors without written consent for the duration of our business relationship and for a period of one year after our business relationship concludes — unless the client or competitor relationship predates the Agreement. </p>
+            <p>We both agree not to contract with the clients or direct competitors without written consent for the
+                duration of our business relationship and for a period of one year after our business relationship
+                concludes — unless the client or competitor relationship predates the Agreement. </p>
             <h3>N​on–solicitation</h3>
-            <p>You agree not to solicit, induce, or encourage directly or indirectly any of our employees to leave the company while this Agreement is in effect and for one year after the date of completion of the Agreement.  </p>
+            <p>You agree not to solicit, induce, or encourage directly or indirectly any of our employees to leave the
+                company while this Agreement is in effect and for one year after the date of completion of the
+                Agreement.  </p>
             <h3>Non-binding Clause</h3>
-            <p>You have no authority to bind Lambent by any promise or representation unless specifically authorized in writing by Lambent </p>
+            <p>You have no authority to bind Lambent by any promise or representation unless specifically authorized in
+                writing by Lambent </p>
             <h3>Mutual Marketing Provision</h3>
             <p>Unless otherwise stated each party may use non-confidential information for marketing purposes.</p>
             <h3>Notice </h3>
-            <p>Notices will be handled by email and are understood to be delivered upon email reply via from the recipient or confirmed by third-party software. </p>
+            <p>Notices will be handled by email and are understood to be delivered upon email reply via from the
+                recipient or confirmed by third-party software. </p>
             <h3>Force Majeure </h3>
-            <p>Neither party shall be liable for the delay or failure of performance caused by force majeure such as fire, explosion, accident, strike or other similar acts of God. This Agreement will be suspended for the duration of the event and resume when force majeure has ceased.  </p>
+            <p>Neither party shall be liable for the delay or failure of performance caused by force majeure such as
+                fire, explosion, accident, strike or other similar acts of God. This Agreement will be suspended for the
+                duration of the event and resume when force majeure has ceased.  </p>
 
 
-            
+
         </div>
     </div>
 
-    </div>
+</div>
 </div>
 
-
+@include('footer')
 @endsection
