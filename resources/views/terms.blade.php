@@ -97,7 +97,7 @@ and terms.')
         <div class="text-lg max-w-prose mx-auto">
             <h1>
                 <span
-                    class="mt-2 block font-concourset6 text-5xl font-normal tracking-normal leading-tight text-center text-slate-900 capitalize ">Business
+                    class="mt-8 block font-concourset6 text-5xl font-normal tracking-normal leading-tight text-center text-slate-900 capitalize ">Business
                     Process Outsourcing Services Terms</span>
             </h1>
         </div>
