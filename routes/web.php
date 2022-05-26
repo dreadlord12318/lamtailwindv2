@@ -70,11 +70,11 @@ Route::get('/posts', function () {
 
 
 
-Route::get('/sitemap', function () {
-    SitemapGenerator::create('https://lambent.co')->writeToFile('sitemap.xml');
-    return 'sitemap created';
+// Route::get('/sitemap', function () {
+//     SitemapGenerator::create('https://lambent.co')->writeToFile('sitemap.xml');
+//     return 'sitemap created';
 
-});
+// });
 // **--Contact Routes Here ma man--**
 // Route::get('/contact',  [\App\Http\Controllers\ContactController::class, 'show']);
 
