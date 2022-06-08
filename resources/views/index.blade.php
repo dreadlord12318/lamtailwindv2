@@ -48,7 +48,7 @@ important things.')
                                         <div class="mt-5">
                                             
 
-                                                    <div class="sm:col-span-2 bg-lime-500 rounded-md shadow ">
+                                                    <div class="sm:col-span-2 w-32 bg-lime-500 rounded-md shadow ">
                                                         <div class="mt-1">
                                                             <a href = "/contact"
                                                                 class="block w-full py-3  font-concourset6 text-base normal-case text-center  font-normal tracking-normal leading-relaxed align-middle px-5 rounded-md shadow  text-white hover:bg-lime-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900">Let's
@@ -64,7 +64,7 @@ important things.')
                                 <div class=" bg-blend-overlay mb-16   lg:m-0 sm:static w-full lg:relative">
                                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                                     <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                                    <img class="w-60 mb-28 ml-14  sm:mb-28 sm:ml-40 lg:ml-0  lg:w-full  md:left-16 sm:left-0 lg:absolute lg:left "
+                                    <img class="w-60 mb-28 ml-14  sm:mb-28 sm:ml-40 lg:ml-0  lg:w-full  md:left-0 sm:left-0 lg:absolute lg:left "
                                         src="images/LAMB-Si_te-Image-Home-Header.svg"
                                         alt="Supercharge your productivity with offshore virtual assistants.">
                                     <!-- <div class="absolute inset-0 bg-lambright-600 mix-blend-lighten" aria-hidden="true"></div> -->
@@ -515,7 +515,7 @@ important things.')
 <div class="bg-white">
   <div class="max-w-7xl mx-auto py-8 px-4 sm:py-8 sm:px-6 lg:px-8">
     <div class="text-center">
-      <p class="max-w-xl mt-5 mx-auto text-center font-concoursec6 text-lg font-normal tracking-normal leading-none text-blue-700 uppercase">Every Virtual Assistant and Remote team comes fully equipped to get the job done. </p>
+      <p class="max-w-xl mt-5 mx-auto text-center font-concoursec6 text-lg font-normal tracking-normal leading-none text-blue-700 uppercase">Every Virtual Assistant and Remote team comes fully equipped with software to get the job done. </p>
     </div>
   </div>
 </div>
@@ -595,6 +595,17 @@ important things.')
     </div>
   </div>
 </div>
+
+<!-- <div class="bg-white">
+  <div class="max-w-9xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 lg:grid-cols-6 gap-4 md:grid-cols-3 xl:grid-cols-6">
+     
+      <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+        <img class="h-24 w-1/2" src="/images/test/top-outbound-call-center-companies.svg" alt="Top Outbound Call Center Companies">
+      </div>
+    </div>
+  </div>
+</div> -->
 
 
 
