@@ -5,7 +5,7 @@
             <div class="flex items-center">
             <a href="/">
             <span class="sr-only">Lambent</span>
-            <img class="h-8 w-auto sm:h-10" src="images/Pride Logo.png" alt="">
+            <img class="h-8 w-auto sm:h-10" src="images/LAMB-LambentLogoDark_Favicon.png" alt="">
           </a>
             </div>
             <div class="flex md:hidden">
