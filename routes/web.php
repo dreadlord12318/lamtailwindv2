@@ -81,9 +81,9 @@ Route::get('/posts', function () {
 // Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'mail']);
 
 // ---**MAIL CONTACT PAGE**---
-// Route::get('/contact',  [\App\Http\Controllers\ContactController2::class, 'show']);
+Route::get('/contact',  [\App\Http\Controllers\ContactController2::class, 'show']);
 
-// Route::post('/contact', [\App\Http\Controllers\ContactController2::class, 'mail']);
+Route::post('/contact', [\App\Http\Controllers\ContactController2::class, 'mail']);
 
 
 
